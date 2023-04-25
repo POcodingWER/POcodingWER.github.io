@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://pocodingwer.github.io/static/css/main.a240c550.css",
-    "main.js": "https://pocodingwer.github.io/static/js/main.9890fa97.js",
-    "static/js/787.f587e8d5.chunk.js": "https://pocodingwer.github.io/static/js/787.f587e8d5.chunk.js",
-    "index.html": "https://pocodingwer.github.io/index.html",
-    "main.a240c550.css.map": "https://pocodingwer.github.io/static/css/main.a240c550.css.map",
-    "main.9890fa97.js.map": "https://pocodingwer.github.io/static/js/main.9890fa97.js.map",
-    "787.f587e8d5.chunk.js.map": "https://pocodingwer.github.io/static/js/787.f587e8d5.chunk.js.map"
+    "main.css": "/static/css/main.a240c550.css",
+    "main.js": "/static/js/main.2b5b2b56.js",
+    "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
+    "index.html": "/index.html",
+    "main.a240c550.css.map": "/static/css/main.a240c550.css.map",
+    "main.2b5b2b56.js.map": "/static/js/main.2b5b2b56.js.map",
+    "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.9890fa97.js"
+    "static/js/main.2b5b2b56.js"
   ]
 }
