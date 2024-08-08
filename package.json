@@ -6,7 +6,7 @@
     "homepage": "https://github.com/POcodingWER/POcodingWER_Blog.git",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Huxpro/huxpro.github.io"
+        "url": "https://POcodingWER.github.io/POcodingWER_Blog"
     },
     "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
     "devDependencies": {
