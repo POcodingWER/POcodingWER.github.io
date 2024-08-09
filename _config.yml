@@ -1,10 +1,10 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
+title: CHUCK CHUCK 박사
+SEOTitle: 하고싶은거하는 | 개발자_Blog
+header-img: img/home-bg.gif
 email: cjftns01@gmail.com
-description: "rrrrrrrrrrrrrrrrrrrrrrr"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+description: "주니어개발자 코린이"
+keyword: "FrontEnd, Web, JavaScript, React, 리엑트, Next, Vue, Nuxt, Rust, 러스트"
 url: "https://github.com/POcodingWER/POcodingWER_Blog" # your host, for absolute URL
 baseurl: "/POcodingWER_Blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,10 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
+# weibo_username: huxpro
+# zhihu_username: huxpro
+github_username: POcodingWER
+instargram_username: lim_cuck
+# twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -58,9 +59,6 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Disqus settings
-disqus_username: hux
-
 # Netease settings
 netease_comment: false
 
@@ -69,13 +67,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "G-WFHV6LHPHD" # Format: UA-xxxxxx-xx
+ga_domain: pocodingwer.github.io/POcodingWER_Blog
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "어떤거를 해야될지 몰라!<br/>블로그 글쓰면서 공부 <br/>같이 공부하실분!(급구)"
+sidebar-avatar: https://avatars.githubusercontent.com/u/89626659?v=4g # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -91,12 +89,8 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    {
+      title: "개발공부",
+      href: "https://github.com/Integerous/goQuality-dev-contents",
+    },
   ]
