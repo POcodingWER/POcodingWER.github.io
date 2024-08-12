@@ -70,6 +70,12 @@ netease_comment: false
 ga_track_id: "G-WFHV6LHPHD" # Format: UA-xxxxxx-xx
 ga_domain: pocodingwer.github.io/POcodingWER_Blog
 
+# 광고
+# Google adsense
+googl_ca_pub: "ca-pub-3587550545741227"
+# kakao adfit
+kakao_unit: "DAN-XGx9gX8FA3IkLPI5"
+
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "어떤거를 해야될지 몰라!<br/>블로그 글쓰면서 공부 <br/>같이 공부하실분!(급구)"

@@ -7,7 +7,7 @@
     <meta name="keywords" content="{{ site.keyword }}">
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     <!-- 구글결제 -->
-    <meta name="google-adsense-account" content="ca-pub-3587550545741227">
+    <meta name="google-adsense-account" content="{{site.googl_ca_pub}}">
     <!-- Open Graph -->
     <meta property="og:title"
         content="{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
@@ -68,8 +68,8 @@
     <script></script>
 
     <!-- Google AdSense -->
-    <script data-ad-client="ca-pub-3587550545741227" async
+    <script data-ad-client="{{site.googl_ca_pub}}" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3587550545741227"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.googl_ca_pub}}"
         crossorigin="anonymous"></script>
 </head>
