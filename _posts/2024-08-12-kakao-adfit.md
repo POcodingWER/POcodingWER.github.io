@@ -18,8 +18,14 @@ header-img: "img/post/0812/3.png"
 tags:
   - git
   - github
-  - utterances
-  - comment
+  - Adsense
+  - kakao adfit
+  - adfit
+  - 카카오 광고
+  - 블로그 광고
+  - 광고
+  - 카카오 애드핏
+  - 깃허브 광고
 ---
 
 ## 구글에이어 카카오 에드핏 같이 해보자!

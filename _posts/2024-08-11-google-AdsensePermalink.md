@@ -18,8 +18,13 @@ header-img: "img/post/0811/1.png"
 tags:
   - git
   - github
-  - utterances
-  - comment
+  - Adsense
+  - GoogleAdsense
+  - 애드센스
+  - 구글 애드센스
+  - 광고
+  - 구글광고
+  - 깃허브 광고
 ---
 
 ## 전에 말했듯이 광고를 붙여보려고함
