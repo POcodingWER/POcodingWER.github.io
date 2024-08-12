@@ -34,7 +34,7 @@ tags:
 
 ### 1.Start Kakao Adfit join link
 
-> [《카카오 에드핏 이동》 https://adfit.kakao.com/info](https://adfit.kakao.com/info) >
+> [《카카오 에드핏 이동》 https://adfit.kakao.com/info](https://adfit.kakao.com/info)
 
 1. 광고 시작하기를 누른다
    ![](/img/post/0812/1-1.png)
@@ -51,7 +51,7 @@ tags:
 
 ### 2. adfit dashboard
 
-> [《카카오 에드핏 대시보드 이동》 https://adfit.kakao.com/dashboard](https://adfit.kakao.com/dashboard) >
+> [《카카오 에드핏 대시보드 이동》 https://adfit.kakao.com/dashboard](https://adfit.kakao.com/dashboard)
 
 1. dashboard 이동한다.
    ![](/img/post/0812/2-1.png)

@@ -33,7 +33,7 @@ tags:
 
 ### 1.Start Google AdsensePermalink
 
-> [《구글사이트로 이동》 https://adsense.google.com/intl/ko_kr/start/](https://adsense.google.com/intl/ko_kr/start/) >
+> [《구글사이트로 이동》 https://adsense.google.com/intl/ko_kr/start/](https://adsense.google.com/intl/ko_kr/start/)
 
 1. 시작하기를 누른다
    ![](/img/post/0811/1.png)
