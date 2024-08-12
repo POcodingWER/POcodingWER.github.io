@@ -5,7 +5,7 @@ header-img: img/home-bg.gif
 email: cjftns01@gmail.com
 description: "주니어개발자 코린이"
 keyword: "FrontEnd, Web, JavaScript, React, 리엑트, Next, Vue, Nuxt, Rust, 러스트"
-url: "https://POcodingWER.github.io/" # your host, for absolute URL
+url: "https://POcodingWER.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
