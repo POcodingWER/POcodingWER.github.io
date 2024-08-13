@@ -38,3 +38,4 @@ tags:
 ## 참고문서
 
 1. 깃 블로그 테마 [《 깃 블로그 테마 》](https://github.com/topics/jekyll-theme)
+1. 깃 블로그 관련 짱짱 [《 유용한정보 많음 》](https://devinlife.com/howto/)
