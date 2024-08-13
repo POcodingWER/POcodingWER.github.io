@@ -5,6 +5,7 @@ title: "Kakao Adfit"
 # subtitle: " "
 
 date: 2024-08-12 11:00:00
+lastmod: 2024-08-13 15:53:00
 author: "lim.Chuck"
 
 # header-style: text
@@ -90,3 +91,7 @@ tags:
 
 ![](/img/post/0812/3.png)
 넹넹 많이부족해서 더올리고 심사 받겠습니다. ㅠㅠ
+![](/img/post/0812/3-1.png)
+
+1. 다시확인해보니 3개를 발급받고 붙이지를 못해서 난 에러같다
+2. 나머지 2개도 붙인다음에 나오는거 확인후 다시 진행 ㄱㄱ
