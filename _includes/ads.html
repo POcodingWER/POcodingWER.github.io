@@ -1,12 +1,21 @@
 <!-- 카카오광고 -->
-<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-QBkwFYsmmGqObnoc" data-ad-width="170"
-     data-ad-height="600"></ins>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-
+<div class="kakao_length_width"></div>
 <!-- 구글 광고 -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4814308751"
-     data-ad-format="auto" data-full-width-responsive="true"></ins>
+  data-ad-format="auto" data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+  (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+<!-- 미디어쿼리사용해서 반응형으로 작업했음 -->
+<script>
+  const mediaQuery = window.matchMedia('(min-width: 992px)').matches;
+  const dataAdUnit = mediaQuery ? 'DAN-QBkwFYsmmGqObnoc' : 'DAN-J8MV2KpWNAZxxLL0'
+  document.querySelector(".kakao_length_width").innerHTML =
+    `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="${dataAdUnit}" data-ad-width="170"
+      data-ad-height="600"></ins>`
+</script>
+<!-- kakao adfit -->
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
