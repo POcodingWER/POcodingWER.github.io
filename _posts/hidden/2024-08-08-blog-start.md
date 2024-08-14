@@ -5,7 +5,7 @@ title: "참고문서 유용한 사이트"
 # subtitle: " "
 
 date: 2024-08-08 10:00:00
-lastmod: 2024-08-12 15:00:00
+lastmod: 2024-08-14 14:03:00
 author: "lim.Chuck"
 
 # header-style: text
@@ -39,3 +39,4 @@ tags:
 
 1. 깃 블로그 테마 [《 깃 블로그 테마 》](https://github.com/topics/jekyll-theme)
 1. 깃 블로그 관련 짱짱 [《 유용한정보 많음 》](https://devinlife.com/howto/)
+1. markdown 정보 [《 마크따운 》](https://ingu627.github.io/md/markdown_grammar)
