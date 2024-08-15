@@ -41,3 +41,8 @@ tags:
 1. 깃 블로그 관련 짱짱 [《 유용한정보 많음 》](https://devinlife.com/howto/)
 1. markdown 정보 [《 마크따운 》](https://ingu627.github.io/md/markdown_grammar)
 1. AWS고수 [《 찐고수 》](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-S3-%EC%A0%95%EC%A0%81-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%A4%EC%A0%95Route-53)
+
+# 블로그 관리
+
+- adsense [《 adsense 》](https://www.google.com/adsense/new/u/0/pub-3587550545741227/onboarding)
+- adfit [《 adfit 》](https://adfit.kakao.com/dashboard)

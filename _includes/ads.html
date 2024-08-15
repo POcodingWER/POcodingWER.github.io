@@ -9,13 +9,13 @@
 </script>
 
 
-<!-- 미디어쿼리사용해서 반응형으로 작업했음 -->
+<!-- 미디어쿼리사용해서 kakao adfit반응형으로 작업했음 -->
 <script>
   const mediaQuery = window.matchMedia('(min-width: 992px)').matches;
   const dataAdUnit = mediaQuery ? 'DAN-QBkwFYsmmGqObnoc' : 'DAN-J8MV2KpWNAZxxLL0'
   document.querySelector(".kakao_length_width").innerHTML =
-    `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="${dataAdUnit}" data-ad-width="170"
+    `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="${dataAdUnit}" data-ad-width="190"
       data-ad-height="600"></ins>`
 </script>
-<!-- kakao adfit -->
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+<!-- kakao adfit 스크립트 footer-ads로이동-->
+<!-- <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
