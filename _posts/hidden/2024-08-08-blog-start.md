@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: keynote #post | keynote
 title: "참고문서 유용한 사이트"
+iframe: "https://www.youtube.com/embed/pZRND1cjvTc"
 
 # subtitle: " "
 
@@ -17,8 +18,7 @@ header-img: "img/post/ga.jpg"
 hidden: true
 
 tags:
-  - theme
-  - 깃 블로그 테마
+  - no
 ---
 
 <!-- ---
@@ -45,4 +45,7 @@ tags:
 # 블로그 관리
 
 - adsense [《 adsense 》](https://www.google.com/adsense/new/u/0/pub-3587550545741227/onboarding)
+- google search console [《 google search console 》](https://search.google.com/search-console?resource_id=https%3A%2F%2Fpocodingwer.github.io%2F&hl=ko)
+- google analytics [《 google analytics dash 》](https://analytics.google.com/analytics/web/#/p453484094/reports/intelligenthome?params=_u..nav%3Dmaui)
+
 - adfit [《 adfit 》](https://adfit.kakao.com/dashboard)
