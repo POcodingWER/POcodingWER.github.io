@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rust study"
+title: "[Rust] study"
 subtitle: "Rust 장단점을 파악해보자"
 
 date: 2024-08-16 15:45:00

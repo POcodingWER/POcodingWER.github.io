@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rust 공부전 vscode에 환경세팅 부터 해보자!"
+title: "[Rust] 공부전 vscode에 환경세팅 부터 해보자!"
 
 # subtitle: " "
 

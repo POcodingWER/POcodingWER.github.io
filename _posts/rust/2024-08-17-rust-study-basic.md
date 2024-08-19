@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rust study basic"
+title: "[Rust] study basic"
 subtitle: "Rust 기초 레스기릿"
 
 date: 2024-08-18 23:00:00

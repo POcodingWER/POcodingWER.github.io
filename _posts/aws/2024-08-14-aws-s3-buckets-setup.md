@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "떠먹여주는 [AWS] s3 buckets 만들기"
+title: "[AWS] 떠먹여주는 s3 buckets 만들기"
 
 subtitle: "보고따라하기만해도 s3버킷 완성"
 

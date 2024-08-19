@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello Cargo"
+title: "[Rust] Hello Cargo"
 
 # subtitle: " "
 

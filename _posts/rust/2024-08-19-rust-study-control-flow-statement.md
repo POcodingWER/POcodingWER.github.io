@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rust study Control flow statement"
+title: "[Rust] study Control flow statement"
 subtitle: "Rust 제어문 레스기릿"
 
 date: 2024-08-19 09:59:00

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google AdsensePermalink"
+title: "[Blog] Google AdsensePermalink"
 
 # subtitle: " "
 

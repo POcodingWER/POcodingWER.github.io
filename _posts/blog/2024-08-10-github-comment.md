@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "깃허브 댓그 utterances 사용법"
+title: "[Blog] 깃허브 댓그 utterances 사용법"
 
 # subtitle: " "
 
