@@ -3,7 +3,7 @@ layout: post
 title: "Rust study Control flow statement"
 subtitle: "Rust 제어문 레스기릿"
 
-date: 2024-08-18 23:00:00
+date: 2024-08-19 09:59:00
 # lastmod: 2024-08-14 10:10:00
 author: "lim.Chuck"
 
