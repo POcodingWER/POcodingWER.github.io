@@ -18,7 +18,7 @@ header-img: "img/post/ga.jpg"
 hidden: true
 
 tags:
-  - no
+  - none
 ---
 
 <!-- ---
@@ -34,6 +34,10 @@ tags:
     - Web
     - PWA
 --- -->
+
+## 스타일가이드
+
+1. Airbnb JavaScript 스타일 가이드 [《 스타일가이드 》](https://github.com/parksb/javascript-style-guide?tab=readme-ov-file)
 
 ## 참고문서
 
