@@ -26,6 +26,7 @@ tags:
 ---
 
 > 참고문서  
+> [ 《 Tour of Rust 》 ](https://tourofrust.com/chapter_2_ko.html)  
 > [ 《 Rust_Book 》 ](https://doc.rust-kr.org/)  
 > [ 《 프로그래밍 언어 러스트를 배웁시다! 》 ](https://www.youtube.com/watch?v=W9DO6m8JSSs&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE)
 

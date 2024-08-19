@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/why_rust.png"
+header-img: "img/post/0819/style-guide.png"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly

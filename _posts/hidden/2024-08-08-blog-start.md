@@ -35,10 +35,16 @@ tags:
     - PWA
 --- -->
 
+## News
+
+1. Geek news [《 Geek news 》](https://news.hada.io/)
+1. 개발자스럽다 [《 개발자스럽다 》](https://blog.gaerae.com/)
+1. 노마드코더 [《 노마더코더 》](https://nomadcoders.us16.list-manage.com/subscribe?u=a99b43453db5050f1f26b2744&id=4313d957c9)
+
 ## FE
 
 1. Airbnb JavaScript 스타일 가이드 [《 스타일가이드 》](https://github.com/parksb/javascript-style-guide?tab=readme-ov-file)
-1. react [《 스타일가이드 》](https://react.vlpt.us/)
+1. react study [《 react study 》](https://react.vlpt.us/)
 
 ## 참고문서
 
