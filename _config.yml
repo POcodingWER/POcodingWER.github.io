@@ -74,7 +74,7 @@ ga_domain: pocodingwer.github.io/POcodingWER_Blog
 # Google adsense
 googl_ca_pub: "ca-pub-3587550545741227"
 # kakao adfit
-kakao_adfit_open: false
+kakao_adfit_open: true
 kakao_unit: "DAN-XGx9gX8FA3IkLPI5"
 
 # Sidebar settings
