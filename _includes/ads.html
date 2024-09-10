@@ -10,11 +10,20 @@
 </script> -->
 
 <!-- 미디어쿼리사용해서 kakao adfit반응형으로 작업했음 -->
+{% if site.kakao_adfit_open %}
 <script>
   const mediaQuery = window.matchMedia('(min-width: 992px)').matches;
-  const dataAdUnit = mediaQuery ? 'DAN-QBkwFYsmmGqObnoc' : 'DAN-J8MV2KpWNAZxxLL0'
-  document.querySelector(".kakao_length_width").innerHTML =
-    `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="${dataAdUnit}" data-ad-width="190"
+  const dataAdUnit = mediaQuery
+    ? `<ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit="DAN-QBkwFYsmmGqObnoc"
+      data-ad-width="160"
       data-ad-height="600"></ins>`
+    : `<ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit="DAN-J8MV2KpWNAZxxLL0"
+      data-ad-width="300"
+      data-ad-height="250"></ins>`
+  document.querySelector(".kakao_length_width").innerHTML = dataAdUnit
+
 </script>
+{% endif %}
 <!-- kakao adfit 스크립트 footer-ads로이동-->
