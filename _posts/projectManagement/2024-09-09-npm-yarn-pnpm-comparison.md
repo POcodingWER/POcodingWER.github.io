@@ -4,7 +4,7 @@ title: "[Npm] Npm package version Management"
 
 subtitle: "프로젝트 package.json 버전을 관리해 보자"
 
-date: 2024-09-04 10:35:00
+date: 2024-09-09 10:35:00
 # lastmod: 2024-08-14 10:10:00
 author: "lim.Chuck"
 
