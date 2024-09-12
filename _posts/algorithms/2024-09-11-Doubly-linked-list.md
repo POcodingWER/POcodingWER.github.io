@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0911/doubly-linked-list.jpg"
+header-img: "img/post/2024/0911/doubly-linked-list.jpg"
 
 # hidden: true
 

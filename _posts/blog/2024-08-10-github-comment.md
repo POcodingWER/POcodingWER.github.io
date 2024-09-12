@@ -38,13 +38,13 @@ utterances는 GitHub 문제를 기반으로 하는 가벼운 댓글 위젯이다
 > [《utterances 설치》](https://github.com/apps/utterances) 이슈페이지로 사용할
 
 레파지토리가 없다면 새로 만들어야된다.
-![](/img/post/0810/1.png) 1.인스톨눌러서 진행
-![](/img/post/0810/2.png) 2.인스톨 눌러서
+![](/img/post/2024/0810/1.png) 1.인스톨눌러서 진행
+![](/img/post/2024/0810/2.png) 2.인스톨 눌러서
 
 ### 2. 설정
 
 [《utterances 설정》](https://utteranc.es/)
-![](/img/post/0810/3.png)
+![](/img/post/2024/0810/3.png)
 
 1.  repo: 내깃허브 이슈에 쌓을레포지토리 설정 (ex.POcodingWER/utterances)
 2.  Blog Post Issue Mapping 설정
@@ -66,14 +66,14 @@ utterances는 GitHub 문제를 기반으로 하는 가벼운 댓글 위젯이다
 ### 3. 테스트
 
 내 블로그 설정할 곳에 코드를 붙여넣으면 알아서 설정이 된다.
-![](/img/post/0810/4.png)
-![](/img/post/0810/5.png) 2.1에서 설정한 레파지토리에 이슈로 남아있는다.
+![](/img/post/2024/0810/4.png)
+![](/img/post/2024/0810/5.png) 2.1에서 설정한 레파지토리에 이슈로 남아있는다.
 
 ### 4. 이메일 알림 설정
 
 github 설정한(repository) setting -> email notifications
 -> 이메일 설정하면 된다.
-![](/img/post/0810/6.png)
+![](/img/post/2024/0810/6.png)
 
 ## 마무리
 

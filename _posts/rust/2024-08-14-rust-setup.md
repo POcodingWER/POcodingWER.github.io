@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0814/1.png"
+header-img: "img/post/2024/0814/1.png"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly

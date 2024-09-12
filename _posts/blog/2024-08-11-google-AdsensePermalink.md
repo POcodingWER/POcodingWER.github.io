@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0811/1.png"
+header-img: "img/post/2024/0811/1.png"
 
 # hidden: true
 
@@ -36,16 +36,16 @@ tags:
 > [《구글사이트로 이동》 https://adsense.google.com/intl/ko_kr/start/](https://adsense.google.com/intl/ko_kr/start/)
 
 1. 시작하기를 누른다
-   ![](/img/post/0811/1.png)
+   ![](/img/post/2024/0811/1.png)
 2. 입력내용을 넣어준다.
-   ![](/img/post/0811/2.png)
+   ![](/img/post/2024/0811/2.png)
 3. 생성완료!
-   ![](/img/post/0811/3.png)
+   ![](/img/post/2024/0811/3.png)
 
 ### 2. 코드 붙여넣기
 
 코드를 HTML header 안에 넣어준다
-![](/img/post/0811/4.png)
+![](/img/post/2024/0811/4.png)
 
 ```hmlt
 //메타테그
@@ -57,11 +57,11 @@ tags:
 
 ### 3. 신청하기
 
-![](/img/post/0811/5.png)
-![](/img/post/0811/6.png)
+![](/img/post/2024/0811/5.png)
+![](/img/post/2024/0811/6.png)
 적용한걸로 심사받자!
-![](/img/post/0811/7.png)
-![](/img/post/0811/8.png)
+![](/img/post/2024/0811/7.png)
+![](/img/post/2024/0811/8.png)
 
 ## 마무리
 

@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0904/git-tags.png"
+header-img: "img/post/2024/0904/git-tags.png"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -152,7 +152,7 @@ To https://github.com/POcodingWER/POcodingWER_Blog.git
  * [new tag]         v2.0.0 -> v2.0.0
 ```
 
-![](/img/post/0904/git-tags.png)
+![](/img/post/2024/0904/git-tags.png)
 깃 tags 연동까지 마무리했다.
 
 ## 마무리

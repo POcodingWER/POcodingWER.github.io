@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0815/1.png"
+header-img: "img/post/2024/0815/1.png"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -78,7 +78,7 @@ $ code .
 
 ### 8. 단축키 등록을 위해 메뉴에서 파일 > 기본 설정 > 바로 가기 키를 선택합니다.
 
-![Untitled](/img/post/0815/1.png)
+![Untitled](/img/post/2024/0815/1.png)
 
 ### 9. 오른쪽 위에 보이는 빨간색 사각형으로 표시해둔 아이콘을 클릭합니다.
 

@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/0910/linked-list.webp"
+header-img: "img/post/2024/0910/linked-list.webp"
 
 # hidden: true
 
