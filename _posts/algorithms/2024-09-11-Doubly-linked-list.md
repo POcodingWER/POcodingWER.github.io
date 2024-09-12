@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Algorithms] Data Structure - Doubly linked list
+title: "[Algorithm] Data Structure - Doubly linked list
 "
 
 subtitle: "자료구조 이중연결리스트"
@@ -17,7 +17,7 @@ header-img: "img/post/0911/doubly-linked-list.jpg"
 # hidden: true
 
 tags:
-  - algorithms
+  - algorithm
   - 알고리즘
   - Data Structure
   - 자료구조

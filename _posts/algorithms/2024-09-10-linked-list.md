@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Algorithms] Data Structure - Linked list"
+title: "[Algorithm] Data Structure - Linked list"
 
 subtitle: "자료구조 연결리스트"
 
@@ -16,7 +16,7 @@ header-img: "img/post/0910/linked-list.webp"
 # hidden: true
 
 tags:
-  - algorithms
+  - algorithm
   - 알고리즘
   - Data Structure
   - 자료구조
