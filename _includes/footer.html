@@ -245,7 +245,12 @@
   function setLang(newLang) {
     var params = new URLSearchParams(document.location.search)
     params.set("lang", newLang)
-    document.location.search = params.toString()  // refresh.
+    window.history.replaceState(
+      {},
+      '',
+      `?${params.toString()}`
+    )
+    document.location.reload()  // refresh.
   }
 
   // handle render
