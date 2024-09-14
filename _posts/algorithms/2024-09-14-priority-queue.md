@@ -37,6 +37,9 @@ tags:
 {% if site.google_ads_open %}
 <ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4449058731"
   data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="{{site.googl_ca_pub}}"
+  data-ad-slot="8771447121"></ins>
 {% endif %}
 
 {% if site.kakao_adfit_open %}
