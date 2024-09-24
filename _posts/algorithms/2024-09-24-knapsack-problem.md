@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Algorithm] Math - Shortest Common Supersequence"
+title: "[Algorithm] Math - Knapsack Problem"
 
-subtitle: "수학 최단 공통 슈퍼시퀀스"
+subtitle: "수학 배낭 문제"
 
-date: 2024-09-23 17:24:23
+date: 2024-09-24 13:20:23
 author: "lim.Chuck"
 
 # header-style: text
@@ -22,16 +22,16 @@ tags:
   - 알고리즘
   - Math
   - 수학
-  - Shortest Common Supersequence
-  - 최단 공통 슈퍼시퀀스
+  - Knapsack Problem
+  - 배낭 문제
 ---
 
 <div class="ko post-container">
-    {% capture about_ko %}{% include post/algorithms/2024-09-23/shortest-increasing-supersequence.ko.md %}{% endcapture %}
+    {% capture about_ko %}{% include post/algorithms/2024-09-24/knapsack-problem.ko.md %}{% endcapture %}
     {{ about_ko | markdownify }}
 </div>
 <div class="en post-container">
-    {% capture about_en %}{% include post/algorithms/2024-09-23/shortest-increasing-supersequence.en.md %}{% endcapture %}
+    {% capture about_en %}{% include post/algorithms/2024-09-24/knapsack-problem.en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
 
