@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Maximum subarray problem"
+title: "[Algorithm] Sets - Maximum subarray problem"
 
-subtitle: "수학 최대 부분 배열 문제"
+subtitle: "집합 최대 부분 배열 문제"
 
 date: 2024-09-25 09:48:23
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Maximum subarray problem
   - 최대 부분 배열 문제
 ---

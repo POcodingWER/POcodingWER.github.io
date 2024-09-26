@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Fisher–Yates shuffle"
+title: "[Algorithm] Sets - Fisher–Yates shuffle"
 
-subtitle: "수학 Fisher–Yates 셔플"
+subtitle: "집합 Fisher–Yates 셔플"
 
 date: 2024-09-21 12:10:12
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Fisher–Yates shuffle
   - Fisher–Yates 셔플
 ---

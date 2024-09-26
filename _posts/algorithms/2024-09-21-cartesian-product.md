@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Cartesian Product"
+title: "[Algorithm] Sets - Cartesian Product"
 
-subtitle: "수학 카테시안 곱"
+subtitle: "집합 카테시안 곱"
 
 date: 2024-09-21 11:55:12
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Cartesian Product
   - 카테시안 곱
 ---

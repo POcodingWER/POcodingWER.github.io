@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Shortest Common Supersequence"
+title: "[Algorithm] Sets - Shortest Common Supersequence"
 
-subtitle: "수학 최단 공통 슈퍼시퀀스"
+subtitle: "집합 최단 공통 슈퍼시퀀스"
 
 date: 2024-09-23 17:24:23
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Shortest Common Supersequence
   - 최단 공통 슈퍼시퀀스
 ---

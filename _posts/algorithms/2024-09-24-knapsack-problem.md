@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Knapsack Problem"
+title: "[Algorithm] Sets - Knapsack Problem"
 
-subtitle: "수학 배낭 문제"
+subtitle: "집합 배낭 문제"
 
 date: 2024-09-24 13:20:23
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Knapsack Problem
   - 배낭 문제
 ---

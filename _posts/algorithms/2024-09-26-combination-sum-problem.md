@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Algorithm] Sets - Permutations"
+title: "[Algorithm] Sets - Combination Sum Problem"
 
-subtitle: "집합 순열"
+subtitle: "집합 최대 조합 합 문제 "
 
-date: 2024-09-21 12:21:45
+date: 2024-09-26 09:45:37
 author: "lim.Chuck"
 
 # header-style: text
@@ -13,7 +13,7 @@ catalog: true
 header-mask: 0.4
 header-img: "img/post/2024/algorithm.jpg"
 multilingual: true
-mathjax: true #수학쓸껀지?
+# mathjax: true #수학쓸껀지?
 
 # hidden: true
 
@@ -22,16 +22,16 @@ tags:
   - 알고리즘
   - Sets
   - 집합
-  - Permutations
-  - 순열
+  - Combination Sum Problem
+  - 최대 조합 합 문제
 ---
 
 <div class="ko post-container">
-    {% capture about_ko %}{% include post/algorithms/2024-09-21/permutations.ko.md %}{% endcapture %}
+    {% capture about_ko %}{% include post/algorithms/2024-09-26/combination-sum-problem.ko.md %}{% endcapture %}
     {{ about_ko | markdownify }}
 </div>
 <div class="en post-container">
-    {% capture about_en %}{% include post/algorithms/2024-09-21/permutations.en.md %}{% endcapture %}
+    {% capture about_en %}{% include post/algorithms/2024-09-26/combination-sum-problem.en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
 

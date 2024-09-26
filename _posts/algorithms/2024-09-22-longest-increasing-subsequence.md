@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Longest Increasing Subsequence"
+title: "[Algorithm] Sets - Longest Increasing Subsequence"
 
-subtitle: "수학 최장 공통 부분수열"
+subtitle: "집합 최장 공통 부분수열"
 
 date: 2024-09-22 17:24:23
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Longest Increasing Subsequence
   - 최장 공통 부분수열
 ---

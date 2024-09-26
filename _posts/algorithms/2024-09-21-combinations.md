@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Math - Combinations"
+title: "[Algorithm] Sets - Combinations"
 
-subtitle: "수학 조합"
+subtitle: "집합 조합"
 
 date: 2024-09-21 12:28:18
 author: "lim.Chuck"
@@ -20,8 +20,8 @@ mathjax: true #수학쓸껀지?
 tags:
   - algorithm
   - 알고리즘
-  - Math
-  - 수학
+  - Sets
+  - 집합
   - Combinations
   - 조합
 ---
