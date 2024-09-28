@@ -2,7 +2,7 @@
 layout: post
 title: "[Algorithm] Strings - Knuth–Morris–Pratt Algorithm"
 
-subtitle: "문자열 해밍 거리"
+subtitle: "문자열 Knuth–Morris–Pratt"
 
 date: 2024-09-27 13:08:51
 author: "lim.Chuck"
@@ -23,7 +23,7 @@ tags:
   - Strings
   - 문자열
   - Knuth–Morris–Pratt Algorithm
-  - 레벤슈타인 거리
+  - Knuth–Morris–Pratt
 ---
 
 <div class="ko post-container">
