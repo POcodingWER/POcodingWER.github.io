@@ -1,6 +1,6 @@
 ---
 layout: keynote #post | keynote
-title: "참고문서 유용한 사이트"
+title: "알고리즘 정리및 경로설정"
 iframe: "https://www.youtube.com/embed/pZRND1cjvTc"
 
 # subtitle: " "
@@ -45,23 +45,22 @@ tags:
 
 `B` - 입문자, `A` - 숙련자
 
-- `B` [연결 리스트](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/linked-list)
-- `B` [이중 연결 리스트](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/doubly-linked-list)
-- `B` [큐](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/queue)
-- `B` [스택](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/stack)
-- `B` [해시 테이블](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/hash-table)
-- `B` [힙](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/heap)
-- `B` [우선순위 큐](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/priority-queue)
-- `A` [트라이](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/trie)
-- `A` [트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree)
-  - `A` [이진 탐색 트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree/binary-search-tree)
-  - `A` [AVL 트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree/avl-tree)
-  - `A` [Red-Black 트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree/red-black-tree)
-  - `A` [세그먼트 트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree/segment-tree) - min/max/sum range 쿼리 예제.
-  - `A` [Fenwick 트리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
-- `A` [그래프](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/graph) (유방향, 무방향)
-- `A` [서로소 집합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/disjoint-set)
-- `A` [블룸 필터](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/data-structures/bloom-filter)
+- `B` [연결 리스트](https://pocodingwer.github.io/2024/09/10/linked-list)
+- `B` [이중 연결 리스트](https://pocodingwer.github.io/2024/09/11/Doubly-linked-list/)
+- `B` [큐/ 스택](https://pocodingwer.github.io/2024/09/12/queue-stack/)
+- `B` [해시 테이블](https://pocodingwer.github.io/2024/09/12/hashtable/)
+- `B` [힙](https://pocodingwer.github.io/2024/09/13/heap/)
+- `B` [우선순위 큐](https://pocodingwer.github.io/2024/09/14/priority-queue/)
+- `A` [트라이](https://pocodingwer.github.io/2024/09/14/trie/)
+- `A` [트리](https://pocodingwer.github.io/2024/09/14/tree/)
+  - `A` [이진 탐색 트리](https://pocodingwer.github.io/2024/09/14/binary-search-tree/)
+  - `A` [AVL 트리](https://pocodingwer.github.io/2024/09/14/AVL-tree/)
+  - `A` [Red-Black 트리](https://pocodingwer.github.io/2024/09/15/red-black-tree/)
+  - `A` [세그먼트 트리](https://pocodingwer.github.io/2024/09/16/segment-tree/) - min/max/sum range 쿼리 예제.
+  - `A` [Fenwick 트리](https://pocodingwer.github.io/2024/09/17/fenwick-tree/) (Binary Indexed Tree)
+- `A` [그래프](https://pocodingwer.github.io/2024/09/17/graph/) (유방향, 무방향)
+- `A` [서로소 집합](https://pocodingwer.github.io/2024/09/17/disjoint-set/)
+- `A` [블룸 필터](https://pocodingwer.github.io/2024/09/17/bloom-filter/)
 
 ## 알고리즘
 
@@ -73,52 +72,52 @@ tags:
 ### 주제별 알고리즘
 
 - **Math**
-  - `B` [Bit Manipulation](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/bits) - set/get/update/clear bits, 2의 곱 / 나누기, 음수로 만들기 etc.
-  - `B` [팩토리얼](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/factorial)
-  - `B` [피보나치 수](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/fibonacci)
-  - `B` [소수 판별](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/primality-test) (trial division 방식)
-  - `B` [유클리드 호제법](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/euclidean-algorithm) - 최대공약수 (GCD)
-  - `B` [최소 공배수](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/least-common-multiple) - LCM
-  - `B` [에라토스테네스의 체](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/sieve-of-eratosthenes) - 특정수 이하의 모든 소수 찾기
-  - `B` [2의 거듭제곱 판별법](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/is-power-of-two) - 어떤 수가 2의 거듭제곱인지 판별 (naive 와 bitwise 알고리즘)
-  - `B` [파스칼 삼각형](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/pascal-triangle)
-  - `A` [자연수 분할](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/integer-partition)
-  - `A` [리우 후이 π 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/liu-hui) - N-각형을 기반으로 π 근사치 구하기
+  - `B` [Bit Manipulation](https://pocodingwer.github.io/2024/09/18/bit-manipulation/) - set/get/update/clear bits, 2의 곱 / 나누기, 음수로 만들기 etc.
+  - `B` [팩토리얼](https://pocodingwer.github.io/2024/09/18/factorial/)
+  - `B` [피보나치 수](https://pocodingwer.github.io/2024/09/19/fibonacci-number/)
+  - `B` [소수 판별](https://pocodingwer.github.io/2024/09/19/primality-test/) (trial division 방식)
+  - `B` [유클리드 호제법](https://pocodingwer.github.io/2024/09/19/euclidean/) - 최대공약수 (GCD)
+  - `B` [최소 공배수](https://pocodingwer.github.io/2024/09/19/least-common-multiple/) - LCM
+  - `B` [에라토스테네스의 체](https://pocodingwer.github.io/2024/09/19/sieve-of-eratosthenes/) - 특정수 이하의 모든 소수 찾기
+  - `B` [2의 거듭제곱 판별법](https://pocodingwer.github.io/2024/09/20/Is-a-power-of-two/) - 어떤 수가 2의 거듭제곱인지 판별 (naive 와 bitwise 알고리즘)
+  - `B` [파스칼 삼각형](https://pocodingwer.github.io/2024/09/20/pascals-triangle/)
+  - `A` [자연수 분할](https://pocodingwer.github.io/2024/09/21/integer-partition/)
+  - `A` [리우 후이 π 알고리즘](https://pocodingwer.github.io/2024/09/21/liu-hui/) - N-각형을 기반으로 π 근사치 구하기
 - **Sets**
-  - `B` [카티지언 프로덕트](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/cartesian-product) - 곱집합
-  - `B` [Fisher–Yates 셔플](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/fisher-yates) - 유한 시퀀스의 무작위 순열
-  - `A` [멱집합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/power-set) - 집합의 모든 부분집합
-  - `A` [순열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/permutations) (반복 유,무)
-  - `A` [조합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/combinations) (반복 유,무)
-  - `A` [최장 공통 부분수열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/longest-common-subsequence) (LCS)
-  - `A` [최장 증가 수열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/longest-increasing-subsequence)
-  - `A` [Shortest Common Supersequence](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/shortest-common-supersequence) (SCS)
-  - `A` [배낭 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/knapsack-problem) - "0/1" 과 "Unbound"
-  - `A` [최대 구간합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/maximum-subarray) - "브루트 포스" 과 "동적 계획법" (Kadane's) 버전
-  - `A` [조합 합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/combination-sum) - 특정 합을 구성하는 모든 조합 찾기
+  - `B` [카티지언 프로덕트](https://pocodingwer.github.io/2024/09/21/cartesian-product/) - 곱집합
+  - `B` [Fisher–Yates 셔플](https://pocodingwer.github.io/2024/09/21/fisher-yates-shuffle/) - 유한 시퀀스의 무작위 순열
+  - `A` [멱집합](https://pocodingwer.github.io/2024/09/21/power-set/) - 집합의 모든 부분집합
+  - `A` [순열](https://pocodingwer.github.io/2024/09/21/permutations/) (반복 유,무)
+  - `A` [조합](https://pocodingwer.github.io/2024/09/21/combinations/) (반복 유,무)
+  - `A` [최장 공통 부분수열](https://pocodingwer.github.io/2024/09/21/longest-common-subsequence-problem/) (LCS)
+  - `A` [최장 증가 수열](https://pocodingwer.github.io/2024/09/22/longest-increasing-subsequence/)
+  - `A` [Shortest Common Supersequence](https://pocodingwer.github.io/2024/09/23/shortest-common-supersequence/) (SCS)
+  - `A` [배낭 문제](https://pocodingwer.github.io/2024/09/24/knapsack-problem/) - "0/1" 과 "Unbound"
+  - `A` [최대 구간합](https://pocodingwer.github.io/2024/09/25/maximum-subarray-problem/) - "브루트 포스" 과 "동적 계획법" (Kadane's) 버전
+  - `A` [조합 합](https://pocodingwer.github.io/2024/09/26/combination-sum-problem/) - 특정 합을 구성하는 모든 조합 찾기
 - **Strings**
-  - `B` [해밍 거리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/hamming-distance) - 심볼이 다른 위치의 갯수
-  - `A` [편집 거리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/levenshtein-distance) - 두 시퀀스 간위 최소 편집거리
-  - `A` [커누스-모리스-프랫 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/knuth-morris-pratt) (KMP 알고리즘) - 부분 문자열 탐색 (패턴 매칭)
-  - `A` [Z 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/z-algorithm) - 부분 문자열 탐색 (패턴 매칭)
-  - `A` [라빈 카프 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/rabin-karp) - 부분 문자열 탐색
-  - `A` [최장 공통 부분 문자열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/longest-common-substring)
-  - `A` [정규 표현식 매칭](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/regular-expression-matching)
+  - `B` [해밍 거리](https://pocodingwer.github.io/2024/09/26/hamming-distance/) - 심볼이 다른 위치의 갯수
+  - `A` [편집 거리](https://pocodingwer.github.io/2024/09/27/levenshtein-distance/) - 두 시퀀스 간위 최소 편집거리
+  - `A` [커누스-모리스-프랫 알고리즘](https://pocodingwer.github.io/2024/09/27/knuth-morris-pratt-algorithm/) (KMP 알고리즘) - 부분 문자열 탐색 (패턴 매칭)
+  - `A` [Z 알고리즘](https://pocodingwer.github.io/2024/09/27/z-algorithm/) - 부분 문자열 탐색 (패턴 매칭)
+  - `A` [라빈 카프 알고리즘](https://pocodingwer.github.io/2024/09/27/rabin-karp/) - 부분 문자열 탐색
+  - `A` [최장 공통 부분 문자열](https://pocodingwer.github.io/2024/09/27/longest-common-substring/)
+  - `A` [정규 표현식 매칭](https://pocodingwer.github.io/2024/10/01/regular-expression-matching/)
 - **Searches**
-  - `B` [선형 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/linear-search)
-  - `B` [점프 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/jump-search) (or Block Search) - 정렬된 배열에서 탐색
-  - `B` [이진 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/binary-search) - 정렬된 배열에서 탐색
-  - `B` [보간 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/interpolation-search) - 균등한 분포를 이루는 정렬된 배열에서 탐색
+  - `B` [선형 탐색](https://pocodingwer.github.io/2024/10/01/linear-search/)
+  - `B` [점프 탐색](https://pocodingwer.github.io/2024/10/01/jump-search/) (or Block Search) - 정렬된 배열에서 탐색
+  - `B` [이진 탐색](https://pocodingwer.github.io/2024/10/01/binary-search/) - 정렬된 배열에서 탐색
+  - `B` [보간 탐색](https://pocodingwer.github.io/2024/10/01/interpolation-search/) - 균등한 분포를 이루는 정렬된 배열에서 탐색
 - **Sorting**
-  - `B` [거품 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/bubble-sort)
-  - `B` [선택 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/selection-sort)
-  - `B` [삽입 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/insertion-sort)
-  - `B` [힙 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/heap-sort)
-  - `B` [병합 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/merge-sort)
-  - `B` [퀵 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/quick-sort) - 제자리(in-place)와 제자리가 아닌(non-in-place) 구현
-  - `B` [셸 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/shell-sort)
-  - `B` [계수 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/counting-sort)
-  - `B` [기수 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/radix-sort)
+  - `B` [거품 정렬](https://pocodingwer.github.io/2024/10/01/bubble-sort/)
+  - `B` [선택 정렬](https://pocodingwer.github.io/2024/10/01/selection-sort/)
+  - `B` [삽입 정렬](https://pocodingwer.github.io/2024/10/02/insertion-sort/)
+  - `B` [힙 정렬](https://pocodingwer.github.io/2024/10/03/heap-sort/)
+  - `B` [병합 정렬](https://pocodingwer.github.io/2024/10/04/merge-sort/)
+  - `B` [퀵 정렬](https://pocodingwer.github.io/2024/10/04/quick-sort/) - 제자리(in-place)와 제자리가 아닌(non-in-place) 구현
+  - `B` [셸 정렬](https://pocodingwer.github.io/2024/10/04/shell-sort/)
+  - `B` [계수 정렬](https://pocodingwer.github.io/2024/10/04/counting-sort/)
+  - `B` [기수 정렬](https://pocodingwer.github.io/2024/10/04/radix-sort/)
 - **Trees**
   - `B` [깊이 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/tree/depth-first-search) (DFS)
   - `B` [너비 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/tree/breadth-first-search) (BFS)
