@@ -2,7 +2,7 @@
 layout: post
 title: "[FRONT] Story book설치 및 사용하기"
 
-subtitle: "mitmproxy"
+subtitle: "스토리북을 적용해보자"
 
 date: 2024-10-04 15:25:17
 # lastmod: 2024-08-14 10:10:00
