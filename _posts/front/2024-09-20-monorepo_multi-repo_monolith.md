@@ -226,19 +226,3 @@ Shopping Cart
 
 프로젝트를 vue에서 react로 변경하면서 레파지토리가 점점많아지다 보니까 관리에 필요성을 느끼게 되었고 어떤 관리방법이 있나 찾아보다보니 많은도움이 된거같다.
 각 상황에 맞는 방법을 찾아서 프로젝트에 잘 적용하는게 유지보수 등등 이점을 가져올수있을거같다.!
-
-{% if site.google_ads_open %}
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3587550545741227" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4449058731"
-  data-ad-format="auto" data-full-width-responsive="true"></ins>
-
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
-{% endif %}
-
-{% if site.kakao_adfit_open %}
-<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-PCSCzPH4DUFDJxkc" data-ad-width="728"
-  data-ad-height="90" />
-{% endif %}

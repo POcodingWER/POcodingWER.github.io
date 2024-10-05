@@ -26,7 +26,28 @@ layout: default
         {% endif %}
 
         {{ content }}
-
+        <!-- 구글 -->
+        {% if site.google_ads_open %}
+        <script async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3587550545741227"
+          crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4449058731"
+          data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        {% endif %}
+        <!-- 카카오 -->
+        <div class="kakao_poster_width"></div>
+        {% if site.kakao_adfit_open %}
+        <script>
+          const mediaQueryPostFooter = window.matchMedia('(min-width: 992px)').matches;
+          const dataAdUnitPostFooter = mediaQueryPostFooter
+            ? `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-PCSCzPH4DUFDJxkc" data-ad-width="728"
+              data-ad-height="90" />`
+            : `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-b5wNDoLbNCwNSH3C" data-ad-width="300"
+              data-ad-height="250"></ins>`
+          document.querySelector(".kakao_poster_width").innerHTML = dataAdUnitPostFooter
+        </script>
+        {% endif %}
         <hr style="visibility: hidden;">
         <ul class="pager">
           {% if page.previous.url %}

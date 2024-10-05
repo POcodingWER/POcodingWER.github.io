@@ -1,8 +1,4 @@
-{% if site.kakao_adfit_open %}
-<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-On7lIXOSb12tJqZy" data-ad-width="728"
-  data-ad-height="90"></ins>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-{% endif %}
+<div class="kakao_footer_width"></div>
 
 {% if site.google_ads_open %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.googl_ca_pub}}"
@@ -12,4 +8,17 @@
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+{% endif %}
+
+{% if site.kakao_adfit_open %}
+<script>
+  const mediaQueryFooter = window.matchMedia('(min-width: 992px)').matches;
+  const dataAdUnitFooter = mediaQueryFooter
+    ? `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-On7lIXOSb12tJqZy" data-ad-width="728"
+  data-ad-height="90"></ins>`
+    : `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-F0yafCvdnsVOuGC9" data-ad-width="320"
+  data-ad-height="100"></ins>`
+  document.querySelector(".kakao_footer_width").innerHTML = dataAdUnitFooter
+</script>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 {% endif %}
