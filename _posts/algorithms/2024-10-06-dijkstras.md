@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Algorithm] Graphs - Kruskal’s Algorithm"
+title: "[Algorithm] Graphs - Dijkstra's Algorithm"
 
-subtitle: "그레프 - 크루스칼 알고리즘"
+subtitle: "그레프 - 다익스트라 알고리즘"
 
-date: 2024-10-06 15:28:46
+date: 2024-10-06 15:41:04
 author: "lim.Chuck"
 
 # header-style: text
@@ -22,15 +22,15 @@ tags:
   - 알고리즘
   - Graphs
   - 그래프
-  - Kruskal’s Algorithm
-  - 크루스칼 알고리즘
+  - Dijkstra's Algorithm
+  - 다익스트라 알고리즘
 ---
 
 <div class="ko post-container">
-    {% capture about_ko %}{% include post/algorithms/2024-10-06/kruskals.ko.md %}{% endcapture %}
+    {% capture about_ko %}{% include post/algorithms/2024-10-06/dijkstras.ko.md %}{% endcapture %}
     {{ about_ko | markdownify }}
 </div>
 <div class="en post-container">
-    {% capture about_en %}{% include post/algorithms/2024-10-06/kruskals.en.md %}{% endcapture %}
+    {% capture about_en %}{% include post/algorithms/2024-10-06/dijkstras.en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
