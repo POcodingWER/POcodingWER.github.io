@@ -119,24 +119,24 @@ tags:
   - `B` [계수 정렬](https://pocodingwer.github.io/2024/10/04/counting-sort/)
   - `B` [기수 정렬](https://pocodingwer.github.io/2024/10/04/radix-sort/)
 - **Trees**
-  - `B` [깊이 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/tree/depth-first-search) (DFS)
-  - `B` [너비 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/tree/breadth-first-search) (BFS)
+  - `B` [깊이 우선 탐색](https://pocodingwer.github.io/2024/10/05/depth-first-search) (DFS)
+  - `B` [너비 우선 탐색](https://pocodingwer.github.io/2024/10/05/breadth-first-search/) (BFS)
 - **Graphs**
-  - `B` [깊이 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/depth-first-search) (DFS)
-  - `B` [너비 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/breadth-first-search) (BFS)
-  - `B` [크루스칼 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/kruskal) - 최소 신장 트리 찾기 (MST) 무방향 가중 그래프
-  - `A` [다익스트라 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/dijkstra) - 한 점에서 다른 모든 점까지 최단 거리 찾기
-  - `A` [벨만-포드 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/bellman-ford) - 한 점에서 다른 모든 점까지 최단 거리 찾기
-  - `A` [플로이드-워셜 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/floyd-warshall) - 모든 종단 간의 최단거리 찾기
-  - `A` [사이클 탐지](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/detect-cycle) - 유방향, 무방향 그래프 (DFS 와 Disjoint Set 에 기반한 버전)
-  - `A` [프림 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/prim) - 무방향 가중치 그래프에서 최소 신장 트리 (MST) 찾기
-  - `A` [위상 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/topological-sorting) - DFS 방식
-  - `A` [단절점](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/articulation-points) - 타잔의 알고리즘 (DFS 기반)
-  - `A` [단절선](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/bridges) - DFS 기반 알고리즘
-  - `A` [오일러 경로 와 오일러 회로](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/eulerian-path) - Fleury의 알고리즘 - 모든 엣지를 한번만 방문
-  - `A` [해밀턴 경로](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/hamiltonian-cycle) - 모든 꼭짓점을 한번만 방문
-  - `A` [강결합 컴포넌트](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/strongly-connected-components) - Kosaraju의 알고리즘
-  - `A` [외판원 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/travelling-salesman) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
+  - `B` [깊이 우선 탐색](https://pocodingwer.github.io/2024/10/05/depth-first-search) (DFS)
+  - `B` [너비 우선 탐색](https://pocodingwer.github.io/2024/10/05/breadth-first-search/) (BFS)
+  - `B` [크루스칼 알고리즘](https://pocodingwer.github.io/2024/10/06/kruskals) - 최소 신장 트리 찾기 (MST) 무방향 가중 그래프
+  - `A` [다익스트라 알고리즘](https://pocodingwer.github.io/2024/10/06/dijkstras) - 한 점에서 다른 모든 점까지 최단 거리 찾기
+  - `A` [벨만-포드 알고리즘](https://pocodingwer.github.io/2024/10/07/bellman-ford) - 한 점에서 다른 모든 점까지 최단 거리 찾기
+  - `A` [플로이드-워셜 알고리즘](https://pocodingwer.github.io/2024/10/08/floyd-warshall) - 모든 종단 간의 최단거리 찾기
+  - `A` [사이클 탐지](https://pocodingwer.github.io/2024/10/08/detect-cycle-in-graphs) - 유방향, 무방향 그래프 (DFS 와 Disjoint Set 에 기반한 버전)
+  - `A` [프림 알고리즘](https://pocodingwer.github.io/2024/10/10/prims) - 무방향 가중치 그래프에서 최소 신장 트리 (MST) 찾기
+  - `A` [위상 정렬](https://pocodingwer.github.io/2024/10/10/topological-sorting) - DFS 방식
+  - `A` [단절점](https://pocodingwer.github.io/2024/10/11/articulation-points) - 타잔의 알고리즘 (DFS 기반)
+  - `A` [단절선](https://pocodingwer.github.io/2024/10/11/bridges) - DFS 기반 알고리즘
+  - `A` [오일러 경로 와 오일러 회로](https://pocodingwer.github.io/2024/10/11/eulerian-path) - Fleury의 알고리즘 - 모든 엣지를 한번만 방문
+  - `A` [해밀턴 경로](https://pocodingwer.github.io/2024/10/11/hamiltonian-path) - 모든 꼭짓점을 한번만 방문
+  - `A` [강결합 컴포넌트](https://pocodingwer.github.io/2024/10/11/strongly-connected-component) - Kosaraju의 알고리즘
+  - `A` [외판원 문제](https://pocodingwer.github.io/2024/10/11/travelling-salesman-problem) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
 - **Uncategorized**
   - `B` [하노이 탑](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/hanoi-tower)
   - `B` [정방 행렬 회전](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/square-matrix-rotation) - 제자리(in-place) 알고리즘
