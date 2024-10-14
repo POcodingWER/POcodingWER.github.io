@@ -1,11 +1,11 @@
 ---
-layout: keynote #post | keynote
-title: "알고리즘 정리및 경로설정"
-iframe: "https://www.youtube.com/embed/pZRND1cjvTc"
+layout: post #post | keynote
+title: "[Algorithm] 신입 개발자 필수 알고리즘"
+subtitle: "개발자 기초 알고리즘"
 
-# subtitle: " "
+# iframe: "https://www.youtube.com/embed/pZRND1cjvTc"
 
-date: 2024-08-08 10:00:00
+date: 2024-10-14 14:24:09
 # lastmod: 2024-08-14 14:03:00
 author: "lim.Chuck"
 
@@ -13,12 +13,19 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/ga.jpg"
+header-img: "img/post/2024/algorithm.jpg"
 
-hidden: true
+# hidden: true
 
 tags:
-  - none
+  - 개발자 필수 알고리즘
+  - 프론트엔드 공부
+  - 알고리즘 공부
+  - 개발자 필수
+  - 필수 알고리즘
+  - 자료구조
+  - 필수 자료구조
+  - 필수 알고리즘 공부
 ---
 
 <!-- ---
@@ -35,7 +42,7 @@ tags:
     - PWA
 --- -->
 
-> 참조 [참조참조참조](https://github.com/zero-to-mastery/javascript-algorithms)
+> [참조참조참조 https://github.com/zero-to-mastery/javascript-algorithms](https://github.com/zero-to-mastery/javascript-algorithms)
 
 ## 자료 구조
 
@@ -138,12 +145,12 @@ tags:
   - `A` [강결합 컴포넌트](https://pocodingwer.github.io/2024/10/11/strongly-connected-component) - Kosaraju의 알고리즘
   - `A` [외판원 문제](https://pocodingwer.github.io/2024/10/11/travelling-salesman-problem) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
 - **Uncategorized**
-  - `B` [하노이 탑](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/hanoi-tower)
-  - `B` [정방 행렬 회전](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/square-matrix-rotation) - 제자리(in-place) 알고리즘
-  - `B` [점프 게임](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
-  - `B` [Unique 경로](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/unique-paths) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
-  - `A` [N-Queens 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/n-queens)
-  - `A` [기사의 여행 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/knight-tour)
+  - `B` [하노이 탑](https://pocodingwer.github.io/2024/10/12/tower-of-hanoi)
+  - `B` [정방 행렬 회전](https://pocodingwer.github.io/2024/10/12/square-matrix-rotation) - 제자리(in-place) 알고리즘
+  - `B` [점프 게임](https://pocodingwer.github.io/2024/10/12/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
+  - `B` [Unique 경로](https://pocodingwer.github.io/2024/10/12/unique-paths-problem) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
+  - `A` [N-Queens 문제](https://pocodingwer.github.io/2024/10/12/n-queens)
+  - `A` [기사의 여행 문제](https://pocodingwer.github.io/2024/10/12/knights-tour)
 
 ### 패러다임별 알고리즘
 
@@ -152,72 +159,59 @@ tags:
 개념보다 추상적인 것입니다.
 
 - **브루트 포스(Brute Force)** - 가능한 모든 경우를 탐색한 뒤 최적을 찾아내는 방식입니다.
-  - `B` [선형 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/linear-search)
+
+  - `B` [선형 탐색](https://pocodingwer.github.io/2024/10/01/linear-search/)
   - `A` [최대 구간합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/maximum-subarray)
-  - `A` [외판원 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/travelling-salesman) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
+  - `A` [외판원 문제](https://pocodingwer.github.io/2024/10/11/travelling-salesman-problem) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
+
 - **탐욕 알고리즘(Greedy)** - 이후를 고려하지 않고 현재 시점에서 가장 최적인 선택을 하는 방식입니다.
-  - `B` [점프 게임](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/jump-game)
-  - `A` [쪼갤수 있는 배낭 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/knapsack-problem)
-  - `A` [다익스트라 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/dijkstra) - 모든 점 까지의 최단거리 찾기
-  - `A` [프림 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/prim) - 무방향 가중치 그래프에서 최소 신창 트리 (MST) 찾기
-  - `A` [크루스칼 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/kruskal) - 무방향 가중치 그래프에서 최소 신창 트리 (MST) 찾기
+
+  - `B` [점프 게임](https://pocodingwer.github.io/2024/10/12/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
+  - `A` [배낭 문제](https://pocodingwer.github.io/2024/09/24/knapsack-problem/) - "0/1" 과 "Unbound"
+  - `A` [다익스트라 알고리즘](https://pocodingwer.github.io/2024/10/06/dijkstras) - 한 점에서 다른 모든 점까지 최단 거리 찾기
+  - `A` [프림 알고리즘](https://pocodingwer.github.io/2024/10/10/prims) - 무방향 가중치 그래프에서 최소 신장 트리 (MST) 찾기
+  - `B` [크루스칼 알고리즘](https://pocodingwer.github.io/2024/10/06/kruskals) - 최소 신장 트리 찾기 (MST) 무방향 가중 그래프
+
 - **분할 정복법(Divide and Conquer)** - 문제를 여러 작은 문제로 분할한 뒤 해결하는 방식입니다.
-  - `B` [이진 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/search/binary-search)
-  - `B` [하노이 탑](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/hanoi-tower)
-  - `B` [파스칼 삼각형](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/pascal-triangle)
-  - `B` [유클리드 호제법](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/euclidean-algorithm) - 최대공약수 계산 (GCD)
-  - `B` [병합 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/merge-sort)
-  - `B` [퀵 정렬](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sorting/quick-sort)
-  - `B` [트리 깊이 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/tree/depth-first-search) (DFS)
-  - `B` [그래프 깊이 우선 탐색](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/depth-first-search) (DFS)
-  - `B` [점프 게임](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/jump-game)
-  - `A` [순열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/permutations) (반복 유,무)
-  - `A` [조합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/combinations) (반복 유,무)
+
+  - `B` [이진 탐색](https://pocodingwer.github.io/2024/10/01/binary-search/) - 정렬된 배열에서 탐색
+  - `B` [하노이 탑](https://pocodingwer.github.io/2024/10/12/tower-of-hanoi)
+  - `B` [파스칼 삼각형](https://pocodingwer.github.io/2024/09/20/pascals-triangle/)
+  - `B` [유클리드 호제법](https://pocodingwer.github.io/2024/09/19/euclidean/) - 최대공약수 (GCD)
+  - `B` [병합 정렬](https://pocodingwer.github.io/2024/10/04/merge-sort/)
+  - `B` [퀵 정렬](https://pocodingwer.github.io/2024/10/04/quick-sort/) - 제자리(in-place)와 제자리가 아닌(non-in-place) 구현
+  - `B` [트리 / 그래프 깊이 우선 탐색](https://pocodingwer.github.io/2024/10/05/depth-first-search) (DFS)
+  - `B` [점프 게임](https://pocodingwer.github.io/2024/10/12/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
+  - `A` [순열](https://pocodingwer.github.io/2024/09/21/permutations/) (반복 유,무)
+  - `A` [조합](https://pocodingwer.github.io/2024/09/21/combinations/) (반복 유,무)
+
 - **동적 계획법(Dynamic Programming)** - 이전에 찾은 결과를 이용하여 최종적으로 해결하는 방식입니다.
-  - `B` [피보나치 수](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/fibonacci)
-  - `B` [점프 게임](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/jump-game)
-  - `B` [Unique Paths](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/unique-paths)
-  - `A` [편집 거리](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/levenshtein-distance) - 두 시퀀스 간의 최소 편집 거리
-  - `A` [최장 공통 부분 수열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/longest-common-subsequence) (LCS)
-  - `A` [최장 공통 부분 문자열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/longest-common-substring)
-  - `A` [최장 증가 수열](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/longest-increasing-subsequence)
-  - `A` [Shortest Common Supersequence](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/shortest-common-supersequence)
-  - `A` [0/1 배낭 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/knapsack-problem)
-  - `A` [자연수 분할](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/math/integer-partition)
-  - `A` [최대 구간합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/maximum-subarray)
-  - `A` [벨만-포드 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/bellman-ford) - 모든 점 까지의 최단 거리 찾기
-  - `A` [플로이드-워셜 알고리즘](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/floyd-warshall) - 모든 종단 간의 최단거리 찾기
-  - `A` [정규 표현식 매칭](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/string/regular-expression-matching)
+
+  - `B` [피보나치 수](https://pocodingwer.github.io/2024/09/19/fibonacci-number/)
+  - `B` [점프 게임](https://pocodingwer.github.io/2024/10/12/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
+  - `B` [Unique 경로](https://pocodingwer.github.io/2024/10/12/unique-paths-problem) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
+  - `A` [편집 거리](https://pocodingwer.github.io/2024/09/27/levenshtein-distance/) - 두 시퀀스 간위 최소 편집거리
+  - `A` [최장 공통 부분수열](https://pocodingwer.github.io/2024/09/21/longest-common-subsequence-problem/) (LCS)
+  - `A` [최장 공통 부분 문자열](https://pocodingwer.github.io/2024/09/27/longest-common-substring/)
+  - `A` [최장 증가 수열](https://pocodingwer.github.io/2024/09/22/longest-increasing-subsequence/)
+  - `A` [Shortest Common Supersequence](https://pocodingwer.github.io/2024/09/23/shortest-common-supersequence/) (SCS)
+  - `A` [0/1 배낭 문제](https://pocodingwer.github.io/2024/09/24/knapsack-problem/) - "0/1" 과 "Unbound"
+  - `A` [자연수 분할](https://pocodingwer.github.io/2024/09/21/integer-partition/)
+  - `A` [최대 구간합](https://pocodingwer.github.io/2024/09/25/maximum-subarray-problem/) - "브루트 포스" 과 "동적 계획법" (Kadane's) 버전
+  - `A` [벨만-포드 알고리즘](https://pocodingwer.github.io/2024/10/07/bellman-ford) - 한 점에서 다른 모든 점까지 최단 거리 찾기
+  - `A` [플로이드-워셜 알고리즘](https://pocodingwer.github.io/2024/10/08/floyd-warshall) - 모든 종단 간의 최단거리 찾기
+  - `A` [정규 표현식 매칭](https://pocodingwer.github.io/2024/10/01/regular-expression-matching/)
+
 - **백트래킹(Backtracking)** - 모든 가능한 경우를 고려한다는 점에서 브루트 포스와 유사합니다. 하지만 다음 단계로 넘어갈때 마다 모든 조건을 만족했는지 확인하고 진행합니다. 만약 조건을 만족하지 못했다면 뒤로 돌아갑니다 (백트래킹). 그리고 다른 경로를 선택합니다. 보통 상태를 유지한 DFS 탐색을 많이 사용합니다.
-  - `B` [점프 게임](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/jump-game)
-  - `B` [Unique Paths](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/unique-paths)
-  - `A` [해밀턴 경로](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/graph/hamiltonian-cycle) - 모든 점을 한번씩 방문
-  - `A` [N-Queens 문제](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/n-queens)
-  - `A` [기사의 여행](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/uncategorized/knight-tour)
-  - `A` [조합 합](https://github.com/zero-to-mastery/javascript-algorithms/tree/9f51350f2239041e364c747e342d6a6cd3ea7a14/src/algorithms/sets/combination-sum) - 특정 합을 구성하는 모든 조합 찾기
+
+  - `B` [점프 게임](https://pocodingwer.github.io/2024/10/12/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제
+  - `B` [Unique 경로](https://pocodingwer.github.io/2024/10/12/unique-paths-problem) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
+  - `A` [해밀턴 경로](https://pocodingwer.github.io/2024/10/11/hamiltonian-path) - 모든 꼭짓점을 한번만 방문
+  - `A` [N-Queens 문제](https://pocodingwer.github.io/2024/10/12/n-queens)
+  - `A` [기사의 여행 문제](https://pocodingwer.github.io/2024/10/12/knights-tour)
+  - `A` [조합 합](https://pocodingwer.github.io/2024/09/26/combination-sum-problem/) - 특정 합을 구성하는 모든 조합 찾기
+
 - **분기 한정법** - 백트래킹으로 찾은 각 단계의 최소 비용 해결법을 기억해 두고 있다가, 이 비용을 이용해서 더 낮은 최소 비용을 찾습니다. 기억해둔 최소 비용을 이용해 더 높은 비용이 드는 해결법은 더이상 탐색하지 않습니다. 보통 상태 정보를 사진 DFS 를 이용한 BFS 방식에서 사용됩니다.
-
-## 이 저장소의 사용법
-
-**모든 의존성 설치**
-
-```
-npm install
-```
-
-**ESLint 실행**
-
-코드의 품질을 확인 할 수 있습니다.
-
-```
-npm run lint
-```
-
-**모든 테스트 실행**
-
-```
-npm test
-```
 
 ## 유용한 정보
 
@@ -228,8 +222,6 @@ npm test
 ### Big O 표기
 
 Big O 표기로 표시한 알고리즘의 증가 양상입니다.
-
-![Big O graphs](./assets/big-o-graph.png)
 
 Source: [Big O Cheat Sheet](http://bigocheatsheet.com/).
 
