@@ -14,7 +14,8 @@ header-mask: 0.4
 header-img: "img/post/2024/0811/1.png"
 
 # hidden: true
-
+categories:
+  - Blog
 tags:
   - git
   - github

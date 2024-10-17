@@ -17,6 +17,8 @@ mathjax: true #수학쓸껀지?
 
 # hidden: true
 
+categories:
+  - Algorithm
 tags:
   - algorithm
   - 알고리즘

@@ -15,6 +15,8 @@ header-img: "img/post/2024/0910/linked-list.webp"
 
 # hidden: true
 
+categories:
+  - Algorithm
 tags:
   - algorithm
   - 알고리즘

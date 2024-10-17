@@ -18,7 +18,8 @@ header-img: "img/post/2024/0814/1.png"
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
-
+categories:
+  - Rust study
 tags:
   - rust
   - rust 구축
