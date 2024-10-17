@@ -343,6 +343,13 @@
           $body.attr('class', prevClasses);  // from closure 
         });
         $searchInput.focus();
+        $searchInput.on('keyup', function (key) {
+          if (key.keyCode == 13) {
+            const text = $searchInput.val()
+            if (!text) return
+            window.open(`https://www.google.com/search?qt=${text}&q=site:pocodingwer.github.io+${text}`)
+          }
+        })
       }
     });
   });
