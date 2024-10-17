@@ -17,8 +17,6 @@ multilingual: true
 
 # hidden: true
 
-categories:
-  - Algorithm
 tags:
   - algorithm
   - 알고리즘

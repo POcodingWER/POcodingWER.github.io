@@ -16,8 +16,6 @@ header-img: "img/post/2024/0911/doubly-linked-list.jpg"
 
 # hidden: true
 
-categories:
-  - Algorithm
 tags:
   - algorithm
   - 알고리즘

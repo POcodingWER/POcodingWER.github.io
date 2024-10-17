@@ -16,8 +16,7 @@ header-mask: 0.4
 header-img: "img/post/2024/algorithm.jpg"
 
 # hidden: true
-categories:
-  - Algorithm
+
 tags:
   - 개발자 필수 알고리즘
   - 프론트엔드 공부

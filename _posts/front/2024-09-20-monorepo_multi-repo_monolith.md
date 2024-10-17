@@ -18,12 +18,12 @@ header-img: "img/post/2024/0920/compare.webp"
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
-categories:
+
+tags:
+  - front
   - Monorepo
   - Multi-repo
   - Monolith
-tags:
-  - front
   - 모노레포
   - 멀티레포
   - 모노리스
