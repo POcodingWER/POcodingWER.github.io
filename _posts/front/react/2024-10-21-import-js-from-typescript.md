@@ -73,7 +73,7 @@ module.exports = {
 다음은 `d.ts`파일 만들어서 적용
 
 ```ts
-//test.d.ts 이름이꼭 Test일필요는없음
+//test.d.ts  js파일과 같아야 읽을때 오류발생안됨
 import "./test.js";
 
 declare function test1(): string;
