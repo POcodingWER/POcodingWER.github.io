@@ -14,7 +14,8 @@ header-mask: 0.4
 header-img: "img/post/utterances.png"
 
 # hidden: true
-
+categories:
+  - Blog
 tags:
   - git
   - github

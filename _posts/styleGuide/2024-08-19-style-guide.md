@@ -17,7 +17,8 @@ header-img: "img/post/2024/0819/style-guide.png"
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
-
+categories:
+  - Style Guide
 tags:
   - style Guide
   - 스타일 가이드
