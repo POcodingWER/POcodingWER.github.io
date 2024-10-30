@@ -23,6 +23,8 @@ tags:
   - comment
 ---
 
+{% include post/blog_contents.md %}
+
 ## utterances??
 
 utterances는 GitHub 문제를 기반으로 하는 가벼운 댓글 위젯이다. 블로그 댓글, 위키 페이지 등에 GitHub 문제(issues)를 사용할 수 있다.
