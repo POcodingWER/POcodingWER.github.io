@@ -35,7 +35,7 @@ tags:
 ## 이슈
 
 저번에 작성한
-[[AWS] s3 이미지,파일 덮어쓰기시 변경안됨](https://pocodingwer.github.io/2024/08/19/aws-s3-cloud-front-cache/)
+[[AWS] s3 이미지,파일 덮어쓰기시 변경안됨](/aws/2024/08/20/aws-s3-cloud-front-cache/)
 s3이미지를 날려도 ios에서 이미지 캐시가 남아서 변경할때마다 배포가 필요하여 캐시 공부를 해보기로함!!
 
 > 참고 문서

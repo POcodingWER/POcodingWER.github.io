@@ -3,10 +3,10 @@
     "title": "POcodingWER Blog",
     "author": "POcodingWER <cjftns01@gmail.com>",
     "version": "5.0.3",
-    "homepage": "https://github.com/POcodingWER/POcodingWER_Blog.git",
+    "homepage": "https://pocodingwer.github.io/",
     "repository": {
         "type": "git",
-        "url": "https://POcodingWER.github.io/POcodingWER_Blog"
+        "url": "https://POcodingWER.github.io"
     },
     "bugs": "https://github.com/POcodingWER/POcodingWER.github.io/issues",
     "devDependencies": {
