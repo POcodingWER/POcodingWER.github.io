@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Npm] Npm package version Management"
+title: "[Npm] npm vs yarn vs pnpm Package Manager 비교"
 
-subtitle: "프로젝트 package.json 버전을 관리해 보자"
+subtitle: "Package Manager 비교하고 프로젝트에 맞게 사용하자"
 
 date: 2024-09-09 10:35:00
 # lastmod: 2024-08-14 10:10:00
