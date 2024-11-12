@@ -6,5 +6,6 @@
 1. [[React] ts 세팅 tsconfig.json tsconfig.app.json, tsconfig.node.json 멀까?](/react%20guide/2024/11/12/ts-setting/)
 1. [[React] vite config 설정하기](/react%20guide/2024/11/12/vite-config/)
 1. [[React] Javascript 파일을 Typescript Import해보자](/react%20guide/2024/10/21/import-js-from-typescript/)
+1. [[React] react-router-dom 알아보고 사용하자](/react%20guide/2024/11/12/react-router-dom/)
 1. [[React] child 컴포넌트에서 함수호출하기](/react%20guide/2024/10/22/call-child-fc/)
 1. [[React] useCallback](/react%20guide/2024/10/31/useCallback/)
