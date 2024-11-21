@@ -12,4 +12,5 @@
    1. [[React] child 컴포넌트에서 함수호출하기](/react%20guide/2024/10/22/call-child-fc/)
    1. [[React] useCallback](/react%20guide/2024/10/31/useCallback/)
    1. [[React] framer-motion 알아보고 사용하자](/react%20guide/2024/11/14/framer-react/)
+   1. [[React] Context API](/react%20guide/2024/11/21/context-api/)
 1. [[React] 프론트 에러추적 도구 Sentry 사용해보기](/react%20guide/2024/11/15/sentry/)

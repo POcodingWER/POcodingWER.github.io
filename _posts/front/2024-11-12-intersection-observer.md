@@ -51,7 +51,9 @@ MDN에서는 Intersection Observer를 다음과 같은 상황에서 활용할 �
 
 ## 간단예제
 
-```text
+{% raw %}
+
+```jsx
 import { useEffect } from "react";
 import "./App.css";
 
@@ -312,6 +314,8 @@ function App() {
 
 export default App;
 ```
+
+{% endraw %}
 
 ### 설명
 

@@ -18,6 +18,7 @@ header-img: "img/post/2024/1114/1.gif"
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
+liquid: false
 categories:
   - React Guide
 tags:
@@ -67,7 +68,7 @@ npm install framer-motion
 ### 2. 예제 코드
 
 > 참조 문서  
-> [https://egghead.io/lessons/react-link-complex-animations-together-with-variants-from-framer-motion](https://egghead.io/lessons/react-link-complex-animations-together-with-variants-from-framer-motion)
+> [https://egghead.io/lessons/react-link-complex-animations-together-with-variants-from-framer-motion](https://egghead.io/lessons/react-link-complex-animations-together-with-variants-from-framer-motion) > {% raw %}
 
 ```jsx
 import React, { useState } from "react";
@@ -101,6 +102,8 @@ function App() {
 
 export default App;
 ```
+
+{% endraw %}
 
 ![](/img/post/2024/1114/1.gif)
 `motion.div`를 사용하여 애니메이션을 정의합니다. `animate` 속성에서 `x` 값을 설정해 isMoved 상태에 따라 위치가 변경되도록 하고, `transition`으로 애니메이션의 지속 시간을 설정합니다. 사각형을 클릭하면 위치가 변경되는 애니메이션을 볼 수 있음.
