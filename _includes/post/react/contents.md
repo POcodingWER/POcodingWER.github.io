@@ -14,4 +14,6 @@
    1. [[React] framer-motion 알아보고 사용하자](/react%20guide/2024/11/14/framer-react/)
    1. [[React] Context API](/react%20guide/2024/11/21/context-api/)
    1. [[React] react lazy 지연로딩 예제](/react%20guide/2024/11/21/react-lazy/)
+   1. [[React] react에서 캐싱처리를 위한 react queryd와 indexDB 비교분석](/react%20guide/2024/11/22/react-query-index-db/)
+      - [[FRONT] Web cache](/cache/2024/09/03/web-cache/)
 1. [[React] 프론트 에러추적 도구 Sentry 사용해보기](/react%20guide/2024/11/15/sentry/)

@@ -52,6 +52,8 @@ const HeavyComponent = React.lazy(() => import("./components/HeavyComponent"));
 
 `React.lazy`를 사용할 때, Suspense 컴포넌트를 함께 사용해야 합니다. Suspense는 lazy 컴포넌트가 로드될 때까지 **로딩 상태를 표시**할 수 있는 fallback UI를 제공합니다.
 
+{% raw %}
+
 ```jsx
 import React, { useState, Suspense } from "react";
 import { motion } from "framer-motion";
@@ -99,6 +101,7 @@ function App() {
 export default App;
 ```
 
+{% endraw %}
 ![react lazy](/img/post/2024/1121/lazy.gif)
 금방 로딩이 되어 크롬에서 네트워크속도를 낮추어 실행해보았음
 
