@@ -12,7 +12,7 @@ layout: default
 <!-- Post Content -->
 <article>
   <div class="container">
-    <div class="row">
+    <div class="row" style="position: relative;">
 
       <!-- Post Container -->
       <div class="
@@ -97,9 +97,15 @@ layout: default
             <hr class="hidden-sm hidden-xs">
           </div>
         </div>
-        {% include ads.html %}
       </div>
       {% endunless %}
+
+      <!-- 왼쪽으로이동 -->
+      <div class="col-lg-2 col-lg-offset-0
+      visible-lg-block" style="position: absolute; top: 0px;">
+        {% include ads.html %}
+      </div>
+
 
       <!-- Sidebar Container -->
       <div class="
