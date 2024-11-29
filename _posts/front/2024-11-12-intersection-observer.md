@@ -29,6 +29,8 @@ tags:
   - IntersectionObserver example
 ---
 
+{% include post/front_contents.md %}
+
 > [참고문서 MDN](https://developer.mozilla.org/ko/docs/Web/API/Intersection_Observer_API)
 
 ## IntersectionObserver 란?
