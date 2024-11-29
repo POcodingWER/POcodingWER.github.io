@@ -29,6 +29,8 @@ tags:
   - front frameworks
 ---
 
+{% include post/front_contents.md %}
+
 > nuxt.js 프로젝트 진행하다 next.js 변경 할꺼같아서 비교점찾아보고 장점및 단점을 챙겨보자!  
 > 프론트에서 많이사용하는 두 프레임워크를 비교하여 사용해보자
 

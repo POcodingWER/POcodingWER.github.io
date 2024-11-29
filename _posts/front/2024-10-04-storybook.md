@@ -31,6 +31,8 @@ tags:
   - React stroybook
 ---
 
+{% include post/front_contents.md %}
+
 > 스토리북을 사용하여 ui 작업 효율을 높여보자 <br/>
 > 참고문서 <br/> [ 《 storybook 》 ](https://rust-kr.org/pages/install/)
 

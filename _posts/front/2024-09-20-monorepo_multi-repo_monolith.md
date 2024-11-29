@@ -29,6 +29,8 @@ tags:
   - 모노리스
 ---
 
+{% include post/front_contents.md %}
+
 업무를 하다보니깐 레파지토리가 불어나게 되고 관리에 힘듬점이 많아져 모노레포를 공부하면서 정리 해보는 시간을 가지게 되었다.
 ![](/img/post/2024/0920/compare.webp)
 

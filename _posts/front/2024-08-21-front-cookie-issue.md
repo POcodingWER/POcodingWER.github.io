@@ -28,6 +28,7 @@ tags:
   - 쿠키 자동저장
   - cookie isuue
 ---
+{% include post/front_contents.md %}
 
 > 쿠키로인한 이슈발생도있었고 시간 날려버린게 ~~개빡쳐서~~ 정리해둔다.
 

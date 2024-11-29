@@ -38,6 +38,8 @@ tags:
   - 번들러
 ---
 
+{% include post/front_contents.md %}
+
 > 참고 문서
 >
 > - [What Is Turbopack?](https://x-team.com/blog/what-is-turbopack)

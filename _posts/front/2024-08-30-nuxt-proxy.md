@@ -28,6 +28,8 @@ tags:
   - cors
 ---
 
+{% include post/front_contents.md %}
+
 > 로직 개선하다가 에러 발생도하고 문제가 무엇인지 찾아보다가 cors와 proxy를 통한 서버통신을 정리
 
 ## 1. CROS?

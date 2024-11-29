@@ -31,6 +31,8 @@ tags:
   - ios proxy 설정
 ---
 
+{% include post/front_contents.md %}
+
 > 일하다보니 모바일 앱에서 발생하는 api를 직관적으로 볼수가없어서 mitmproxy 컴퓨터랑 -> 모바일 앱에서 확인필요하여 설치하고 사용법좀 익혀보려함
 
 # mitmproxy란?

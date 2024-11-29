@@ -32,6 +32,8 @@ tags:
   - 웹뷰 캐시
 ---
 
+{% include post/front_contents.md %}
+
 ## 이슈
 
 저번에 작성한
