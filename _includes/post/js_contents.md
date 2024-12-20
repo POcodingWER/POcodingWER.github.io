@@ -21,3 +21,10 @@
 
 1. [[JS] Js중급 호이스팅(Hoisting)과 TDZ(Temporal Dead Zone)](/JavaScript/2024/12/06/Hoisting/)
 1. [[JS] Js중급 생성자함수](/JavaScript/2024/12/06/constructor-function/)
+1. [[JS] 객체 메소드(Object methods), 계산된 프로퍼티(Computed property)](/JavaScript/2024/12/20/object-methods/)
+1. [[JS] 심볼(Symbol)](/JavaScript/2024/12/20/symbol/)
+1. [[JS] WeakMap WeakSet](/JavaScript/2024/12/20/weak-map-set/)
+1. [[JS] 숫자, 수학 method (Number, Math)](/JavaScript/2024/12/20/number-math/)
+1. [[JS] 문자열 메소드(String methods)](/JavaScript/2024/12/20/string-methods/)
+1. [[JS] 배열 메소드(Array methods)](/JavaScript/2024/12/20/array-methods/)
+1. [[JS] 구조 분해 할당 (Destructuring assignment)](/JavaScript/2024/12/20/destructuring-assignment/)
