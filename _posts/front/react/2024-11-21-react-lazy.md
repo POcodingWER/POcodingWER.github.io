@@ -5,7 +5,7 @@ title: "[React] react lazy 지연로딩 예제"
 subtitle: "react lazy 사용하여 컴포넌트 간의 데이터를 효율적으로 공유하기"
 
 date: 2024-11-21 13:46:56
-# lastmod: 2024-08-14 10:10:00
+lastmod: 2024-12-24 11:23:13
 author: "lim.Chuck"
 
 # header-style: text
@@ -34,7 +34,7 @@ tags:
 
 ---
 
-React의 **`React.lazy`**는 코드 스플리팅(Code Splitting)을 통해 애플리케이션의 성능을 최적화하기 위한 기능입니다. 컴포넌트를 미리 로드하지 않고 필요할 때 동적으로 불러올 수 있도록 도와줍니다. 이를 통해 초기 로딩 속도를 개선하고 사용자가 특정 페이지나 기능을 요청할 때만 관련 코드를 로드하게 됩니다.
+React의 **`React.lazy`**는 코드 스플리팅(Code Splitting)을 통해 애플리케이션의 성능을 최적화하기 위한 기능입니다. 컴포넌트를 미리 로드하지 않고 필요할 때 동적으로 불러올 수 있도록 도와줍니다. 이를 통해 초기 로딩 속도를 개선하고 사용자가 특정 페이지나 기능을 요���할 때만 관련 코드를 로드하게 됩니다.
 
 ---
 
@@ -121,6 +121,12 @@ export default App;
 3. **사용자 경험 향상**  
    로딩 화면을 제공함으로써 사용자가 애플리케이션이 멈췄다고 느끼는 것을 방지합니다.
 
+### **단점**
+
+1. **추가 네트워크 요청**  
+   각 lazy 컴포넌트마다 별도 요청 발생
+   너무 많은 lazy 사용시 HTTP 요청 증가
+
 ---
 
 ### **주의사항**
@@ -176,6 +182,68 @@ export default App;
 - **대형 컴포넌트**: 자주 사용되지 않거나 초기 화면에 필요하지 않은 컴포넌트는 lazy 로드하는 것이 좋습니다.
 - **모듈화된 라이브러리**: 특정 시점에만 필요한 외부 라이브러리의 로드에도 유용합니다.
 
----
+## 마무리 정리🧹
+
+`lazy`를 사용하면 각 컴포넌트가 별도의 JavaScript 파일(청크)로 분리되어 빌드되고, 이 파일들은 필요할 때마다 별도의 HTTP 요청으로 다운로드됩니다.
+
+예를 들어보겠습니다:
+
+#### 1. lazy 없이 단일 번들로 빌드할 때
+
+```typescript
+// 모든 컴포넌트가 하나의 번들로 합쳐짐
+import Dashboard from "./Dashboard";
+import Settings from "./Settings";
+import Profile from "./Profile";
+
+// 빌드 결과: main.js (3MB)
+// HTTP 요청 1번으로 모든 것을 다운로드
+```
+
+#### 2. lazy를 과도하게 사용할 때
+
+```typescript
+// 각 컴포넌트가 별도의 청크로 분리됨
+const Dashboard = lazy(() => import("./Dashboard")); // chunk1.js (1MB)
+const Settings = lazy(() => import("./Settings")); // chunk2.js (1MB)
+const Profile = lazy(() => import("./Profile")); // chunk3.js (1MB)
+
+// HTTP 요청이 컴포넌트마다 발생
+// - 메인 페이지 접속: main.js 다운로드 (요청 1번)
+// - 대시보드 클릭: chunk1.js 다운로드 (요청 1번)
+// - 설정 클릭: chunk2.js 다운로드 (요청 1번)
+// - 프로필 클릭: chunk3.js 다운로드 (요청 1번)
+// 총 HTTP 요청 4번!
+```
+
+#### 문제점:
+
+1. **많은 HTTP 요청**
+
+   - 각 요청마다 네트워크 오버헤드 발생
+   - 서버 부하 증가
+   - 특히 모바일 환경에서 성능 저하 가능성
+
+2. **캐싱 비효율**
+
+```typescript
+// 너무 작은 단위로 분리한 경우
+const Button = lazy(() => import("./Button")); // chunk4.js (10KB)
+const Card = lazy(() => import("./Card")); // chunk5.js (15KB)
+const Input = lazy(() => import("./Input")); // chunk6.js (12KB)
+
+// 많은 작은 파일들 → 캐시 관리 복잡
+// 오히려 성능 저하 가능성
+```
+
+#### 좋은 예시:
+
+```typescript
+// 관련된 컴포넌트들을 함께 그룹화
+const AdminFeatures = lazy(() => import("./features/admin")); // 관련 컴포넌트들을 하나의 청크로
+const UserDashboard = lazy(() => import("./features/dashboard")); // 의미 있는 단위로 분리
+
+// HTTP 요청이 줄어들고, 더 효율적인 캐싱 가능
+```
 
 `React.lazy`는 애플리케이션의 성능 최적화와 사용자 경험 개선에 강력한 도구입니다. 필요에 따라 활용해 보세요! 😊
