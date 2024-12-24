@@ -37,3 +37,4 @@
 1. [[JS] 클로미스(Promise)](/Javascript/2024/12/23/promise/)
 1. [[JS] 비동기 처리(Async/Await)](/Javascript/2024/12/23/async-await/)
 1. [[JS] Generator](/Javascript/2024/12/23/generator/)
+1. [[JS] 메모리 릭(Memory Leak)](/Javascript/2024/12/24/memory-leak/)
