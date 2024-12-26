@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 Sitemap: https://pocodingwer.github.io/sitemap.xml
-Sitemap: https://chuckblog-xi.vercel.app/sitemap.xml
+
+# Vercel 도메인용
+Host: chuckblog-xi.vercel.app
+Sitemap: https://chuckblog-xi.vercel.app/vercel-sitemap.xml
+
+# GitHub Pages 도메인용
+Host: POcodingWER.github.io
+Sitemap: https://POcodingWER.github.io/github-sitemap.xml
