@@ -6,7 +6,7 @@ layout: null
   {% if jekyll.environment == "vercel" %}
     {% assign current_domain = "https://chuckblog-xi.vercel.app" %}
   {% else %}
-    {% assign current_domain = "https://POcodingWER.github.io" %}
+    {% assign current_domain = "https://pocodingwer.github.io" %}
   {% endif %}
   <channel>
     <title>{{ site.title | xml_escape }}</title>

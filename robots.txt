@@ -1,11 +1,19 @@
+---
+layout: null
+---
+{% if jekyll.environment == "vercel" %}
+  {% assign current_domain = "https://chuckblog-xi.vercel.app" %}
+{% else %}
+  {% assign current_domain = "https://pocodingwer.github.io" %}
+{% endif %}
 User-agent: *
 Allow: /
-Sitemap: https://pocodingwer.github.io/sitemap.xml
+Sitemap: {{ current_domain }}/sitemap.xml
 
 # Vercel 도메인용
 Host: chuckblog-xi.vercel.app
 Sitemap: https://chuckblog-xi.vercel.app/vercel-sitemap.xml
 
 # GitHub Pages 도메인용
-Host: POcodingWER.github.io
-Sitemap: https://POcodingWER.github.io/github-sitemap.xml
+Host: pocodingwer.github.io
+Sitemap: https://pocodingwer.github.io/github-sitemap.xml
