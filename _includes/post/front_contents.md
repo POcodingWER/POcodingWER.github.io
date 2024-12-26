@@ -13,3 +13,7 @@
 11. [[FRONT] 인터섹션 옵저버로 인터섹션 여부 감지하기](/front/2024/11/12/intersection-observer/)
 12. [[FRONT] BroadcastChannel 사용해서 같은 도메인 브라우저 간 통신하기](/front/2024/11/29/broadcast_channel/)
 13. [[FRONT] DOM이벤트 버블링(Bubbling)과 캡처링(Capturing)](/front/2024/12/24/bubbling-capturing/)
+14. [[FRONT] XSS와 CSRF](/front/2024/12/26/xss-csrf/)
+15. [[FRONT] 웹 성능 최적화 ](/front/2024/12/26/performance-optimization/)
+16. [[FRONT] 브라우저 렌더링 과정](/front/2024/12/26/lender/)
+17. [[FRONT] 웹 접근성](/front/2024/12/26/web-watch/)
