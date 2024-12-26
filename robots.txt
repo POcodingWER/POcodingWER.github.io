@@ -9,11 +9,3 @@ layout: null
 User-agent: *
 Allow: /
 Sitemap: {{ current_domain }}/sitemap.xml
-
-# Vercel 도메인용
-Host: chuckblog-xi.vercel.app
-Sitemap: https://chuckblog-xi.vercel.app/vercel-sitemap.xml
-
-# GitHub Pages 도메인용
-Host: pocodingwer.github.io
-Sitemap: https://pocodingwer.github.io/github-sitemap.xml
