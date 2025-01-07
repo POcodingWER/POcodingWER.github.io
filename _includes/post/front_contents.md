@@ -18,3 +18,4 @@
 16. [[FRONT] 브라우저 렌더링 과정](/front/2024/12/26/lender/)
 17. [[FRONT] 웹 접근성](/front/2024/12/26/web-watch/)
 18. [[FRONT] URL과 Domain 정확히 이해하자 (url구조)](/front/2025/01/03/url_domain/)
+19. [[FRONT] HTTP 헤더 이해하기](/front/2025/01/07/HTTP-header/)
