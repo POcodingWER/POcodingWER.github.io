@@ -17,3 +17,4 @@
    1. [[React] react에서 캐싱처리를 위한 react queryd와 indexDB 비교분석](/react%20guide/2024/11/22/react-query-index-db/)
       - [[FRONT] Web cache](/cache/2024/09/03/web-cache/)
 1. [[React] 프론트 에러추적 도구 Sentry 사용해보기](/react%20guide/2024/11/15/sentry/)
+1. [[React] React 19 주요 변경점](/react%20guide/2025/01/09/react-19/)
