@@ -19,7 +19,7 @@ header-img: "img/post/2024/1004/storybook-benner.jpeg"
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
 categories:
-  - Story book설치
+  - StoryBook
 tags:
   - front
   - UI

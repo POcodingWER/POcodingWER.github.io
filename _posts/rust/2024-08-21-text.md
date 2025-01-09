@@ -18,7 +18,7 @@ header-img: "img/post/why_rust.png"
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
 categories:
-  - Rust study
+  - RustStudy
 tags:
   - rust
   - 러스트

@@ -20,7 +20,7 @@ header-img: "img/post/2024/1114/1.gif"
 # hidden: true
 liquid: false
 categories:
-  - React Guide
+  - ReactGuide
 tags:
   - React
   - Framer React

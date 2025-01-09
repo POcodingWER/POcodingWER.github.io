@@ -18,7 +18,7 @@ header-img: "img/post/2024/0815/1.png"
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
 categories:
-  - Rust study
+  - RustStudy
 tags:
   - rust
   - 러스트

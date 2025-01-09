@@ -19,7 +19,7 @@ header-img: "img/post/2024/1017/SWC.png"
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
 categories:
-  - React Guide
+  - ReactGuide
 tags:
   - front
   - Compiler

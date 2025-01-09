@@ -19,7 +19,7 @@ header-img: "img/post/2024/0905/next_nuxt.webp"
 #   priority: 1.0  # 스크랩 우선순위
 # hidden: true
 categories:
-  - Next vs Nuxt
+  - NextvsNuxt
 tags:
   - next
   - react
