@@ -8,4 +8,8 @@ layout: null
 {% endif %}
 User-agent: *
 Allow: /
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
 Sitemap: {{ current_domain }}/sitemap.xml
+Crawl-delay: 10
