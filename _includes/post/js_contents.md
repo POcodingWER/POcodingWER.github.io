@@ -30,6 +30,7 @@
 1. [[JS] 구조 분해 할당 (Destructuring assignment)](/JavaScript/2024/12/20/destructuring-assignment/)
 1. [[JS] 매개변수 리스트와 전개 문법(Rest parameters and spread syntax)](/Javascript/2024/12/23/rest-parameters-spread-syntax/)
 1. [[JS] 클로저(Closure)](/Javascript/2024/12/23/closure/)
+   - [[JS] 클로저(Closure) 생성자함수 (new Function) 비교](/Javascript/2025/02/04/closure-new_function/)
 1. [[JS] setTimeout / setInterval](/Javascript/2024/12/23/setTimeout-setInterval/)
 1. [[JS] call / apply / bind](/Javascript/2024/12/23/call-apply-bind/)
 1. [[JS] 상속, 프로토타입(Prototype)](/Javascript/2024/12/23/prototype/)
