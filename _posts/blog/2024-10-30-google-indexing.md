@@ -178,8 +178,8 @@ const keyFilePath = "./blog-440204-9412cb3657bb.json";
 
 // 색인 만들기
 let apiLists = [
-  "https://POcodingWER.github.io/react%20guide/2024/10/18/Prettier_ESLint/",
-  "https://POcodingWER.github.io/react%20guide/2024/10/17/set-up/",
+  "https://POcodingWER.github.io/reactguide/2024/10/18/Prettier_ESLint/",
+  "https://POcodingWER.github.io/reactguide/2024/10/17/set-up/",
 ];
 async function requestIndexing(apiLists) {
   const client = new GoogleAuth({
@@ -224,12 +224,12 @@ requestIndexing(apiLists);
 ```bash
 Response data: {
   urlNotificationMetadata: {
-    url: 'https://POcodingWER.github.io/react%20guide/2024/10/18/Prettier_ESLint/'
+    url: 'https://POcodingWER.github.io/reactguide/2024/10/18/Prettier_ESLint/'
   }
 }
 Response data: {
   urlNotificationMetadata: {
-    url: 'https://POcodingWER.github.io/react%20guide/2024/10/17/set-up/'
+    url: 'https://POcodingWER.github.io/reactguide/2024/10/17/set-up/'
   }
 }
 ```
