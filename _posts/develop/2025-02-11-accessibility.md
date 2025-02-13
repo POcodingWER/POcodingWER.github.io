@@ -65,7 +65,7 @@ tags:
 
 1. **시각 장애**
 
-```css:example/visual.css
+```css
 /* 저시력자를 위한 텍스트 스타일 */
 .readable-text {
   /* 충분한 크기 */
@@ -82,21 +82,21 @@ tags:
 
 2. **운동 장애**
 
-```javascript:example/keyboard.js
+```js
 // 키보드 사용자를 위한 포커스 관리
-const button = document.querySelector('button');
+const button = document.querySelector("button");
 
-button.addEventListener('keydown', (event) => {
+button.addEventListener("keydown", (event) => {
   // Enter 또는 Space 키로 버튼 활성화
-  if (event.key === 'Enter' || event.key === ' ') {
+  if (event.key === "Enter" || event.key === " ") {
     event.preventDefault();
     button.click();
   }
 });
 
 // 포커스 표시를 위한 스타일
-button.addEventListener('focus', () => {
-  button.style.outline = '2px solid blue';
+button.addEventListener("focus", () => {
+  button.style.outline = "2px solid blue";
 });
 ```
 
@@ -347,21 +347,22 @@ button.addEventListener('focus', () => {
 
 #### 2️⃣ 포커스 관리
 
-```javascript:example/focus-management.js
+```js
 // 모달 창 포커스 관리
 class ModalFocus {
   constructor() {
-    this.modal = document.querySelector('.modal');
+    this.modal = document.querySelector(".modal");
     this.focusableElements = this.modal.querySelectorAll(
       'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
     );
     this.firstFocusable = this.focusableElements[0];
-    this.lastFocusable = this.focusableElements[this.focusableElements.length - 1];
+    this.lastFocusable =
+      this.focusableElements[this.focusableElements.length - 1];
   }
 
   // 포커스 트랩 설정
   trapFocus(e) {
-    if (e.key === 'Tab') {
+    if (e.key === "Tab") {
       if (e.shiftKey) {
         // Shift + Tab
         if (document.activeElement === this.firstFocusable) {
@@ -382,16 +383,16 @@ class ModalFocus {
 
 #### 3️⃣ 키보드 단축키 구현
 
-```javascript:example/keyboard-shortcuts.js
+```js
 class KeyboardShortcuts {
   constructor() {
     this.shortcuts = {
-      'Control+F': this.openSearch,
-      'Control+H': this.goHome,
-      'Escape': this.closeModal
+      "Control+F": this.openSearch,
+      "Control+H": this.goHome,
+      Escape: this.closeModal,
     };
 
-    document.addEventListener('keydown', this.handleKeyPress.bind(this));
+    document.addEventListener("keydown", this.handleKeyPress.bind(this));
   }
 
   handleKeyPress(event) {
@@ -451,7 +452,7 @@ class KeyboardShortcuts {
 
 #### 5️⃣ 포커스 스타일 커스터마이징
 
-```css:example/focus-styles.css
+```css
 /* 기본 포커스 스타일 */
 :focus {
   outline: 2px solid #007bff;
@@ -509,10 +510,10 @@ class KeyboardShortcuts {
 
 #### 1️⃣ 색상 대비(Contrast)
 
-```css:example/color-contrast.css
+```css
 /* 😱 나쁜 예: 낮은 대비 */
 .bad-contrast {
-  color: #gray;          /* 회색 텍스트 */
+  color: #gray; /* 회색 텍스트 */
   background: #lightgray; /* 밝은 회색 배경 */
 }
 
@@ -539,7 +540,7 @@ class KeyboardShortcuts {
 
 #### 2️⃣ 글자 크기와 가독성
 
-```css:example/typography.css
+```css
 /* 기본 타이포그래피 설정 */
 :root {
   /* 기본 글자 크기 16px */
@@ -548,9 +549,8 @@ class KeyboardShortcuts {
 
 body {
   /* 가독성 좋은 폰트 스택 */
-  font-family: -apple-system, BlinkMacSystemFont,
-               'Segoe UI', Roboto, Oxygen-Sans,
-               Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
 
   /* 줄 간격 */
   line-height: 1.5;
@@ -577,7 +577,7 @@ body {
 
 #### 3️⃣ 색맹을 위한 디자인
 
-```css:example/color-blindness.css
+```css
 /* 상태 표시에 색상과 아이콘 함께 사용 */
 .status {
   display: flex;
@@ -613,7 +613,7 @@ body {
 
 #### 4️⃣ 동적 콘텐츠와 애니메이션
 
-```css:example/animations.css
+```css
 /* 사용자 설정 존중 */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -659,7 +659,7 @@ body {
 
 #### 5️⃣ 레이아웃과 여백
 
-```css:example/layout.css
+```css
 /* 읽기 쉬운 레이아웃 */
 .readable-layout {
   /* 최대 너비 제한 */
@@ -817,7 +817,7 @@ body {
 
 #### 4️⃣ 미디어 컨트롤
 
-```javascript:example/media-controls.js
+```js
 class AccessibleMediaPlayer {
   constructor(mediaElement) {
     this.media = mediaElement;
@@ -858,14 +858,14 @@ class AccessibleMediaPlayer {
     `;
 
     // 컨트롤 추가
-    this.media.insertAdjacentHTML('afterend', controls);
+    this.media.insertAdjacentHTML("afterend", controls);
   }
 }
 ```
 
 #### 5️⃣ 자동 재생 제어
 
-```javascript:example/autoplay-control.js
+```js
 class AutoplayManager {
   constructor() {
     this.checkUserPreferences();
@@ -873,15 +873,15 @@ class AutoplayManager {
 
   checkUserPreferences() {
     // 시스템 설정 확인
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
     // 자동 재생 설정
     this.shouldAutoplay = !reducedMotion.matches;
 
     // 사용자 설정 저장값 확인
-    const savedPreference = localStorage.getItem('autoplay');
+    const savedPreference = localStorage.getItem("autoplay");
     if (savedPreference !== null) {
-      this.shouldAutoplay = savedPreference === 'true';
+      this.shouldAutoplay = savedPreference === "true";
     }
   }
 
@@ -892,7 +892,7 @@ class AutoplayManager {
         <label>
           <input
             type="checkbox"
-            ${this.shouldAutoplay ? 'checked' : ''}
+            ${this.shouldAutoplay ? "checked" : ""}
             onchange="this.updateAutoplayPreference(this.checked)">
           비디오 자동 재생
         </label>
@@ -942,10 +942,10 @@ class AutoplayManager {
 
 #### 1️⃣ 자동화된 테스트
 
-```javascript:example/automated-testing.js
+```js
 // Jest와 Axe-core를 사용한 접근성 테스트
-describe('접근성 테스트', () => {
-  it('메인 페이지 접근성 검사', async () => {
+describe("접근성 테스트", () => {
+  it("메인 페이지 접근성 검사", async () => {
     // 페이지 로드
     document.body.innerHTML = `
       <main>
@@ -968,12 +968,12 @@ describe('접근성 테스트', () => {
 module.exports = {
   ci: {
     collect: {
-      url: ['http://localhost:3000/'],
+      url: ["http://localhost:3000/"],
       numberOfRuns: 3,
     },
     assert: {
       assertions: {
-        'categories:accessibility': ['error', {minScore: 0.9}],
+        "categories:accessibility": ["error", { minScore: 0.9 }],
       },
     },
   },
@@ -1034,32 +1034,22 @@ module.exports = {
 
 #### 3️⃣ 사용자 테스트
 
-```javascript:example/user-testing.js
+```js
 class AccessibilityUserTest {
   constructor() {
     this.tasks = [
       {
         id: 1,
-        title: '회원가입 완료하기',
-        steps: [
-          '홈페이지 접속',
-          '회원가입 버튼 찾기',
-          '양식 작성',
-          '제출하기'
-        ],
-        success_criteria: '계정이 성공적으로 생성됨'
+        title: "회원가입 완료하기",
+        steps: ["홈페이지 접속", "회원가입 버튼 찾기", "양식 작성", "제출하기"],
+        success_criteria: "계정이 성공적으로 생성됨",
       },
       {
         id: 2,
-        title: '상품 검색하고 장바구니에 담기',
-        steps: [
-          '검색창 찾기',
-          '검색어 입력',
-          '상품 선택',
-          '장바구니 담기'
-        ],
-        success_criteria: '상품이 장바구니에 추가됨'
-      }
+        title: "상품 검색하고 장바구니에 담기",
+        steps: ["검색창 찾기", "검색어 입력", "상품 선택", "장바구니 담기"],
+        success_criteria: "상품이 장바구니에 추가됨",
+      },
     ];
   }
 
@@ -1074,8 +1064,8 @@ class AccessibilityUserTest {
       device: {
         screenReader: user.usesScreenReader,
         browser: user.browser,
-        assistiveTech: user.assistiveTechnology
-      }
+        assistiveTech: user.assistiveTechnology,
+      },
     };
   }
 }
@@ -1083,19 +1073,19 @@ class AccessibilityUserTest {
 
 #### 4️⃣ 모니터링과 보고
 
-```javascript:example/monitoring.js
+```js
 class AccessibilityMonitor {
   constructor() {
     this.metrics = {
       automated: {
         lighthouse: null,
-        axeCore: null
+        axeCore: null,
       },
       manual: {
         keyboardTests: [],
-        screenReaderTests: []
+        screenReaderTests: [],
       },
-      userFeedback: []
+      userFeedback: [],
     };
   }
 
@@ -1105,18 +1095,18 @@ class AccessibilityMonitor {
       summary: this.generateSummary(),
       details: this.metrics,
       recommendations: this.generateRecommendations(),
-      timestamp: new Date()
+      timestamp: new Date(),
     };
   }
 
   // 개선 추천사항 생성
   generateRecommendations() {
     const issues = this.analyzeIssues();
-    return issues.map(issue => ({
+    return issues.map((issue) => ({
       priority: issue.severity,
       description: issue.description,
       howToFix: issue.solution,
-      wcagCriteria: issue.wcagReference
+      wcagCriteria: issue.wcagReference,
     }));
   }
 
@@ -1136,11 +1126,15 @@ class AccessibilityMonitor {
         <div class="issues-summary">
           <h3>주요 이슈</h3>
           <ul>
-            ${this.getTopIssues().map(issue => `
+            ${this.getTopIssues()
+              .map(
+                (issue) => `
               <li class="issue-item ${issue.severity}">
                 ${issue.description}
               </li>
-            `).join('')}
+            `
+              )
+              .join("")}
           </ul>
         </div>
       </div>
