@@ -26,6 +26,8 @@ tags:
   - 프로젝트 구성과 구조
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서  
 > [ 《 Tour of Rust 》 ](https://tourofrust.com/chapter_9_ko.html)  
 > [ 《 Rust_Book 》 ](https://doc.rust-kr.org/)  

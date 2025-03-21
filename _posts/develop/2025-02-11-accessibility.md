@@ -29,6 +29,8 @@ tags:
 
 ![alt text](/img/post/2025/02/accessibility.png)
 
+{% include post/develop_contents.md %}
+
 ## 📚 1장: 접근성 기본 이해하기
 
 #### 1️⃣ 나쁜 웹사이트 vs 좋은 웹사이트

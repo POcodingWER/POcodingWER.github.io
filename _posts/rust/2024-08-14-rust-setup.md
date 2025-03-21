@@ -29,6 +29,8 @@ tags:
   - 러스트 설치
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서 <br/> [ 《 한국 러스트 사용자 그룹 》 ](https://rust-kr.org/pages/install/) <br/> [ 《 Rust_Book 》 ](https://rinthel.github.io/rust-lang-book-ko/) <br/> [ 《 Rust란 무엇인가 》 ](https://learn.microsoft.com/ko-kr/training/paths/rust-first-steps/)
 
 ## hello rust

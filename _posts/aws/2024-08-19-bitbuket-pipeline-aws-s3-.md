@@ -29,6 +29,8 @@ tags:
   - 비트버킷 파이프라인
 ---
 
+{% include post/aws_contents.md %}
+
 # Bitbucket pipeline 이용하여 AWS S3에 배포하기
 
 비트버킷 파이프라인을 사용하여 배포해봅시다.

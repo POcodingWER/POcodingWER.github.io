@@ -1,4 +1,4 @@
-## 목차
+## [Blog]
 
 1. [[Blog] ga4 Analytics Setting 방법](/blog/2024/08/09/gatag/)
 1. [[Blog] 깃허브 댓글 utterances 사용법](/blog/2024/08/10/github-comment/)

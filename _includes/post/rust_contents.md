@@ -1,0 +1,15 @@
+## [Rust]
+
+1. [[Rust] Rust 설치](/ruststudy/2024/08/14/rust-setup/)
+1. [[Rust] Hello Cargo](/ruststudy/2024/08/14/rust-cargo-packege/)
+1. [[Rust] VSCode 설정](/ruststudy/2024/08/16/rust-vscode-setting/)
+1. [[Rust] Rust 공부 시작](/ruststudy/2024/08/17/rust-study/)
+1. [[Rust] Rust 기초](/ruststudy/2024/08/19/rust-study-basic/)
+1. [[Rust] Rust 제어문](/ruststudy/2024/08/19/rust-study-control-flow-statement/)
+1. [[Rust] Rust 자료형](/ruststudy/2024/08/20/rust-study-data-types/)
+1. [[Rust] Rust 제네릭](/ruststudy/2024/08/20/generic/)
+1. [[Rust] Rust 소유권, 대여, 데이터](/ruststudy/2024/08/20/ownership-borrowing-data/)
+1. [[Rust] study Text](/ruststudy/2024/08/21/text/)
+1. [[Rust] Rust 객체지향 프로그래밍](/ruststudy/2024/08/21/object-oriented-programming/)
+1. [[Rust] Rust 스마트 포인터](/ruststudy/2024/08/22/smart-pointers/)
+1. [[Rust] Rust 프로젝트 구성 및 구조](/ruststudy/2024/08/23/project-organization-and-structure/)

@@ -33,6 +33,8 @@ tags:
   - 버전관리
 ---
 
+{% include post/projectManagement_contents.md %}
+
 > 프로젝트를 버전으로 관리하기로 하여 정리해봄  
 > [ 《 npm-version docs 》](https://docs.npmjs.com/cli/v8/commands/npm-version)를 참고하여 작성함
 

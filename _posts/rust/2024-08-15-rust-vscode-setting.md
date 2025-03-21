@@ -30,6 +30,8 @@ tags:
   - vs code
 ---
 
+{% include post/rust_contents.md %}
+
 ## vscode에 개발환경 구축
 
 ### 1. 프로젝트 디렉토리인 hello_rust로 이동한 후, code . 명령으로 Visual Studio Code를 실행합니다. code 다음에 . 을 추가해야 현재 경로의 디렉토리를 Visual Studio Code에서 열어서 보여주니 주의하세요.

@@ -1,4 +1,4 @@
-## 목차
+## [FRONT]
 
 1. [[FRONT] 프론트엔드 쿠키 이슈 해결하기](/cookie/2024/08/22/front-cookie-issue/)
 2. [[FRONT] Nuxt Proxy 설정과 활용](/proxy/cros/2024/08/30/nuxt-proxy/)

@@ -26,6 +26,8 @@ tags:
   - 러스트 단점
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서 <br/>[ 《 Rust_Book 》 ](https://doc.rust-kr.org/)<br/>[ 《 프로그래밍 언어 러스트를 배웁시다! 》 ](https://www.youtube.com/watch?v=W9DO6m8JSSs&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE)
 
 ## Rust를 공부하기 앞서 주요 특징 알아보자

@@ -26,6 +26,8 @@ tags:
   - 기초
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서  
 > [ 《 Tour of Rust 》 ](https://tourofrust.com/chapter_1_ko.html)  
 > [ 《 Rust_Book 》 ](https://doc.rust-kr.org/)  

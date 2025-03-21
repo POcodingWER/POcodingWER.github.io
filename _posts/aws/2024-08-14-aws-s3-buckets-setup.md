@@ -36,6 +36,8 @@ tags:
   - Hosting
 ---
 
+{% include post/aws_contents.md %}
+
 > 프로젝트 진행하다 csr변경 으로 이것 저것 변경 되면서 이미지도 버킷으로 변경하기로 하였다. <br/>
 > 인프라는 잘모르지만 작성하면서 공부겸 히스토리 쌓기!<br/> > [ aws 기능 https://aws.amazon.com/ko/s3/features/](https://aws.amazon.com/ko/s3/features/)참고하여 사용하면 좋겠다.
 

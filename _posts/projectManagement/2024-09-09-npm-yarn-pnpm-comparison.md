@@ -25,6 +25,8 @@ tags:
   - npm vs yarn vs pnpm
 ---
 
+{% include post/projectManagement_contents.md %}
+
 > yarn 사용하는중인데 pnpm 도입을 한다고하여 비교분석해봄  
 > [《 PNPM 》](https://pnpm.io/) 참고
 

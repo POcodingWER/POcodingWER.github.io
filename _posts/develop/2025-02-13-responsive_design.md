@@ -29,6 +29,8 @@ tags:
   - 프레임워크
 ---
 
+{% include post/develop_contents.md %}
+
 ![alt text](/img/post/2025/02/images.png)
 
 ## 📚 1장: 반응형 디자인 기초

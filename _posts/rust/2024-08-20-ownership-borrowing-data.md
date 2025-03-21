@@ -26,6 +26,8 @@ tags:
   - 소유권과 데이터 대여
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서  
 > [ 《 Tour of Rust 》 ](https://tourofrust.com/chapter_5_ko.html)  
 > [ 《 Rust_Book 》 ](https://doc.rust-kr.org/)  

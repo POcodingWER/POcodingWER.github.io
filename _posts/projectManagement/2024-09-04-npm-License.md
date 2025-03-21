@@ -33,6 +33,8 @@ tags:
   - open source License
 ---
 
+{% include post/projectManagement_contents.md %}
+
 > 프로젝트를 문득 라이센스 궁금증이 생겼다.
 
 npm(Nodes Package Manager)에서 제공하는 패키지들은 다양한 라이선스를 따르고 있다. 각각의 라이선스는 소프트웨어의 사용, 수정, 배포와 관련된 규정을 다르게 정의하고 있기 때문에, 어떤 라이선스를 사용하는지 이해하는 것이 매우 중요.

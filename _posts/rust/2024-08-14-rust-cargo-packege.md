@@ -26,6 +26,8 @@ tags:
   - 러스트
 ---
 
+{% include post/rust_contents.md %}
+
 > 참고문서 <br/> [ 《 한국 러스트 사용자 그룹 》 ](https://rust-kr.org/pages/install/) <br/> [ 《 Rust_Book 》 ](https://doc.rust-kr.org/) <br/> [ 《 Rust란 무엇인가 》 ](https://learn.microsoft.com/ko-kr/training/paths/rust-first-steps/)
 
 ## Cargo
