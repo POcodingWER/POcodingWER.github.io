@@ -6,3 +6,4 @@
 1. [[DEVELOP] 예제로 보는 이미지 사용법 (Images)](/develop/2025/02/11/images/)
 1. [[DEVELOP] 예제로 보는 반응형 디자인 사용법 (Responsive Design)](/develop/2025/02/13/responsive_design/)
 1. [[DEVELOP] PWA 이해하기 (Progressive Web App)](/develop/2025/02/25/pwa/)
+1. [[DEVELOP] 개발 프로세스 Agile / Waterfall 이란?](/develop/2025/03/25/Agile_Waterfall/)
