@@ -27,7 +27,7 @@ header-img: "img/post/list.jpeg"
 
 # [Algorithm]
 
-- [알고리즘](/algorithm/2024-10-14-algorithms/)
+- [알고리즘](/algorithm/2024/10/14/algorithms/)
 
 {% include post/aws_contents.md %}
 
