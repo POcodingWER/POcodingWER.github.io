@@ -4,9 +4,13 @@ I'm a passionate developer who thrives on the joy of creating and learning throu
 
 ## 🚀 Introduction
 
-With over two years of hands-on experience, I've realized I need new challenges. To reignite my passion for development, I'm eager to dive into exciting projects, explore new technologies, and collaborate with like-minded developers.
+I'm a frontend developer who thrives on growth and innovation, constantly evolving my skills each day. With over two years of professional experience, I find fulfillment in embracing technical challenges and solving complex tasks.
 
-My journey began as a blockchain developer specializing in Solidity, and I've since expanded into front-end development. Currently, I'm deeply exploring the Vue and React ecosystems and enjoying every moment of it.
+My career began as a blockchain developer specializing in Solidity, and I've since expanded my expertise into frontend development. While maintaining the MetaClub web application, I successfully led the migration from Nuxt.js to React, implemented a transition from SSR to CSR that reduced operational costs, established a monorepo architecture for incremental improvements, and optimized licensing by transitioning from GSAP to Motion.js.
+
+On the technical side, I systematically documented Bluetooth transmission anomalies in laundry systems and implemented Sentry to create real-time monitoring capabilities, enhancing user experience and reducing issue detection time. Currently, I'm deeply exploring the Vue and React ecosystems while continuously growing through innovative projects and emerging technologies.
+
+I value enhancing team collaboration through effective communication and systematic documentation. In complex work environments, I've contributed to team efficiency through clear documentation. During large-scale refactoring, I initiated weekly technical knowledge-sharing sessions to facilitate seamless team communication, documented recurring development cases to build a knowledge sharing system, and introduced Storybook to improve designer-developer collaboration through component visualization and establishing common terminology. These approaches have delivered tangible results in meeting project timelines and enhancing collaborative team culture.
 
 ## 💻 Tech Stack
 
