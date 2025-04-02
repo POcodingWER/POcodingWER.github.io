@@ -7,3 +7,4 @@
 1. [[DEVELOP] 예제로 보는 반응형 디자인 사용법 (Responsive Design)](/develop/2025/02/13/responsive_design/)
 1. [[DEVELOP] PWA 이해하기 (Progressive Web App)](/develop/2025/02/25/pwa/)
 1. [[DEVELOP] 개발 프로세스 Agile / Waterfall 이란?](/develop/2025/03/25/Agile_Waterfall/)
+1. [[DEVELOP] 주니어 개발자의 역습](/develop/2025/04/02/vibe_coding/)
