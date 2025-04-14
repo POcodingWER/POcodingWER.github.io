@@ -9,3 +9,4 @@
 1. [[DEVELOP] 개발 프로세스 Agile / Waterfall 이란?](/develop/2025/03/25/Agile_Waterfall/)
 1. [[DEVELOP] 주니어 개발자의 역습](/develop/2025/04/02/vibe_coding/)
 1. [[DEVELOP] MCP(Model Context Protocol)](/develop/2025/04/09/mcp/)
+1. [[DEVELOP] MCP claude 적용하고 사용해보기](/develop/2025/04/14/mcp_claude/)
