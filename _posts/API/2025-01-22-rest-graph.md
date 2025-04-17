@@ -39,6 +39,8 @@ tags:
   - under-fetching
 ---
 
+{% include post/api_contents.md %}
+
 # 📊 비교 분석 REST API vs GraphQL
 
 ## 1. 특징 비교표

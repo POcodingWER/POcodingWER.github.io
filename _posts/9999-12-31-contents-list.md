@@ -29,9 +29,13 @@ header-img: "img/post/list.jpeg"
 
 - [알고리즘](/algorithm/2024/10/14/algorithms/)
 
+{% include post/api_contents.md %}
+
 {% include post/aws_contents.md %}
 
 {% include post/blog_contents.md %}
+
+{% include post/mcp_contents.md %}
 
 {% include post/DB_contents.md %}
 
