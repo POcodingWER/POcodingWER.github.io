@@ -72,7 +72,7 @@ ga_domain: pocodingwer.github.io/
 
 # 광고
 # Google adsense
-google_ads_open: true
+google_ads_open: false
 googl_ca_pub: "ca-pub-3587550545741227"
 # kakao adfit
 kakao_adfit_open: true
