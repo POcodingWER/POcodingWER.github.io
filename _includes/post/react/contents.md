@@ -21,3 +21,4 @@
 1. [[React] React 19 주요 변경점](/reactguide/2025/01/09/react-19/)
 1. [[React] DOM이란 무엇이고? 가상 DOM이란 무엇인가?](/reactguide/2025/02/04/virtual-dom/)
 1. [[React] preact 알아보기](/reactguide/2025/03/19/preact/)
+1. [[React] Sentry 심층 가이드](/reactguide/2024/11/15/sentry2/)
