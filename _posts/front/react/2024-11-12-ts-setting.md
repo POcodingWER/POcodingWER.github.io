@@ -33,7 +33,7 @@ tags:
 
 ## 처음에 vite 세팅을 하고나면 최상이 경로에 tsconfig.json tsconfig.app.json tsconfig.node.json파일이 생성된다.
 
-![](/img/post/2024/1112/ts.png)
+![](/img/post/2024/1112/ts.png){: #magnific}
 3개가 생성되는데 뭐가 뭔지 모르겠다.
 알고넘어가자
 

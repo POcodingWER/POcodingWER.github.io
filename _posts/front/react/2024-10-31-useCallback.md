@@ -46,7 +46,7 @@ tags:
 
 - useCallback 사용하지않을때 렌더링
 
-  ![](/img/post/2024/1031/1.gif)
+  ![](/img/post/2024/1031/1.gif){: #magnific}
 
 ```jsx
 import React, { useState, useCallback, ChangeEvent } from "react";
@@ -95,7 +95,7 @@ export default Counter;
 
 - useCallback 사용
 
-  ![](/img/post/2024/1031/2.gif)
+  ![](/img/post/2024/1031/2.gif){: #magnific}
 
 ```jsx
 import React, { useState, useCallback, ChangeEvent } from "react";

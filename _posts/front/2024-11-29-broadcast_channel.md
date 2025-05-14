@@ -112,7 +112,7 @@ channel.postMessage("B 탭, 잘 지내고 계신가요?");
 channel.postMessage("A 탭, 잘 지내고 계신가요?");
 ```
 ---
-![](/img/post/2024/1129/broadcast.gif)
+![](/img/post/2024/1129/broadcast.gif){: #magnific}
 
 ### **사용 사례**
 

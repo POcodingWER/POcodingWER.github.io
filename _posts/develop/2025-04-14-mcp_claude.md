@@ -63,15 +63,15 @@ MCP(Model Context Protocol)는 마치 AI와 로컬 시스템 사이의 만능 �
 1. **설정 들어가기** 🎯
 
    - Claude -> 설정 (`cmd`+`,`)
-     ![](/img/post/2025/04/mcp_setting.png)
+     ![](/img/post/2025/04/mcp_setting.png){: #magnific}
 
 2. **개발자 모드 활성화** 🛠
 
    - 개발자 -> 설정편집
-     ![](/img/post/2025/04/mcp_setting2.png)
+     ![](/img/post/2025/04/mcp_setting2.png){: #magnific}
 
 3. **마법의 설정 코드 입력** ✨
-   ![](/img/post/2025/04/mcp_setting3.png)
+   ![](/img/post/2025/04/mcp_setting3.png){: #magnific}
 
    ```json
    {
@@ -94,12 +94,12 @@ MCP(Model Context Protocol)는 마치 AI와 로컬 시스템 사이의 만능 �
 4. **새로고침으로 마법 완성** 🎩
 
    - Claude를 재시작하면... 짜잔! MCP가 활성화됩니다.
-     ![](/img/post/2025/04/mcp_setting4.png)
+     ![](/img/post/2025/04/mcp_setting4.png){: #magnific}
 
 5. **파일 만들기**
    - 클로드에 명령 입력하시면
-   - ![](/img/post/2025/04/mcp_setting5.png)
-   - ![](/img/post/2025/04/mcp_setting6.png)
+   - ![](/img/post/2025/04/mcp_setting5.png){: #magnific}
+   - ![](/img/post/2025/04/mcp_setting6.png){: #magnific}
 
 ## 🎯 Cursor에 MCP 적용하기
 
@@ -108,7 +108,7 @@ Cursor도 똑같이 마법의 힘을 부여받을 수 있습니다!
 1. **설정 찾기** 🔍
 
    - 오른쪽 상단의 설정 -> MCP
-     ![](/img/post/2025/04/mcp_setting7.png)
+     ![](/img/post/2025/04/mcp_setting7.png){: #magnific}
 
 2. **새로운 서버 추가하기** ➕
    - "add new global MCP server" 클릭

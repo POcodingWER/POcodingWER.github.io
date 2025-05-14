@@ -103,7 +103,7 @@ $ mitmproxy --listen-port 8080
 ### 프록시 설정 및 HTTPS처리
 
 mac에서는 “네트워크 환경설정 > Wi-Fi > 고급 > 프락시 > 보안 웹 프락시(HTTPS)” 를 통해 접근하여 아래 이미지처럼 설정합시다.
-![](/img/post/2024/1002/wifi-setting.png)
+![](/img/post/2024/1002/wifi-setting.png){: #magnific}
 또는!! 명령어로가능
 
 ```bash
@@ -114,7 +114,7 @@ $ networksetup -setsecurewebproxy 'Wi-Fi' localhost 8080
 ```
 
 설정후 api 날려보면 확인가능하다
-![](/img/post/2024/1002/api-req.png)
+![](/img/post/2024/1002/api-req.png){: #magnific}
 
 HTTPS에 관한 처리진행해야됨  
 많은 웹 사이트는 HTTP 보다는 HTTPS로 접근하게 됩니다. HTTPS를 이용하여 접근한 경우 보안에 관련된 요소가 적용되니 mitmproxy를 설치하고 난 후 다음과 같이 인증서를 PC에 등록해야됨.
@@ -125,7 +125,7 @@ pem 키는 `mitmproxy` 설치할 때 자동으로 같이 설치됨 아래 명령
 $ sudo security add-trusted-cert -d -p ssl -p basic -k /Library/Keychains/System.keychain ~/.mitmproxy/mitmproxy-ca-cert.pem
 ```
 
-![](/img/post/2024/1002/keychain.png)
+![](/img/post/2024/1002/keychain.png){: #magnific}
 
 ```bash
 # 삭제
@@ -146,10 +146,10 @@ $ networksetup -setsecurewebproxystate "Wi-Fi" off
 $ ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 ```
 
-![](/img/post/2024/1002/wifi-router.jpeg){: width="200" height="100"}
+![](/img/post/2024/1002/wifi-router.jpeg){: #magnific}{: width="200" height="100"}
 
 1. [mitm.it](mitm.it)접속해서 기기에맞는 다운받으면됨 위이미지처럼 안보이면 wifi라우터설정이 잘못된경우
-   ![](/img/post/2024/1002/success.jpeg){: width="200" height="100"}
+   ![](/img/post/2024/1002/success.jpeg){: #magnific}{: width="200" height="100"}
 1. - iOS의 경우 (10.3 이후)
      일반 → VPN 및 기기관리
      mitmproxy 프로파일 설치

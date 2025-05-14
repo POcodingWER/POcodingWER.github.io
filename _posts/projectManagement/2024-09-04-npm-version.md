@@ -155,7 +155,7 @@ To https://github.com/POcodingWER/POcodingWER_Blog.git
  * [new tag]         v2.0.0 -> v2.0.0
 ```
 
-![](/img/post/2024/0904/git-tags.png)
+![](/img/post/2024/0904/git-tags.png){: #magnific}
 깃 tags 연동까지 마무리했다.
 
 ## 마무리

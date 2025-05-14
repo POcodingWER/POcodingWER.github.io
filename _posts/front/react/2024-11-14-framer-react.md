@@ -105,7 +105,7 @@ export default App;
 
 {% endraw %}
 
-![](/img/post/2024/1114/1.gif)
+![](/img/post/2024/1114/1.gif){: #magnific}
 `motion.div`를 사용하여 애니메이션을 정의합니다. `animate` 속성에서 `x` 값을 설정해 isMoved 상태에 따라 위치가 변경되도록 하고, `transition`으로 애니메이션의 지속 시간을 설정합니다. 사각형을 클릭하면 위치가 변경되는 애니메이션을 볼 수 있음.
 사용후기는 너무 만족 우선은 `css`보다 쉬운거같다 `motion.div` 생성후에 좌표값등을 설정해주면 애니메이션이 자동으로 실행된다.
 

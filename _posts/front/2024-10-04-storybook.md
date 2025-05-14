@@ -401,7 +401,7 @@ export const Small: Story = {
 };
 ```
 
-![](/img/post/2024/1004/storybook.png)
+![](/img/post/2024/1004/storybook.png){: #magnific}
 
 추가한 항목과 `Primary` `Secondary` `Large` `Small` 항목에 나타나며
 `Docs`에서 커스텀할수있습니다.

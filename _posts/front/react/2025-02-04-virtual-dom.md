@@ -262,23 +262,23 @@ const [age, setAge] = useState(25);
 
 ### 1.루트 요소 유형에 따른 업데이트
 
-![](/img/post/2025/02/diffing_1.gif)
+![](/img/post/2025/02/diffing_1.gif){: #magnific}
 버튼 클릭 시 상태를 변경할 때 요소와 부모가 다시 렌더링되는 방식에 주목하세요. 상태를 토글할 때 요소 유형 자체(에서 `section`로 `p`)를 변경하고, diffing 알고리즘에 따라 React는 이전 트리를 파쇄하고 변경된 요소의 루트/부모에서 새 트리를 만듭니다.
 
 > 이제 동일한 요소 유형을 가진 비슷한 예를 살펴보겠습니다.
 
-![](/img/post/2025/02/diffing_2.gif)
+![](/img/post/2025/02/diffing_2.gif){: #magnific}
 이 경우에는 요소 유형이 변경되지 않으므로 부모 요소가 아닌 요소만 다시 렌더링되는 것을 볼 수 있습니다( `<p>`로 유지됨 `<p>`).
 이렇게 전체적인 과정이 이루어지며, React는 이 모든 과정을 자동으로 최적화하여 처리합니다! 🎉
 
 ### 2. prop key 기반 업데이트
 
-![](/img/post/2025/02/diffing_3.gif)
+![](/img/post/2025/02/diffing_3.gif){: #magnific}
 목록 시작 부분에 새 항목을 추가할 때 모든 형제 목록 요소가 다시 렌더링되는 것을 주목하세요. 이는 `key prop을` 제공하지 않았기 때문에 Diffing이 발생하면 DOM nodes목록의 모든 요소가 업데이트되는 것처럼 보이기 때문입니다.
 
 > 이제 prop을 사용하여 비슷한 예를 살펴보겠습니다 `key`.
 
-![](/img/post/2025/02/diffing_4.gif)
+![](/img/post/2025/02/diffing_4.gif){: #magnific}
 여기에서는 각 항목에 고유한 ID를 부여했으므로 keyDiffing 중에 React가 각 요소를 구별할 수 있고 따라서 변경된 요소만 다시 렌더링합니다.
 
 ## 6.✏️ 요약

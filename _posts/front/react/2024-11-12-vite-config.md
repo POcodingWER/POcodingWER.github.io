@@ -68,11 +68,11 @@ export default defineConfig({
 
 - 변경전
 
-  ![](/img/post/2024/1112/path.png)
+  ![](/img/post/2024/1112/path.png){: #magnific}
 
 - 변경후
 
-  ![](/img/post/2024/1112/path1.png)
+  ![](/img/post/2024/1112/path1.png){: #magnific}
   훨씬 깔끔해진 모습
 
 ## 환경변수를 html에 동적세팅 createHtmlPlugin()

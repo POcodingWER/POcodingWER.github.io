@@ -161,7 +161,7 @@ export default function ReactQueryExample() {
 > 주석친 곳만 자세히 보면됩니다. staleTime신선하다고 간주되는 시간이고  
 > gcTime(garbage collection)메모리에 유지되는시간입니다.
 
-![](/img/post/2024/1122/react-query.gif)
+![](/img/post/2024/1122/react-query.gif){: #magnific}
 
 메모리에는 30분동안 유지되고 5초동안 신선이 유지되어 위 예제 이미지처럼 5초에 한번씩 api 호출이 되는것을 확인할 수 있습니다.
 
@@ -325,11 +325,11 @@ export default IndexedDBExample;
 
 코드가 많이 길어서 console.log 로그를 추가하였습니다.
 
-![](/img/post/2024/1122/index1.gif)
+![](/img/post/2024/1122/index1.gif){: #magnific}
 
 > `REFRESH_TIME`넣어 5초마다 리프레시 되는것을 확인하였고 캐시된 데이터가 있으면 캐시된 데이터를 사용하는것을 확인
 
-![](/img/post/2024/1122/index2.gif)
+![](/img/post/2024/1122/index2.gif){: #magnific}
 
 > React Query 예제와 다른점은 영구적으로 데이터가 남아있기때문에 indexDB를 삭제하지않으면 새로고침을하더라도 api호출이 되는것을 방지할수있습니다.
 

@@ -41,32 +41,32 @@ tags:
 > [《카카오 에드핏 이동》 https://adfit.kakao.com/info](https://adfit.kakao.com/info)
 
 1. 광고 시작하기를 누른다
-   ![](/img/post/2024/0812/1-1.png)
+   ![](/img/post/2024/0812/1-1.png){: #magnific}
 2. 약관동의를 한다.
-   ![](/img/post/2024/0812/1-2.png)
+   ![](/img/post/2024/0812/1-2.png){: #magnific}
 3. 개인 계정생성
-   ![](/img/post/2024/0812/1-3.png)
+   ![](/img/post/2024/0812/1-3.png){: #magnific}
 4. 개인정보 입력
-   ![](/img/post/2024/0812/1-4.png)
+   ![](/img/post/2024/0812/1-4.png){: #magnific}
 5. 알림 설정
-   ![](/img/post/2024/0812/1-5.png)
+   ![](/img/post/2024/0812/1-5.png){: #magnific}
 6. 완료
-   ![](/img/post/2024/0812/1-6.png)
+   ![](/img/post/2024/0812/1-6.png){: #magnific}
 
 ### 2. adfit dashboard
 
 > [《카카오 에드핏 대시보드 이동》 https://adfit.kakao.com/dashboard](https://adfit.kakao.com/dashboard)
 
 1. dashboard 이동한다.
-   ![](/img/post/2024/0812/2-1.png)
+   ![](/img/post/2024/0812/2-1.png){: #magnific}
 2. 매체 등록.
-   ![](/img/post/2024/0812/2-2.png)
+   ![](/img/post/2024/0812/2-2.png){: #magnific}
 3. 광고단위생성.
-   ![](/img/post/2024/0812/2-3.png)
+   ![](/img/post/2024/0812/2-3.png){: #magnific}
 4. option 설정.
-   ![](/img/post/2024/0812/2-4.png)
+   ![](/img/post/2024/0812/2-4.png){: #magnific}
 5. option 설정.
-   ![](/img/post/2024/0812/2-5.png)
+   ![](/img/post/2024/0812/2-5.png){: #magnific}
 6. 코드복사후 원하는 위치에 넣으면
    ```html
    <ins
@@ -83,7 +83,7 @@ tags:
    ></script>
    ```
 7. 5~10분기다리면 광고가 시작된다.
-   ![](/img/post/2024/0812/2-7.png)
+   ![](/img/post/2024/0812/2-7.png){: #magnific}
 
 ## 마무리
 
@@ -92,9 +92,9 @@ tags:
 
 ## 추가
 
-![](/img/post/2024/0812/3.png)
+![](/img/post/2024/0812/3.png){: #magnific}
 넹넹 많이부족해서 더올리고 심사 받겠습니다. ㅠㅠ
-![](/img/post/2024/0812/3-1.png)
+![](/img/post/2024/0812/3-1.png){: #magnific}
 
 1. 다시확인해보니 3개를 발급받고 붙이지를 못해서 난 에러같다
 2. 나머지 2개도 붙인다음에 나오는거 확인후 다시 진행 ㄱㄱ
