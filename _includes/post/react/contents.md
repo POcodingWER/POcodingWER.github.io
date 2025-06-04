@@ -22,3 +22,4 @@
 1. [[React] DOM이란 무엇이고? 가상 DOM이란 무엇인가?](/reactguide/2025/02/04/virtual-dom/)
 1. [[React] preact 알아보기](/reactguide/2025/03/19/preact/)
 1. [[React] Sentry 심층 가이드](/reactguide/2025/05/13/sentry2/)
+1. [[React] stagewise 사용법](/reactguide/2025/06/04/stagewise/)
