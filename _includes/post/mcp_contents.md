@@ -6,3 +6,4 @@
 1. [[MCP] AI Agent이용한 mcp서버 테스트 환경 구축해보자](/mcp/2025/04/22/test_environment)
 1. [[MCP] 커서 mcp 추천](/mcp/2025/05/14/mcp_recommend)
 1. [[MCP] Playwright 사용해보기](/mcp/2025/06/25/mcp_playwright)
+1. [[MCP] 커서 mcp 추천2](/mcp/2025/08/06/mcp_recommend2)
