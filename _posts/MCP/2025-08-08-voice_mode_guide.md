@@ -25,8 +25,21 @@ tags:
   - MCP
   - Voice Mode
   - Claude Desktop
+  - Claude code
+  - Claude voice mode
+  - Claude CLI
   - TTS
   - STT
+  - AI
+  - 음성인식
+  - 자비스
+  - AI Assistant
+  - OpenAI
+  - 음성대화
+  - 챗봇
+  - 가상비서
+  - 음성코딩
+  - 핸즈프리
 ---
 
 {% include post/mcp_contents.md %}
@@ -315,9 +328,87 @@ OpenAI 플랫폼에서 예산 한도를 설정하면 예상치 못한 고액 요
 
 > 💰 **추천 설정**: 처음 사용자는 $10-20 정도로 설정하고, 사용 패턴을 파악한 후 조정하세요.
 
+## 🔧 Claude CLI에서 Voice Mode 사용하기
+
+Claude Desktop뿐만 아니라 **Claude CLI**에서도 Voice Mode를 사용할 수 있습니다!
+
+### Claude CLI 설치 및 설정
+
+```bash
+# Claude CLI 설치 (Node.js 필요)
+npm install -g @anthropic-ai/claude-cli
+
+# 또는 uvx로 사용
+uvx @anthropic-ai/claude-cli
+```
+
+### Claude CLI에 Voice Mode MCP 추가
+
+```bash
+# MCP 서버 추가
+claude mcp add --scope user voice-mode uvx voice-mode
+
+# 환경변수 설정
+export OPENAI_API_KEY="sk-proj-your-openai-key"
+
+# Claude CLI 실행
+claude
+```
+
+### CLI에서 음성 대화 시작
+
+```bash
+# Claude CLI 내에서 음성 대화 명령
+> /converse
+
+# 또는 메시지와 함께
+> /converse "코딩에 대해 이야기해볼까요?"
+```
+
+### Claude CLI의 장점
+
+- **터미널에서 바로 사용**: 개발 환경을 벗어나지 않고 음성 대화
+- **스크립트 자동화**: 배치 작업에 음성 피드백 추가 가능
+- **가벼운 실행**: Desktop 앱보다 빠른 실행속도
+- **SSH 환경에서도 사용**: 원격 서버에서도 음성 대화 가능
+
+## 🚀 Voice Mode의 미래
+
+Voice Mode는 단순한 음성 대화를 넘어 다양한 AI 워크플로우를 혁신하고 있습니다:
+
+### 현재 활용 사례
+
+- **개발자**: 코드 리뷰 및 디버깅을 음성으로
+- **콘텐츠 크리에이터**: 아이디어 브레인스토밍을 음성으로
+- **학습자**: 복잡한 개념을 음성으로 질문하고 학습
+- **접근성**: 시각 장애가 있는 사용자들의 AI 접근성 향상
+
+### 확장 가능성
+
+- **다국어 지원**: 한국어, 영어 외 다양한 언어 지원
+- **감정 인식**: 음성 톤에 따른 AI 반응 조절
+- **실시간 번역**: 다국어 실시간 음성 번역 대화
+- **팀 협업**: 여러 사용자가 동시에 참여하는 음성 회의
+
+## 🌍 Voice Mode 커뮤니티에 참여하세요
+
+Voice Mode는 빠르게 성장하는 오픈소스 프로젝트입니다:
+
+- **GitHub**: [voice-mode 리포지토리](https://github.com/mbailey/voicemode)
+- **Discord**: 활발한 개발자 커뮤니티
+- **문서**: [공식 문서 사이트](https://voice-mode.readthedocs.io/)
+- **이슈 리포팅**: 버그 신고 및 기능 요청
+
+### 기여 방법
+
+- 📝 문서 번역 및 개선
+- 🐛 버그 리포트 및 수정
+- 💡 새로운 기능 아이디어 제안
+- 🎤 다양한 언어 음성 모델 테스트
+
 ## 🎉 결론
 
-Voice Mode를 설치하면 Claude Desktop이 완전히 새로운 차원의 AI 어시스턴트로 변신합니다. 음성으로 자연스럽게 대화하며 더 효율적이고 즐거운 AI 경험을 만들어보세요!
+Voice Mode를 설치하면 Claude Desktop과 Claude CLI가 완전히 새로운 차원의 AI 어시스턴트로 변신합니다. 음성으로 자연스럽게 대화하며 더 효율적이고 즐거운 AI 경험을 만들어보세요!
 
 **핵심 포인트 요약:**
 
@@ -325,5 +416,13 @@ Voice Mode를 설치하면 Claude Desktop이 완전히 새로운 차원의 AI �
 - ✅ OpenAI 계정 크레딧 충전 필수
 - ✅ FFmpeg 설치 필요
 - ✅ 마이크 권한 허용 필요
+- ✅ Claude Desktop과 Claude CLI 모두 지원
+- ✅ 예산 한도 설정으로 비용 관리
 
-Voice Mode로 Claude와의 새로운 대화 경험을 시작해보세요! 🚀
+**"미래의 AI는 텍스트가 아닌 음성으로 소통합니다."**
+
+Voice Mode로 Claude와의 새로운 대화 경험을 시작하고, 진정한 AI 자비스의 시대를 열어보세요! 🚀
+
+---
+
+**이 가이드가 도움이 되셨나요?** 댓글로 사용 후기를 공유해주세요. 더 많은 사람들이 Voice Mode의 놀라운 기능을 경험할 수 있도록 이 글을 공유해주시면 감사하겠습니다! 💬✨
