@@ -25,3 +25,4 @@
 
 - [[FRONT] Compression Streams API](/front/2025/09/09/Compression_Streams_API/)
 - [[FRONT] Screen Capture API](/front/2025/09/09/Screen_Capture_API/)
+- [[FRONT] Media Recorder API](/front/2025/09/09/Media_Recorder_API/)
