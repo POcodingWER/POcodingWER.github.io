@@ -24,3 +24,4 @@
 #### 알고있으면 너무 좋은 프론트엔드 WEB API 파헤쳐보자
 
 - [[FRONT] Compression Streams API](/front/2025/09/09/Compression_Streams_API/)
+- [[FRONT] Screen Capture API](/front/2025/09/09/Screen_Capture_API/)
