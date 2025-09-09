@@ -48,3 +48,5 @@ header-img: "img/post/list.jpeg"
 {% include post/rust_contents.md %}
 
 {% include post/react/contents.md %}
+
+{% include post/front_contents.md %}
