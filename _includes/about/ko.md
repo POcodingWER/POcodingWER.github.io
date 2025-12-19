@@ -147,14 +147,14 @@
   </div>
 </div>
 
-## 📬 연락처
+## 📬 연락처 cjftns01@gmail.com
 
 <div class="contact-container">
   <a href="mailto:cjftns01@gmail.com" class="contact-link">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="pointer-events: none;"/>
   </a>
   <a href="https://www.instagram.com/lim_cuck" class="contact-link">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" style="pointer-events: none;"/>
   </a>
   <!-- GitHub, LinkedIn 등 다른 소셜 링크도 추가해보세요 -->
 </div>
