@@ -10,3 +10,4 @@
 1. [[DEVELOP] 주니어 개발자의 역습](/develop/2025/04/02/vibe_coding/)
 1. [[DEVELOP] MCP(Model Context Protocol)](/develop/2025/04/09/mcp/)
 1. [[DEVELOP] MCP claude 적용하고 사용해보기](/develop/2025/04/14/mcp_claude/)
+1. [[DEVELOP] 실시간 통신 방식 비교 (HTTP, SSE, WebSocket, stdio)](/develop/2026/03/11/realtime_communication/)
