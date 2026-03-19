@@ -8,3 +8,4 @@
 1. [[MCP] Playwright 사용해보기](/mcp/2025/06/25/mcp_playwright)
 1. [[MCP] 커서 mcp 추천2](/mcp/2025/08/06/mcp_recommend2)
 1. [[MCP] Claude Desktop에 Voice Mode 설치하기](/mcp/2025/08/08/voice_mode_guide)
+1. [[MCP] 커서 mcp 추천3 - 2026년 새로 떠오르는 MCP](/mcp/2026/03/19/mcp_recommend3)
