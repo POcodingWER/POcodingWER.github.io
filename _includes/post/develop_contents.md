@@ -12,3 +12,4 @@
 1. [[DEVELOP] MCP claude 적용하고 사용해보기](/develop/2025/04/14/mcp_claude/)
 1. [[DEVELOP] 실시간 통신 방식 비교 (HTTP, SSE, WebSocket, stdio)](/develop/2026/03/11/realtime_communication/)
 1. [[DEVELOP] 클로드 코드 50만 줄 소스코드 유출 사건 분석](/develop/2026/04/02/claude-code-leak)
+1. [[DEVELOP] Claude Code '컨텍스트 로트' 현상과 비용 80% 절감법](/develop/2026/04/09/context-rot/)
