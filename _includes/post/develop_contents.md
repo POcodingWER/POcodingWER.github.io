@@ -13,3 +13,4 @@
 1. [[DEVELOP] 실시간 통신 방식 비교 (HTTP, SSE, WebSocket, stdio)](/develop/2026/03/11/realtime_communication/)
 1. [[DEVELOP] 클로드 코드 50만 줄 소스코드 유출 사건 분석](/develop/2026/04/02/claude-code-leak)
 1. [[DEVELOP] Claude Code '컨텍스트 로트' 현상과 비용 80% 절감법](/develop/2026/04/09/context-rot/)
+1. [[DEVELOP] 에이전트 하네스 엔지니어링이란? — AI 에이전트를 제대로 다루는 기술](/develop/2026/04/09/agent-harness/)
