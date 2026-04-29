@@ -20,6 +20,7 @@
 1. [[FRONT] URL과 Domain 정확히 이해하자 (url구조)](/front/2025/01/03/url_domain/)
 1. [[FRONT] HTTP 헤더 이해하기](/front/2025/01/07/HTTP-header/)
 1. [[FRONT] 🍪 Cookie 보안의 모든 것: 탈취부터 방어까지](/front/2025/08/07/cookie/)
+1. [[FRONT] 프론트엔드 기술은 어떻게 발전해왔는가?](/front/2026/04/29/frontend-history/)
 
 #### 알고있으면 너무 좋은 프론트엔드 WEB API 파헤쳐보자
 
