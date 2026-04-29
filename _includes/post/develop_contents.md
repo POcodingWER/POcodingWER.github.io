@@ -16,3 +16,4 @@
 1. [[DEVELOP] 에이전트 하네스 엔지니어링이란? — AI 에이전트를 제대로 다루는 기술](/develop/2026/04/09/agent-harness/)
 1. [[DEVELOP] Turborepo 캐시로 CI/CD 빌드 시간을 90% 줄이는 법](/develop/2026/04/14/turbo-cache-cicd/)
 1. [[DEVELOP] 모노레포 빌드 10분 → 2분, Turborepo 캐시와 CI/CD 최적화 실전기](/develop/2026/04/14/turbo-cache-cicd-optimization/)
+1. [[DEVELOP] Cursor Agent로 PR 자동 리뷰 시스템 만들기 — Skill 기반 워크플로우 설계](/develop/2026/04/29/cursor-pr-review-agent/)
