@@ -17,3 +17,4 @@
 1. [[DEVELOP] Turborepo 캐시로 CI/CD 빌드 시간을 90% 줄이는 법](/develop/2026/04/14/turbo-cache-cicd/)
 1. [[DEVELOP] 모노레포 빌드 10분 → 2분, Turborepo 캐시와 CI/CD 최적화 실전기](/develop/2026/04/14/turbo-cache-cicd-optimization/)
 1. [[DEVELOP] Cursor Agent로 PR 자동 리뷰 시스템 만들기 — Skill 기반 워크플로우 설계](/develop/2026/04/29/cursor-pr-review-agent/)
+1. [[DEVELOP] Claude Fable 5·Mythos 5 전면 중단 — 출시 3일 만에 꺼진 AI](/develop/2026/06/15/anthropic-fable-mythos-ban/)
