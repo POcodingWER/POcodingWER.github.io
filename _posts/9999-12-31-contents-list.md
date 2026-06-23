@@ -37,6 +37,8 @@ header-img: "img/post/list.jpeg"
 
 {% include post/mcp_contents.md %}
 
+{% include post/ide_contents.md %}
+
 {% include post/DB_contents.md %}
 
 {% include post/develop_contents.md %}

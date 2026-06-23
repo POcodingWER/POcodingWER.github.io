@@ -22,6 +22,8 @@ tags:
   - settings.json
 ---
 
+{% include post/ide_contents.md %}
+
 > VS Code에서 쓰던 설정을 Cursor로 그대로 옮겨 쓰고 있다.  
 > 기능별로 왜 이렇게 설정했는지 정리하고, 전체 `settings.json`도 함께 남긴다.
 
