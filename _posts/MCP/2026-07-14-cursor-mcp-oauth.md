@@ -189,7 +189,7 @@ Authorization Code를 Access Token(+ Refresh Token)으로 바꿉니다.
 3. MCP 서버: 토큰으로 사용자 식별 → Figma/Sentry REST API를 **그 사용자 권한**으로 호출
 4. 결과만 AI에게 전달
 
-채팅의 TOOL 호출 블록에는 보통 **인자 JSON만** 보이고 토큰은 안 나옵니다. (이 컷은 나중에 보강 가능)
+채팅에 보이는 TOOL 호출에는 보통 **인자 JSON만** 있고, Bearer 토큰은 나오지 않습니다. 토큰은 HTTP 레이어에서 Cursor가 붙이기 때문입니다.
 
 ---
 
@@ -225,32 +225,56 @@ Remote + OAuth는 보통 **HTTP 계열 transport** 위에서 돌아갑니다.
 
 ---
 
-## Cursor에서 확인한 화면
+## 토큰은 어디에 저장되나 (Cursor · macOS)
 
-실제로 찍은 컷 기준으로 정리하면 아래와 같습니다.
+Settings의 Logout은 UI 신호일 뿐이고, 실제 자격증명은 로컬에 있습니다. macOS 기준은 대략 이렇습니다.
 
-| 순서 | 화면                                               | 파일                                |
-| ---- | -------------------------------------------------- | ----------------------------------- |
-| 1    | 브라우저 OAuth — Agree & Allow Access              | `cursor_mcp_oauth_browser.png`      |
-| 2    | Settings → Tools — Figma·Sentry Logout / Connected | `cursor_mcp_settings_connected.png` |
-| 3    | Figma MCP tool·resource 목록                       | `cursor_mcp_figma_tools.png`        |
-| 4    | Agent TOOL 호출 채팅 (요청 JSON에 토큰 없음)       | _(미촬영 — 추후 보강)_              |
+| 구분 | 위치 | 내용 |
+| ---- | ---- | ---- |
+| 메타·암호문 | `~/Library/Application Support/Cursor/User/globalStorage/state.vscdb` | `mcpOAuth.global.*`(서버 URL 등), `mcpOAuth.secret.*`(토큰 등) |
+| 복호화 키 | 키체인 `Cursor Safe Storage` / `Cursor Key` | Electron safeStorage (`v10...` 암호문) |
+| OAuth 시도 정보 | `.../globalStorage/mcp-oauth-attempts/` | client_id, serverUrl 등 (원문 토큰 아님) |
+| 로그 | `.../logs/.../workbench.mcp.oauth.log` | authenticate / logout 상태 전이 |
 
-체크포인트:
+`mcp.json`에는 URL만 있고 OAuth access/refresh는 보통 평문으로 안 둡니다.  
+`mcpOAuth.secret` 값은 `{"type":"Buffer","data":[118,49,48,...]}`처럼 보이는데, 앞의 `v10`이 Chromium/Electron 암호문 표시입니다.
 
-- [x] 브라우저에서 Cursor MCP Client 권한 동의
-- [x] Connect 후 Logout이 보이는지 (세션이 Cursor에 있음)
-- [x] tool 목록이 펼쳐지는지
-- [ ] 채팅 TOOL 호출에 토큰이 안 보이는지 (4번 컷)
+키 이름만 조회할 때는 예를 들어:
+
+```bash
+sqlite3 "$HOME/Library/Application Support/Cursor/User/globalStorage/state.vscdb" \
+  "SELECT key FROM ItemTable WHERE key LIKE 'mcpOAuth.%';"
+```
+
+**value(암호문·복호화 결과)는 공유·스크린샷에 올리지 마세요.**  
+Finder에서는 `~/Library`가 기본 숨김이라, `⇧⌘G`로 `~/Library/Application Support/Cursor`를 여는 편이 빠릅니다.
+
+### Logout은 어디를 끊나
+
+Logout의 주된 동작은 **Cursor가 로컬에 든 토큰을 지우는 것**입니다.  
+로그에도 `OAuth clear candidate ... cause=user_logout`처럼 클라이언트 clear가 찍힙니다.
+
+- Cursor 로컬 토큰 삭제 → Bearer를 붙일 수 없음 → MCP 호출 불가
+- Figma/Sentry 쪽은 revocation을 호출하면 서버 토큰도 폐기될 수 있지만, “MCP 서버가 먼저 내 토큰을 날려서 로그아웃된다”가 기본 그림은 아님
+- 완전히 끊으려면 서비스 계정 설정의 **연결된 앱 / 권한 철회**까지 하면 됩니다
+
+---
+
+## 스크린샷으로 확인한 것
+
+1. **브라우저 Allow** — 동의 주체는 AI가 아니라 Cursor MCP Client
+2. **Logout이 Settings에 남음** — 세션·토큰이 Cursor 쪽에 붙어 있음
+3. **tool / resource 목록** — Agent는 이 목록에서 tool만 고름
 
 ---
 
 ## 보안적으로 알아둘 점
 
 - **토큰을 채팅에 붙여 넣지 마세요.** Cursor가 관리하는 쪽이 정상 경로입니다.
-- **Logout / 서비스 쪽 앱 권한 철회**로 접근을 끊을 수 있습니다.
+- **Logout**으로 로컬 자격증명을 지우고, 필요하면 서비스 쪽 앱 권한도 철회하세요.
 - 조직 계정은 SSO·관리형 권한 정책이 추가로 걸릴 수 있습니다.
-- 예전에 env에 넣던 Personal Access Token과 OAuth Access Token은 비슷해 보여도, **발급·갱신·철회 UX**가 다릅니다.
+- env의 Personal Access Token과 OAuth Access Token은 비슷해 보여도, **발급·갱신·철회 UX**가 다릅니다.
+- `state.vscdb`의 `mcpOAuth.secret` value는 올리지 마세요. 구조·키 이름 설명만으로 충분합니다.
 
 API Key MCP가 틀린 방식은 아닙니다. 로컬 전용·오프라인·키만 있는 서비스에는 여전히 적합합니다.  
 SaaS Remote MCP에서는 OAuth가 **기본값에 가까워진 것**입니다.
@@ -259,18 +283,11 @@ SaaS Remote MCP에서는 OAuth가 **기본값에 가까워진 것**입니다.
 
 ## 마무리
 
-Cursor + Figma/Sentry MCP에서 보이는 “로그인 유지”는:
+Cursor + Figma/Sentry MCP의 “로그인 유지”를 한 줄로 쓰면 이렇습니다.
 
-1. Remote MCP가 공개 URL로 떠 있고
-2. Cursor가 OAuth Client로 브라우저 동의를 받고
-3. **Cursor가 토큰을 보관·갱신**하고
-4. AI는 tool call만 하며
-5. 실제 API는 **내 계정 ACL**로 실행된다
+**Remote MCP URL → 브라우저 OAuth 동의 → 토큰은 Cursor가 암호화 저장 → AI는 tool만 고름 → Cursor가 Bearer를 붙여 내 계정 ACL로 실행**
 
-는 구조입니다.
-
-예전 stdio 글과 이어 읽으면 “통신 방식”과 “권한 방식”이 한 세트로 정리됩니다.  
-Agent TOOL 호출 스크린샷(4번)이 생기면 Settings 컷 옆에 이어서 붙이겠습니다.
+예전 [stdio / SSE](/mcp/2025/04/17/sse_stdio/) 글과 이어 읽으면, “통신 방식”과 “권한 방식”이 한 세트로 정리됩니다.
 
 ---
 
