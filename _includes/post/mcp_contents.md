@@ -9,3 +9,5 @@
 1. [[MCP] 커서 mcp 추천2](/mcp/2025/08/06/mcp_recommend2)
 1. [[MCP] Claude Desktop에 Voice Mode 설치하기](/mcp/2025/08/08/voice_mode_guide)
 1. [[MCP] 커서 mcp 추천3 - 2026년 새로 떠오르는 MCP](/mcp/2026/03/19/mcp_recommend3)
+1. [[MCP] 찾아줘 주차장! — Agentic Player 10 MCP 서버 개발 회고](/mcp/2026/07/10/find-parking-mcp-dev-history)
+1. [[MCP] Cursor에서 Figma·Sentry 로그인은 어떻게 되나](/mcp/2026/07/14/cursor-mcp-oauth)
