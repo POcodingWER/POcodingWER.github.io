@@ -26,7 +26,7 @@
 
 ### Frontend Developer
 
-**September 2022 ~ Present (3 years 4 months)**
+**September 2022 ~ Present (3 years 10 months)**
 
 Led technology transformation and optimization while operating 10 independent services at a campus-focused B2C mobile app development company.
 
@@ -104,6 +104,12 @@ Through experience in Solidity-based smart contract development and NFT minting 
 ![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### AI · MCP
+
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-6366F1?style=for-the-badge&logo=protocol&logoColor=white)
 
 ### Backend (Experience)
 
@@ -115,7 +121,7 @@ Through experience in Solidity-based smart contract development and NFT minting 
 
 ### 1. Rapid Technology Transition Ability ⚡
 
-**Solidity → Vue.js → React → AWS Infrastructure** mastered within 3.5 years
+**Solidity → Vue.js → React → AWS Infrastructure**
 
 - Started with blockchain development but quickly built frontend capabilities
 - Quick adaptation to new technology stacks and ready for production deployment
@@ -137,10 +143,20 @@ Experience in fundamental problem resolution including 2-month long-term debuggi
 
 Consistently documenting problems encountered in practice and their resolution processes.
 
+### AWS · Frontend
+
 - **CloudFront Cache Optimization**: [Read More](https://pocodingwer.github.io/aws/2025/12/02/cloudfront_cache/)
 - **CloudFront Cost Reduction**: [Read More](https://pocodingwer.github.io/aws/2025/12/10/cloudfront_cost_savings/)
 - **Cookie Security Complete Guide**: [Read More](https://pocodingwer.github.io/front/2025/08/07/cookie/)
 - **React Query Usage Guide**: [Read More](https://pocodingwer.github.io/reactguide/2025/08/01/reactQuery/)
+
+### MCP · AI Agent
+
+I submitted [Find Parking!](https://playmcp.kakao.com/mcp/68948413827338498) to Kakao's **Agentic Player 10** competition. The MCP is publicly available on PlayMCP, and the preliminary application has been completed.
+
+- **Find Parking! Development Retrospective**: [Read More](https://pocodingwer.github.io/mcp/2026/07/10/find-parking-mcp-dev-history/) — Node.js MCP server, deployment to KC, and competition review
+- **Cursor MCP OAuth Authentication**: [Read More](https://pocodingwer.github.io/mcp/2026/07/14/cursor-mcp-oauth/) — Figma/Sentry login and token storage in Cursor
+- **MCP Series**: [Read More](https://pocodingwer.github.io/mcp/2026/03/19/mcp_recommend3/) — From stdio/SSE to Remote MCP
 
 👉 [View Full Blog](https://pocodingwer.github.io/)
 
