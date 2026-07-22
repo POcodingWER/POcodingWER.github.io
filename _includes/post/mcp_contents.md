@@ -11,3 +11,4 @@
 1. [[MCP] 커서 mcp 추천3 - 2026년 새로 떠오르는 MCP](/mcp/2026/03/19/mcp_recommend3)
 1. [[MCP] 찾아줘 주차장! — Agentic Player 10 MCP 서버 개발 회고](/mcp/2026/07/10/find-parking-mcp-dev-history)
 1. [[MCP] Cursor에서 Figma·Sentry 로그인은 어떻게 되나](/mcp/2026/07/14/cursor-mcp-oauth)
+1. [[MCP] Tesla MCP 만들기 — Authorization 붙이고 LLM으로 내 차 조작해보기](/mcp/2026/07/22/tesla-mcp-authorization)
