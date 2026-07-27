@@ -11,7 +11,7 @@
           <br>
           Powered by <a href="javascript:void(0)" id="domainLink">Chuck Blog</a> |
           <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="50px" height="20px"
-            src="https://ghbtns.com/github-btn.html?user=pocodingwer&repo=POcodingWER_Blog&type=star&count=true">
+            src="https://ghbtns.com/github-btn.html?user=POcodingWER&repo=POcodingWER.github.io&type=star&count=true">
           </iframe>
           <a href="https://hits.seeyoufarm.com">
             <img
@@ -113,7 +113,7 @@
     $('#tag_cloud a').tagcloud();
   })
 </script>
-<script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
+<script src='{{ "/js/archive.js" | prepend: site.baseurl }}'></script>
 {% endif %}
 
 <!--fastClick.js -->
@@ -309,7 +309,7 @@
     resultsContainer: document.getElementById('search-results'),
     json: '/search.json',
     searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
-    noResultsText: 'No results',
+    noResultsText: '검색 결과가 없습니다',
     limit: 50,
     fuzzy: false,
     // a hack to get escaped subtitle unescaped. for some reason, 

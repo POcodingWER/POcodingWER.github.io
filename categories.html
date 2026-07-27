@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Categories
 layout: default
 description: "어떤걸 공부했나?"
@@ -19,8 +18,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
             <!-- Tags (as filter) -->
             <div id='tag_cloud' class="tags tags-sup js-tags">
                 <a class="tag-button--all" data-encode="">
-                    Show All
-                    <sup>{{site.posts.size}}</sup>
+                    전체 보기
+                    <sup>{% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}{{ visible_posts.size }}</sup>
                 </a>
 
                 {% capture categories %}
@@ -38,7 +37,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
             <!-- Article List -->
             <div class="mini-post-list js-result d-none">
-                {%- assign _sorted_list = site.posts -%}
+                {%- assign _sorted_list = site.posts | where_exp: "item", "item.hidden != true" -%}
                 {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
                 {%- assign _sorted_list = _sorted_list | reverse -%}
 

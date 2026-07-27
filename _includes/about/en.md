@@ -26,7 +26,7 @@
 
 ### Frontend Developer
 
-**September 2022 ~ Present (3 years 10 months)**
+**September 2022 ~ Present (3 years 11 months)**
 
 Led technology transformation and optimization while operating 10 independent services at a campus-focused B2C mobile app development company.
 

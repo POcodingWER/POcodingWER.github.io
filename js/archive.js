@@ -39,8 +39,6 @@ https://github.com/kitian616/jekyll-TeXt-theme
   })();
 
   $(document).ready(function () {
-    console.log(888888888888888);
-
     var $tags = $(".js-tags");
     var $articleTags = $tags.find(".tag-button");
     var $tagShowAll = $tags.find(".tag-button--all");
