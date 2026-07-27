@@ -9,7 +9,7 @@ date: 2026-07-14 11:30:00
 author: "lim.Chuck"
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/07/cursor_mcp_oauth_hero.png"
+header-img: "img/post/2026/07/cursor_mcp_oauth_hero.webp"
 
 categories:
   - MCP
@@ -41,7 +41,7 @@ tags:
 
 그래서 채팅창에 토큰이 안 보이고, Cursor Settings에 MCP가 **Connected**로 남는 겁니다.
 
-![](/img/post/2026/07/cursor_mcp_oauth_hero.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/07/cursor_mcp_oauth_hero.webp){: #magnific width="1536" height="1024"}
 
 ---
 
@@ -83,7 +83,7 @@ tags:
 
 서버가 **SaaS(원격)** 이라서, 요청마다 “이게 누구냐”를 증명해야 합니다. 그래서 **OAuth 로그인**이 붙었습니다.
 
-![](/img/post/2026/07/cursor_mcp_auth_before_after.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/07/cursor_mcp_auth_before_after.webp){: #magnific width="1536" height="1024"}
 
 |           | Before (stdio + API Key)  | After (Remote MCP + OAuth)      |
 | --------- | ------------------------- | ------------------------------- |
@@ -97,7 +97,7 @@ tags:
 
 ## Cursor 기준으로 누가 무엇을 하나
 
-![](/img/post/2026/07/cursor_mcp_who_holds_token.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/07/cursor_mcp_who_holds_token.webp){: #magnific width="1536" height="1024"}
 
 | 주체                    | 토큰을 보나? | 하는 일                                      |
 | ----------------------- | ------------ | -------------------------------------------- |
@@ -122,7 +122,7 @@ AI  → 돌아온 결과만 읽고 답변
 
 ## Cursor에서 실제로 일어나는 5단계
 
-![](/img/post/2026/07/cursor_mcp_oauth_flow.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/07/cursor_mcp_oauth_flow.webp){: #magnific width="1536" height="1024"}
 
 ### 1. MCP URL 등록
 
@@ -156,7 +156,7 @@ Settings → **Tools**에는 `Wait for MCP Authentication` 옵션도 있습니�
 
 여기서 동의하는 대상은 AI가 아니라 **Cursor MCP Client ↔ 해당 서비스** 입니다.
 
-![](/img/post/2026/07/cursor_mcp_oauth_browser.png){: #magnific width="793" height="452"}
+![](/img/post/2026/07/cursor_mcp_oauth_browser.webp){: #magnific width="793" height="452"}
 
 위 화면처럼 _“Cursor MCP Client would like to access your account”_ 문구가 나오고, 동의하면 Figma Remote MCP에 읽기·쓰기 접근이 부여됩니다. 아래에는 현재 로그인된 계정(이메일)과 Switch accounts가 보입니다.
 
@@ -167,7 +167,7 @@ Authorization Code를 Access Token(+ Refresh Token)으로 바꿉니다.
 
 동의가 끝나면 Settings → Tools에서 Figma·Sentry 옆에 **Logout**이 생깁니다. 세션이 Cursor에 붙어 있다는 증거입니다.
 
-![](/img/post/2026/07/cursor_mcp_settings_connected.png){: #magnific width="476" height="811"}
+![](/img/post/2026/07/cursor_mcp_settings_connected.webp){: #magnific width="476" height="811"}
 
 - **figma** — Logout, `26 tools, 1 prompts, 104 resources`, 녹색 점
 - **Sentry** — Logout, `9 tools enabled`, 녹색 점
@@ -176,7 +176,7 @@ Authorization Code를 Access Token(+ Refresh Token)으로 바꿉니다.
 
 서버를 펼치면 Cursor가 쓸 수 있는 tool·resource 목록이 그대로 나옵니다.
 
-![](/img/post/2026/07/cursor_mcp_figma_tools.png){: #magnific width="772" height="633"}
+![](/img/post/2026/07/cursor_mcp_figma_tools.webp){: #magnific width="772" height="633"}
 
 `get_design_context`, `get_screenshot`, `whoami` 같은 tool 태그와 code-connect 관련 resource가 보입니다. Agent는 이 목록 안에서 tool을 고르고, 실제 HTTP 인증은 여전히 Cursor가 담당합니다.
 

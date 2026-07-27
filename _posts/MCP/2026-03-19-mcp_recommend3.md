@@ -11,7 +11,7 @@ author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/04/test_environment.png"
+header-img: "img/post/2025/04/test_environment.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly

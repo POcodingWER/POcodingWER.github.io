@@ -11,7 +11,7 @@ author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/04/vibe_coding.png"
+header-img: "img/post/2025/04/vibe_coding.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly
@@ -33,7 +33,7 @@ tags:
 ---
 
 {% include post/develop_contents.md %}
-![vibe coding](/img/post/2025/04/vibe_coding2.png){: width="300" height="168"}
+![vibe coding](/img/post/2025/04/vibe_coding2.webp){: width="300" height="168"}
 
 > 좋은 글을 하나 발견!!  
 > 주니어 개발자의 역습[https://sourcegraph.com/blog/revenge-of-the-junior-developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer)

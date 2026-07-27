@@ -11,7 +11,7 @@ author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/08/voice_mode_success.png"
+header-img: "img/post/2025/08/voice_mode_success.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly
@@ -180,7 +180,7 @@ Claude Desktop에서 MCP 아이콘(퍼즐 조각)을 클릭하여 `voice-mode` �
 
 **MCP 서버 연결 성공 화면:**
 
-![Claude Desktop MCP 연결](/img/post/2025/08/claude_desktop.png){: width="514" height="761"}
+![Claude Desktop MCP 연결](/img/post/2025/08/claude_desktop.webp){: width="514" height="761"}
 
 ### 2. 음성 기능 테스트
 
@@ -216,7 +216,7 @@ source ~/.zshrc
 
 **이런 화면이 나타나면 FFmpeg 설치가 필요합니다:**
 
-![Voice Mode FFmpeg 오류](/img/post/2025/08/voice_mode_error.png){: width="930" height="453"}
+![Voice Mode FFmpeg 오류](/img/post/2025/08/voice_mode_error.webp){: width="930" height="453"}
 
 ```bash
 # FFmpeg 설치 확인
@@ -229,7 +229,7 @@ sudo apt install ffmpeg  # Ubuntu
 
 **FFmpeg 설치 후 다시 실행하면 정상 작동합니다:**
 
-![Voice Mode 정상 실행](/img/post/2025/08/voice_mode_success.png){: width="904" height="511"}
+![Voice Mode 정상 실행](/img/post/2025/08/voice_mode_success.webp){: width="904" height="511"}
 
 #### 3. OpenAI API 연결 오류
 
@@ -322,7 +322,7 @@ OpenAI 플랫폼에서 예산 한도를 설정하면 예상치 못한 고액 요
 
 **예산 한도 설정 화면:**
 
-![OpenAI 예산 한도 설정](/img/post/2025/08/limits.png){: width="2218" height="872"}
+![OpenAI 예산 한도 설정](/img/post/2025/08/limits.webp){: width="2218" height="872"}
 
 위 이미지처럼 월간 예산($10.00)과 사용량 알림(80%, 100%)을 설정할 수 있습니다.
 

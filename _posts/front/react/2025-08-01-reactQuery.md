@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/08/reactQuery.png"
+header-img: "img/post/2025/08/reactQuery.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -32,7 +32,7 @@ tags:
 
 ---
 
-![](/img/post/2025/08/reactQuery.png){: width="768" height="395"}
+![](/img/post/2025/08/reactQuery.webp){: width="768" height="395"}
 
 ## 1. React Query 기본 패턴
 

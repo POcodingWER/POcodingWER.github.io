@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0911/2.png"
+header-img: "img/post/2024/0911/2.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -37,18 +37,18 @@ tags:
 
 ## 1. 비트버킷 파이프라인으로 이동
 
-![](/img/post/2024/0911/1.png){: #magnific width="2880" height="1314"}
+![](/img/post/2024/0911/1.webp){: #magnific width="2880" height="1314"}
 
 ## 2. 원하는 옵션 선택 나는 start pipeline 설정
 
-![](/img/post/2024/0911/2.png){: #magnific width="746" height="598"}
+![](/img/post/2024/0911/2.webp){: #magnific width="746" height="598"}
 
 ## 3. Deploy React app to AWS S3
 
 나는 nuxt.js 지만 csr 빌드여서 상관없음  
 파일을복사하여 프로젝트 최상위치에 `bitbucket-pipelines.yml`명으로 저장하자
 
-![](/img/post/2024/0911/3.png){: #magnific width="2664" height="1346"}
+![](/img/post/2024/0911/3.webp){: #magnific width="2664" height="1346"}
 
 ```yml
 image: node:16
@@ -156,6 +156,6 @@ pipelines:
 1.  경로
     Repository settings -> Repository variables
 2.  repository에 환경변수를 key와 value를 Add 해준다.
-    ![](/img/post/2024/0911/4.png){: #magnific width="898" height="408"}
+    ![](/img/post/2024/0911/4.webp){: #magnific width="898" height="408"}
 3.  빌드 된다
-    ![](/img/post/2024/0911/5.png){: #magnific width="2492" height="1166"}
+    ![](/img/post/2024/0911/5.webp){: #magnific width="2492" height="1166"}

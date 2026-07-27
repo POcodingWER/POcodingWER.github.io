@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/algorithm.jpg"
+header-img: "img/post/2024/algorithm.webp"
 multilingual: true
 # mathjax: true #수학쓸껀지?
 

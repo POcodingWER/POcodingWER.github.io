@@ -9,7 +9,7 @@ date: 2026-05-08 18:00:00
 author: "lim.Chuck"
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/05/claude_code_vs_codex.png"
+header-img: "img/post/2026/05/claude_code_vs_codex.webp"
 
 categories:
   - DEVELOP
@@ -114,7 +114,7 @@ Codex CLI는 **자율성이 높은** 에이전트입니다. 한 번 지시하면
 
 ## 4. 벤치마크 심층 분석
 
-![](/img/post/2026/05/benchmark_comparison.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/05/benchmark_comparison.webp){: #magnific width="1536" height="1024"}
 
 ### 4.1 SWE-bench: 실제 소프트웨어 엔지니어링 능력
 
@@ -224,7 +224,7 @@ Claude Code가 더 **깔끔하고 관용적인(idiomatic)** 코드를 작성한�
 
 ## 7. 아키텍처와 보안
 
-![](/img/post/2026/05/architecture_comparison.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/05/architecture_comparison.webp){: #magnific width="1536" height="1024"}
 
 ### Claude Code의 접근 방식
 
@@ -282,7 +282,7 @@ Claude Code가 더 **깔끔하고 관용적인(idiomatic)** 코드를 작성한�
 
 ### 둘 다 쓰는 하이브리드 전략 (추천)
 
-![](/img/post/2026/05/hybrid_workflow.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/05/hybrid_workflow.webp){: #magnific width="1536" height="1024"}
 
 많은 시니어 개발자들이 채택하고 있는 전략입니다:
 

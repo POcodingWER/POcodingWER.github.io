@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0819/cloud_front.png"
+header-img: "img/post/2024/0819/cloud_front.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -53,9 +53,9 @@ tags:
 1. 대체 도메인이 `해당 클라우드프론트` ID 클릭
 1. 무효화 탭 클릭
 1. 무효화 생성 버튼 클릭
-   ![](/img/post/2024/0819/1.png){: #magnific width="2334" height="630"}
+   ![](/img/post/2024/0819/1.webp){: #magnific width="2334" height="630"}
 1. 객체경로에 wildcard 입력 `\*` 전체경로
-   ![](/img/post/2024/0819/2.png){: #magnific width="1724" height="868"}
+   ![](/img/post/2024/0819/2.webp){: #magnific width="1724" height="868"}
 
 ## 마무리
 

@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/01/url.png"
+header-img: "img/post/2025/01/url.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -38,7 +38,7 @@ URL은 웹에서 특정 페이지나 리소스를 찾아갈 수 있는 주소입
 
 아래 URL을 예시로 살펴보겠습니다:
 
-![](/img/post/2025/01/url.png){: #magnific width="722" height="275"}
+![](/img/post/2025/01/url.webp){: #magnific width="722" height="275"}
 
 각 부분을 하나씩 살펴볼까요?
 

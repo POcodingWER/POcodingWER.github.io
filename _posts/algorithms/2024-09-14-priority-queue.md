@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0914/priority-queue.jpg"
+header-img: "img/post/2024/0914/priority-queue.webp"
 multilingual: true
 
 # hidden: true

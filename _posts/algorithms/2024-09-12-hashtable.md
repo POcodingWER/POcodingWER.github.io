@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0912/hash-table.png"
+header-img: "img/post/2024/0912/hash-table.webp"
 multilingual: true
 
 # hidden: true

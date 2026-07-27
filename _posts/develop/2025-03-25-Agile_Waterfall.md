@@ -11,7 +11,7 @@ author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/03/agile_waterFall.png"
+header-img: "img/post/2025/03/agile_waterFall.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly
@@ -38,7 +38,7 @@ tags:
 
 > 개발하다 도무지 이해가 안 가는 워크시스템 때문에 개발 방법론을 찾아봄. 수정요청→ 수정 →수정요청 →수정... 이 무한굴레?
 
-![](/img/post/2025/03/agile_waterfall-meme.png){: #magnific width="1280" height="853"}
+![](/img/post/2025/03/agile_waterfall-meme.webp){: #magnific width="1280" height="853"}
 
 # 🚀 Agile vs Waterfall: 개발 방법론의 모든 것
 

@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/09/web-api.png"
+header-img: "img/post/2025/09/web-api.webp"
 
 #
 # sitemap:

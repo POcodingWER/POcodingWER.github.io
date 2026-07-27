@@ -29,9 +29,17 @@
 <!-- jQuery -->
 <script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
 
-<!-- Magnific Popup -->
+{% if page.layout == 'post' or page.layout == 'keynote' %}
+<!-- Magnific Popup (post only) -->
 <script src="{{ '/js/jquery.magnific-popup.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/js/magnific-popup-setting.js' | prepend: site.baseurl }}"></script>
+<script>
+  document.querySelectorAll('.post-container img').forEach(function (img, index) {
+    if (index > 0) img.loading = 'lazy';
+    img.decoding = 'async';
+  });
+</script>
+{% endif %}
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->

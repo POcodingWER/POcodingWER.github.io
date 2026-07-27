@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/1227/ssr-architecture.png"
+header-img: "img/post/2024/1227/ssr-architecture.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -128,7 +128,7 @@ tags:
 
 ### 2.CSR 아키텍처
 
-![CSR 인프라 구성도](/img/post/2024/1227/csr-architecture.png){: width="2148" height="750"}
+![CSR 인프라 구성도](/img/post/2024/1227/csr-architecture.webp){: width="2148" height="750"}
 
 #### 1. Route 53
 
@@ -228,7 +228,7 @@ tags:
 
 ### 2. SSR 아키텍처
 
-![SSR 인프라 구성도](/img/post/2024/1227/ssr-architecture.png){: width="2148" height="850"}
+![SSR 인프라 구성도](/img/post/2024/1227/ssr-architecture.webp){: width="2148" height="850"}
 
 #### 1. 배포 흐름
 

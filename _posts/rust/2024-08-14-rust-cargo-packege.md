@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0814/2.png"
+header-img: "img/post/2024/0814/2.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -58,7 +58,7 @@ $ cargo r
 	Hello, world!
 ```
 
-![생성된 파일목록](/img/post/2024/0814/2.png){: width="418" height="436"}
+![생성된 파일목록](/img/post/2024/0814/2.webp){: width="418" height="436"}
 
 <span style="font-size:80%">
 cargo run을 사용하면 cargo build 실행 후 바이너리 경로를 입력해서 실행하는 것보다 편리하므로, 대부분의 개발자들이 cargo run을 이용합니다.

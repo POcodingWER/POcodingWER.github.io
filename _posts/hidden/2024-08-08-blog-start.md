@@ -13,7 +13,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/ga.jpg"
+header-img: "img/post/ga.webp"
 
 hidden: true
 

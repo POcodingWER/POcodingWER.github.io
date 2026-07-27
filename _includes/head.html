@@ -35,6 +35,11 @@
 
   <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
 
+  {% assign lcp_image = page.header-img | default: site.header-img %}
+  {% if lcp_image %}
+  <link rel="preload" as="image" href="{{ lcp_image | prepend: site.baseurl }}" fetchpriority="high">
+  {% endif %}
+
   <!-- Web App Manifest -->
   <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
 
@@ -53,16 +58,20 @@
   <link rel="stylesheet" href="{{ '/css/cls-fixes.css' | prepend: site.baseurl }}">
   {% endif %}
 
-  <!-- Custom Fonts -->
-  <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-  <!-- Hux change font-awesome CDN to qiniu -->
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-    type="text/css">
+  <!-- Custom Fonts (non-render-blocking) -->
+  <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+      type="text/css">
+  </noscript>
   <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3"
     as="font" type="font/woff2" crossorigin>
 
-  <!-- Magnific Popup -->
+  {% if page.layout == 'post' or page.layout == 'keynote' %}
+  <!-- Magnific Popup (post only) -->
   <link rel="stylesheet" href="{{ '/css/magnific-popup.min.css' | prepend: site.baseurl }}">
+  {% endif %}
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,6 +84,8 @@
   <script></script>
 
   <!-- Google AdSense -->
+  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="//t1.kakaocdn.net">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.googl_ca_pub}}"
     crossorigin="anonymous"></script>
 </head>

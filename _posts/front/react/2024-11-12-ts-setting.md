@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/1112/ts.png"
+header-img: "img/post/2024/1112/ts.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -33,7 +33,7 @@ tags:
 
 ## 처음에 vite 세팅을 하고나면 최상이 경로에 tsconfig.json tsconfig.app.json tsconfig.node.json파일이 생성된다.
 
-![](/img/post/2024/1112/ts.png){: #magnific width="424" height="68"}
+![](/img/post/2024/1112/ts.webp){: #magnific width="424" height="68"}
 3개가 생성되는데 뭐가 뭔지 모르겠다.
 알고넘어가자
 

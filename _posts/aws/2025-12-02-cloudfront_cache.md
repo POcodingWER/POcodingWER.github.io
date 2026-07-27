@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/12/cloudfront-cache.png"
+header-img: "img/post/2025/12/cloudfront-cache.webp"
 
 #
 # sitemap:
@@ -35,7 +35,7 @@ tags:
 
 ## 🚀 CloudFront 캐시 기본 개념
 
-![](/img/post/2025/12/cloudfront-cache.png){: #magnific width="1024" height="798"}
+![](/img/post/2025/12/cloudfront-cache.webp){: #magnific width="1024" height="798"}
 
 Amazon CloudFront는 AWS의 글로벌 CDN 서비스로, 전 세계 엣지 로케이션에서 콘텐츠를 캐싱하여 빠른 응답 속도를 제공합니다.
 

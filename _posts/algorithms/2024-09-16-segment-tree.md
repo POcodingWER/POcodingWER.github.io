@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0916/segment-tree.jpg"
+header-img: "img/post/2024/0916/segment-tree.webp"
 multilingual: true
 
 # hidden: true

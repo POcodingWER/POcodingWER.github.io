@@ -11,7 +11,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0811/1.png"
+header-img: "img/post/2024/0811/1.webp"
 
 # hidden: true
 categories:
@@ -39,16 +39,16 @@ tags:
 > [《구글사이트로 이동》 https://adsense.google.com/intl/ko_kr/start/](https://adsense.google.com/intl/ko_kr/start/)
 
 1. 시작하기를 누른다
-   ![](/img/post/2024/0811/1.png){: #magnific width="3012" height="1498"}
+   ![](/img/post/2024/0811/1.webp){: #magnific width="3012" height="1498"}
 2. 입력내용을 넣어준다.
-   ![](/img/post/2024/0811/2.png){: #magnific width="1548" height="1430"}
+   ![](/img/post/2024/0811/2.webp){: #magnific width="1548" height="1430"}
 3. 생성완료!
-   ![](/img/post/2024/0811/3.png){: #magnific width="2302" height="744"}
+   ![](/img/post/2024/0811/3.webp){: #magnific width="2302" height="744"}
 
 ### 2. 코드 붙여넣기
 
 코드를 HTML header 안에 넣어준다
-![](/img/post/2024/0811/4.png){: #magnific width="2172" height="840"}
+![](/img/post/2024/0811/4.webp){: #magnific width="2172" height="840"}
 
 ```hmlt
 //메타테그
@@ -60,11 +60,11 @@ tags:
 
 ### 3. 신청하기
 
-![](/img/post/2024/0811/5.png){: #magnific width="2052" height="1138"}
-![](/img/post/2024/0811/6.png){: #magnific width="1644" height="1306"}
+![](/img/post/2024/0811/5.webp){: #magnific width="2052" height="1138"}
+![](/img/post/2024/0811/6.webp){: #magnific width="1644" height="1306"}
 적용한걸로 심사받자!
-![](/img/post/2024/0811/7.png){: #magnific width="1166" height="1138"}
-![](/img/post/2024/0811/8.png){: #magnific width="2060" height="1138"}
+![](/img/post/2024/0811/7.webp){: #magnific width="1166" height="1138"}
+![](/img/post/2024/0811/8.webp){: #magnific width="2060" height="1138"}
 
 ## 마무리
 

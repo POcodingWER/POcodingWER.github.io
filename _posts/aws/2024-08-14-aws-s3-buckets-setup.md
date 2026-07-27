@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/0814/8.png"
+header-img: "img/post/2024/0814/8.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -44,19 +44,19 @@ tags:
 #### 1. 버킷생성
 
 1. 버킷생성
-   ![](/img/post/2024/0814/3.png){: #magnific width="2906" height="638"} <span style="font-size:80%">버킷 만들기 go!</span>
+   ![](/img/post/2024/0814/3.webp){: #magnific width="2906" height="638"} <span style="font-size:80%">버킷 만들기 go!</span>
 2. 버킷이름 보통 사용할 도메인으로 작성하면좋다<br/>
    ex) {{subdomian}}.pocodingwer.github.io
-   ![](/img/post/2024/0814/4.png){: #magnific width="1302" height="1172"}
+   ![](/img/post/2024/0814/4.webp){: #magnific width="1302" height="1172"}
 3. 엑세스 차단 설정을 다풀어준다.
-   ![](/img/post/2024/0814/5.png){: #magnific width="1474" height="1124"}
+   ![](/img/post/2024/0814/5.webp){: #magnific width="1474" height="1124"}
 4. 나머지는 그대로 진행하면 된다.
 
 #### 2. 버킷정책 수립
 
 해당버킷 > 권환 > 버킷정책 > 편집 순으로 들어간다.
-![](/img/post/2024/0814/6.png){: #magnific width="2296" height="278"}
-![](/img/post/2024/0814/7.png){: #magnific width="1280" height="328"}
+![](/img/post/2024/0814/6.webp){: #magnific width="2296" height="278"}
+![](/img/post/2024/0814/7.webp){: #magnific width="1280" height="328"}
 정책생서기로 들어가거나 [여기 주소](https://awspolicygen.s3.amazonaws.com/policygen.html)들어가서 정책을 세우면된다.
 
 - Select Type of Policy 에서 S3 Bucket Policy를 선택
@@ -69,8 +69,8 @@ tags:
 - Amazon Resource Name (ARN) 에 위에서 복사한 ARN을 입력한 후 /\_ 입력 ex) arn:aws:s3:::버킷이름
   - 버킷에 어떤 리소스를 적용할지
 - Add Statement 클릭
-  ![](/img/post/2024/0814/8.png){: #magnific width="994" height="649"}
-  ![](/img/post/2024/0814/9.png){: #magnific width="622" height="398"}
+  ![](/img/post/2024/0814/8.webp){: #magnific width="994" height="649"}
+  ![](/img/post/2024/0814/9.webp){: #magnific width="622" height="398"}
   이거복사해서 붙여넣기후 저장
 
 **참고**[ IAM JSON 정책 ](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/reference_policies_elements_condition_operators.html) IAM JSON 정책 요소: 조건 연산자
@@ -112,21 +112,21 @@ tags:
 해당버킷 > 속성 > `맨 아래` 정적 웹 사이트 호스팅> 편집 순으로 들어간다.
 
 1. 편집으로들어가서
-   ![](/img/post/2024/0814/10.png){: #magnific width="1397" height="278"}
+   ![](/img/post/2024/0814/10.webp){: #magnific width="1397" height="278"}
 2. 첫진입으로 만날 html 설정해준다
-   ![](/img/post/2024/0814/11.png){: #magnific width="743" height="624"}
+   ![](/img/post/2024/0814/11.webp){: #magnific width="743" height="624"}
 
 #### 4. s3에 도메인(Route 53)연동
 
 Route 53 > 호스팅영역 > 해당 호스팅 클릭> 편집 순으로 들어간다.
 
 1. 레코드생성 클릭
-   ![](/img/post/2024/0814/13.png){: #magnific width="2786" height="622"}
+   ![](/img/post/2024/0814/13.webp){: #magnific width="2786" height="622"}
 2. 다입력후 엔드포인트 입력란을 보면 리소스를 찾을수없다고나온다.
    1-2에<a href="#1-버킷생성" >ex) {{subdomian}}.pocodingwer.github.io</a> 예제처럼설정을하고 레코드이름이 똑같아야 s3찾을수있다.
-   ![](/img/post/2024/0814/14.png){: #magnific width="2234" height="1246"}
+   ![](/img/post/2024/0814/14.webp){: #magnific width="2234" height="1246"}
 3. 다시 제대로입력후 확인해보면 엔드포인트를 찾을수 있다.
-   ![](/img/post/2024/0814/15.png){: #magnific width="2204" height="1156"}
+   ![](/img/post/2024/0814/15.webp){: #magnific width="2204" height="1156"}
 4. 레코드 추가후 subdomain 설정된 주소로 들어가면 정적인 페이지가 나오는걸 확인할수잇따.
 
 ## 마무리

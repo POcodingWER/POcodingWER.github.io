@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/02/accessibility.png"
+header-img: "img/post/2025/02/accessibility.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -27,7 +27,7 @@ tags:
   - 웹 표준 가이드
 ---
 
-![alt text](/img/post/2025/02/accessibility.png){: width="293" height="172"}
+![alt text](/img/post/2025/02/accessibility.webp){: width="293" height="172"}
 
 {% include post/develop_contents.md %}
 

@@ -9,7 +9,7 @@ date: 2026-06-16 10:00:00
 author: "lim.Chuck"
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/06/browser_request_pipeline.png"
+header-img: "img/post/2026/06/browser_request_pipeline.webp"
 
 categories:
   - FRONT
@@ -75,7 +75,7 @@ Chrome DevTools **Network** 탭의 Timing breakdown은 대략 이 순서와 대�
 | Content Download      | 4. HTTP — Body 수신             |
 | (이후 Performance 탭) | 5~6. 파싱·렌더링                |
 
-![](/img/post/2026/06/browser_request_pipeline.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/06/browser_request_pipeline.webp){: #magnific width="1536" height="1024"}
 
 ---
 
@@ -132,7 +132,7 @@ TCP/IP 연결은 IP 주소가 있어야 시작할 수 있습니다. DNS는 그 �
 5. IP 반환 — 응답 TTL만큼 각 계층에 캐시
 ```
 
-![](/img/post/2026/06/dns_lookup_flow.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/06/dns_lookup_flow.webp){: #magnific width="1536" height="1024"}
 
 실제 PC·모바일에서는 **Recursive Resolver**에 한 번 질의하고, Resolver가 Root부터 Authoritative까지 **Iterative**하게 추적하는 경우가 많습니다.
 
@@ -352,7 +352,7 @@ CSS 파싱  → CSSOM Tree
       화면 출력
 ```
 
-![](/img/post/2026/06/critical_rendering_path.png){: #magnific width="1536" height="1024"}
+![](/img/post/2026/06/critical_rendering_path.webp){: #magnific width="1536" height="1024"}
 
 ### DOM 생성
 

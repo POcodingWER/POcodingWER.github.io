@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/12/cloudfront-cache.png"
+header-img: "img/post/2025/12/cloudfront-cache.webp"
 
 #
 # sitemap:
@@ -38,7 +38,7 @@ tags:
 
 ### 비정상적인 비용 분포
 
-![](/img/post/2025/12/cost1.png){: #magnific width="1453" height="627"}
+![](/img/post/2025/12/cost1.webp){: #magnific width="1453" height="627"}
 
 **한국에서만 서비스하는데 싱가포르에서 95% 이상의 비용이 발생하고 있습니다.**
 
@@ -48,7 +48,7 @@ tags:
 
 ### 높은 캐시 히트율에도 불구한 비용 문제
 
-![](/img/post/2025/12/cost3.png){: #magnific width="1426" height="392"}
+![](/img/post/2025/12/cost3.webp){: #magnific width="1426" height="392"}
 
 **캐시 히트율이 98% 이상인데도 왜 싱가포르 비용이 이렇게 높을까요?**
 
@@ -64,7 +64,7 @@ tags:
 
 ### 현재 상황 (Origin Shield 비활성화)
 
-![](/img/post/2025/12/cost4.png){: #magnific width="634" height="449"}
+![](/img/post/2025/12/cost4.webp){: #magnific width="634" height="449"}
 
 ```
 서울 사용자 → 서울 Edge Location (캐시 미스 95%)
@@ -176,7 +176,7 @@ Origin Shield는 Origin 서버와 CloudFront Edge Location 사이의 **추가 �
 
 CloudFront의 Price Class는 **어떤 지역의 Edge Location을 사용할지** 결정하는 설정입니다.
 
-![](/img/post/2025/12/price_class.png){: #magnific width="1258" height="602"}
+![](/img/post/2025/12/price_class.webp){: #magnific width="1258" height="602"}
 
 ### Price Class 옵션
 
@@ -229,13 +229,13 @@ Use only North America and Europe: → 낮은 비용 (아시아 성능 저하)
    - Enable Origin Shield: **예**
    - Origin Shield Region: **Asia Pacific (Seoul)**
 
-![](/img/post/2025/12/cost2.png){: #magnific width="971" height="178"}
+![](/img/post/2025/12/cost2.webp){: #magnific width="971" height="178"}
 
 ### 2. Price Class 설정
 
 #### AWS Console에서 설정
 
-![](/img/post/2025/12/price_class2.png){: #magnific width="896" height="166"}
+![](/img/post/2025/12/price_class2.webp){: #magnific width="896" height="166"}
 
 1. **AWS CloudFront** → **배포** 선택
 2. **일반** 탭 → **편집** 클릭

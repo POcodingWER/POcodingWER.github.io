@@ -12,7 +12,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2024/1112/ts.png"
+header-img: "img/post/2024/1112/ts.webp"
 #
 # sitemap:
 #   changefreq: daily #스크랩 주기  daily | weekly | monthly
@@ -68,11 +68,11 @@ export default defineConfig({
 
 - 변경전
 
-  ![](/img/post/2024/1112/path.png){: #magnific width="581" height="119"}
+  ![](/img/post/2024/1112/path.webp){: #magnific width="581" height="119"}
 
 - 변경후
 
-  ![](/img/post/2024/1112/path1.png){: #magnific width="566" height="119"}
+  ![](/img/post/2024/1112/path1.webp){: #magnific width="566" height="119"}
   훨씬 깔끔해진 모습
 
 ## 환경변수를 html에 동적세팅 createHtmlPlugin()

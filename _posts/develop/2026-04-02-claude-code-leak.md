@@ -9,7 +9,7 @@ date: 2026-04-02 09:00:00
 author: "lim.Chuck"
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/04/claude_code.png"
+header-img: "img/post/2026/04/claude_code.webp"
 
 categories:
   - DEVELOP

@@ -9,7 +9,7 @@ date: 2026-04-14 08:35:00
 author: "lim.Chuck"
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/04/turbo.png"
+header-img: "img/post/2026/04/turbo.webp"
 
 categories:
   - DEVELOP
@@ -82,7 +82,7 @@ Turbo가 각 앱을 빌드할 때, `turbo.json`의 `inputs`를 기반으로 **�
 
 빌드 실행 시 Turbo는 다음과 같은 흐름으로 동작합니다:
 
-![Turbo 캐시 동작 흐름도](/img/post/2026/04/turbo_cache_flow.png){: width="1376" height="768"}
+![Turbo 캐시 동작 흐름도](/img/post/2026/04/turbo_cache_flow.webp){: width="1376" height="768"}
 
 ```
 해시 계산 → .turbo/ 폴더에 같은 해시가 있는지 확인
@@ -109,7 +109,7 @@ Time:     0.8s
 
 ## 3단계: CI에서의 캐시 흐름
 
-![CI 전체 흐름도](/img/post/2026/04/turbo_ci_flow.png){: width="1376" height="768"}
+![CI 전체 흐름도](/img/post/2026/04/turbo_ci_flow.webp){: width="1376" height="768"}
 
 GitHub Actions에서 Turbo 캐시를 활용하는 전체 흐름입니다.
 

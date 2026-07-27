@@ -11,7 +11,7 @@ author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2026/03/realtime_communication.png"
+header-img: "img/post/2026/03/realtime_communication.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly
@@ -41,7 +41,7 @@ tags:
 웹 개발을 하다 보면 서버와 클라이언트 사이에 데이터를 어떻게 주고받을지 선택해야 하는 순간이 온다.
 HTTP, SSE, WebSocket, stdio — 각각 언제, 왜 쓰는지 정리해보자.
 
-![](/img/post/2026/03/realtime_communication.png){: #magnific width="1000" height="575"}
+![](/img/post/2026/03/realtime_communication.webp){: #magnific width="1000" height="575"}
 
 ## 1. HTTP (일반 요청/응답)
 

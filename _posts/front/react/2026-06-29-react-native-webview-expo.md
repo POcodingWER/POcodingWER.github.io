@@ -9,7 +9,7 @@ author: "lim.Chuck"
 
 catalog: true
 header-mask: 0.4
-header-img: "img/post/list.jpeg"
+header-img: "img/post/list.webp"
 
 categories:
   - ReactGuide
