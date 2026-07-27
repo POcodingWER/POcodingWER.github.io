@@ -44,9 +44,9 @@ tags:
 7개의 앱(main + 6개 remote)을 가진 Module Federation 모노레포에서, 매 배포마다 **모든 앱을 처음부터 빌드**하고 있었습니다. 변경한 건 remote 앱 하나인데, 나머지 6개까지 다시 빌드되는 구조였죠.
 
 Turborepo의 캐시 기능을 알고는 있었지만, **빌드 출력 경로 문제**로 캐시가 제대로 동작하지 않았습니다.
-![10분](/img/post/2026/04/build_1.png)
+![10분](/img/post/2026/04/build_1.png){: width="1559" height="760"}
 이전 cache Hit가 제대로 동작하지않고 s3업로드시 시간이 많이걸림
-![2분](/img/post/2026/04/build_2.png)
+![2분](/img/post/2026/04/build_2.png){: width="1559" height="730"}
 이전 cache Hit가 제대로 동작 s3업로드 시간 단축
 
 ---
@@ -156,7 +156,7 @@ globalDependencies:  [packages/ui/**, packages/utils/**, ...]
 
 ### 캐시 판정 (Hit or Miss)
 
-![Turbo 캐시 동작 흐름도](/img/post/2026/04/turbo_cache_flow.png)
+![Turbo 캐시 동작 흐름도](/img/post/2026/04/turbo_cache_flow.png){: width="1376" height="768"}
 
 ```
 빌드 실행 시:
@@ -296,7 +296,7 @@ restore-keys: Linux-turbo-dev-
 
 ## CI 파이프라인 전체 흐름
 
-![CI 전체 흐름도](/img/post/2026/04/turbo_ci_flow.png)
+![CI 전체 흐름도](/img/post/2026/04/turbo_ci_flow.png){: width="1376" height="768"}
 
 최적화된 CI 파이프라인의 전체 흐름입니다.
 

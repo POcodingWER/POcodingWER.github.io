@@ -128,7 +128,7 @@ tags:
 
 ### 2.CSR 아키텍처
 
-![CSR 인프라 구성도](/img/post/2024/1227/csr-architecture.png)
+![CSR 인프라 구성도](/img/post/2024/1227/csr-architecture.png){: width="2148" height="750"}
 
 #### 1. Route 53
 
@@ -228,7 +228,7 @@ tags:
 
 ### 2. SSR 아키텍처
 
-![SSR 인프라 구성도](/img/post/2024/1227/ssr-architecture.png)
+![SSR 인프라 구성도](/img/post/2024/1227/ssr-architecture.png){: width="2148" height="850"}
 
 #### 1. 배포 흐름
 

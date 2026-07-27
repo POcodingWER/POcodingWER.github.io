@@ -179,7 +179,7 @@ PlayMCP 심사 기준(**tool 3~10개 권장**)에 맞춰 **시나리오 중심**
 
 휴리스틱 적용 후 PlayMCP 채팅에서 "하남스타필드 슈퍼차저 찾아줘"를 물어보면 `search_ev_chargers_near_place`가 정상 호출되고, 8대 중 충전·대기 상태까지 응답합니다.
 
-![](/img/post/2026/07/playmcp_tesla_supercharger_demo.png){: #magnific}
+![](/img/post/2026/07/playmcp_tesla_supercharger_demo.png){: #magnific width="534" height="1024"}
 
 ### 4. EV status API 한도
 
@@ -219,7 +219,7 @@ PlayMCP 심사 기준(**tool 3~10개 권장**)에 맞춰 **시나리오 중심**
 
 Apple Silicon Mac은 **반드시** `linux/amd64`로 빌드해야 합니다. arm64 이미지는 서버 활성화에 실패합니다.
 
-![](/img/post/2026/07/kc_mcp_server_register.png){: #magnific}
+![](/img/post/2026/07/kc_mcp_server_register.png){: #magnific width="1802" height="1258"}
 
 ```bash
 # EV 캐시 bake (권장 — 없으면 기동 시 전남 등 API 대기·느림)
@@ -240,17 +240,17 @@ docker push YOUR_ID/find-parking-mcp:0.6.0
 
 Active 후 **Endpoint URL**을 PlayMCP 개발자 콘솔에 붙여 넣습니다.
 
-![](/img/post/2026/07/kc_mcp_server_active.png){: #magnific}
+![](/img/post/2026/07/kc_mcp_server_active.png){: #magnific width="2242" height="1060"}
 
 ### PlayMCP 등록
 
 [PlayMCP 개발자 콘솔](https://playmcp.kakao.com/console)에서 Endpoint URL을 입력하고 **정보 불러오기** → **임시 등록** 순서로 진행합니다. 심사 요청 전에는 반드시 **임시 등록**만 하고, 채팅 테스트를 충분히 한 뒤 심사를 요청하세요.
 
-![](/img/post/2026/07/playmcp_register_form.png){: #magnific}
+![](/img/post/2026/07/playmcp_register_form.png){: #magnific width="1534" height="1452"}
 
 등록이 완료되면 MCP 설명·대화 예시·Endpoint가 아래처럼 채워집니다.
 
-![](/img/post/2026/07/playmcp_register_detail.png){: #magnific}
+![](/img/post/2026/07/playmcp_register_detail.png){: #magnific width="1052" height="542"}
 
 ### MCP 업데이트 후 재배포
 
@@ -325,13 +325,13 @@ Active 후 **Endpoint URL**을 PlayMCP 개발자 콘솔에 붙여 넣습니다.
 - [x] **전체 공개** 전환 — [찾아줘 주차장!](https://playmcp.kakao.com/mcp/68948413827338498)
 - [x] Player 예선 비즈폼 접수 완료 (마감 **7/14**)
 
-![](/img/post/2026/07/find_parking_mcp_under_review.png){: #magnific}
+![](/img/post/2026/07/find_parking_mcp_under_review.png){: #magnific width="2264" height="872"}
 
 > 위 스크린샷은 심사 요청 직후(심사 중) 화면입니다. 이후 승인되어 **전체 공개**로 전환했고, 공모전 예선 접수도 마쳤습니다.
 
 공식 **진행 방식**은 아래와 같습니다. 지금은 **STEP 1 예선**을 끝낸 상태이고, 본선 진출작 발표는 **7/30**입니다.
 
-![](/img/post/2026/07/agentic_player_10_schedule.png){: #magnific}
+![](/img/post/2026/07/agentic_player_10_schedule.png){: #magnific width="559" height="666"}
 
 | STEP | 내용 | 일정 |
 |------|------|------|

@@ -129,7 +129,7 @@ app.listen(3001);
 ```
 
 - curl TEST
-  ![](/img/post/2025/04/sse_test.png){: #magnific}
+  ![](/img/post/2025/04/sse_test.png){: #magnific width="1264" height="353"}
 
   ```bash
   #터미널1
@@ -170,9 +170,9 @@ app.listen(3001);
   ```
 
 - ai Agent 사용
-  ![](/img/post/2025/04/sse_mcp.png){: #magnific}
+  ![](/img/post/2025/04/sse_mcp.png){: #magnific width="938" height="91"}
   연결 확인후 명령어를 내려보자
-  ![](/img/post/2025/04/sse_mcp_test.png){: #magnific}
+  ![](/img/post/2025/04/sse_mcp_test.png){: #magnific width="492" height="542"}
 
 ### 🔍 테스트 프로세스
 
@@ -299,7 +299,7 @@ main().catch((error) => {
   docker build -t mcp-test .
   ```
 
-  ![](/img/post/2025/04/docker.png){: #magnific}
+  ![](/img/post/2025/04/docker.png){: #magnific width="2804" height="1348"}
   mcp-test 추가된거 확인할수있다.
 
 - mcp Json
@@ -317,11 +317,11 @@ main().catch((error) => {
 
 - mcp 실행
   도커에 컨테이너가 실행되면서 stdio-mcp가 활성화 된것을 확인할수있음
-  ![](/img/post/2025/04/docker2.png){: #magnific}
-  ![](/img/post/2025/04/stdio-mcp.png){: #magnific}
+  ![](/img/post/2025/04/docker2.png){: #magnific width="2818" height="858"}
+  ![](/img/post/2025/04/stdio-mcp.png){: #magnific width="940" height="87"}
 
 - test
-  ![](/img/post/2025/04/stdio-test.png){: #magnific}
+  ![](/img/post/2025/04/stdio-test.png){: #magnific width="498" height="472"}
 
 ## 🎯 결론 및 비교 분석
 

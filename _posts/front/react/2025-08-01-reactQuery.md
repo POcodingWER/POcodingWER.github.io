@@ -32,7 +32,7 @@ tags:
 
 ---
 
-![](/img/post/2025/08/reactQuery.png)
+![](/img/post/2025/08/reactQuery.png){: width="768" height="395"}
 
 ## 1. React Query 기본 패턴
 

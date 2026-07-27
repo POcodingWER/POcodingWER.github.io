@@ -33,7 +33,7 @@ tags:
 ---
 
 {% include post/develop_contents.md %}
-![vibe coding](/img/post/2025/04/vibe_coding2.png)
+![vibe coding](/img/post/2025/04/vibe_coding2.png){: width="300" height="168"}
 
 > 좋은 글을 하나 발견!!  
 > 주니어 개발자의 역습[https://sourcegraph.com/blog/revenge-of-the-junior-developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer)

@@ -65,26 +65,26 @@ robots.txt사용하고 sitemap.xml 사용하는데 구글 색인이 안되는 �
 api키 발급을위해 해야됨
 
 1. 프로젝트부터 만들자
-   ![](/img/post/2024/1030/1.png){: #magnific}
+   ![](/img/post/2024/1030/1.png){: #magnific width="3002" height="1558"}
 1. 새 프로젝트 클릭
-   ![](/img/post/2024/1030/3.png){: #magnific}
+   ![](/img/post/2024/1030/3.png){: #magnific width="1594" height="1238"}
 1. 이름 입력 만들기
-   ![](/img/post/2024/1030/4.png){: #magnific}
+   ![](/img/post/2024/1030/4.png){: #magnific width="2190" height="1294"}
 1. 햄버거 누르고 -> IAM 및 관리자 -> 서비스 계정 클릭
-   ![](/img/post/2024/1030/5.png){: #magnific}
+   ![](/img/post/2024/1030/5.png){: #magnific width="1266" height="1568"}
 1. 서비스 계정 만들기
-   ![](/img/post/2024/1030/2.png){: #magnific}
+   ![](/img/post/2024/1030/2.png){: #magnific width="3016" height="772"}
 1. 이것저것 적고 완료
-   ![](/img/post/2024/1030/6.png){: #magnific}
-   ![](/img/post/2024/1030/7.png){: #magnific}
+   ![](/img/post/2024/1030/6.png){: #magnific width="1210" height="1298"}
+   ![](/img/post/2024/1030/7.png){: #magnific width="2492" height="716"}
 1. 키 만들기
-   ![](/img/post/2024/1030/8.png){: #magnific}
+   ![](/img/post/2024/1030/8.png){: #magnific width="1926" height="930"}
 1. 키 만들기 클릭 **파일이 만들어지는데 이거 키중요하니깐 꼭간직하고 잊어버리지말기**
-   ![](/img/post/2024/1030/9.png){: #magnific}
+   ![](/img/post/2024/1030/9.png){: #magnific width="1798" height="994"}
    `**파일이 만들어지는데 이거 키중요하니깐 꼭간직하고 잊어버리지말기**`
 1. indexing api 검색 후 활성화
-   ![](/img/post/2024/1030/10.png){: #magnific}
-   ![](/img/post/2024/1030/11.png){: #magnific}
+   ![](/img/post/2024/1030/10.png){: #magnific width="2716" height="1040"}
+   ![](/img/post/2024/1030/11.png){: #magnific width="1850" height="1274"}
 
 #### 2.search console IAM등록
 
@@ -92,7 +92,7 @@ api키 발급을위해 해야됨
 search console 들어가서 IAM 아이디연결 하면 이제 api 사용할수있음
 
 1. 설정 -> 사용자 및 권한 -> 사용자추가 -> 위에 1-6번에서만든 id넣어주고 (`만들때 소유주로만들어주셈`)
-   ![](/img/post/2024/1030/12.png){: #magnific}
+   ![](/img/post/2024/1030/12.png){: #magnific width="2758" height="1358"}
 
 #### 3. api 호출
 
@@ -164,7 +164,7 @@ getSitemapUrls();
 
 `$ node src/index.js`실행 ㄱㄱㄱ
 
-![](/img/post/2024/1030/13.png){: #magnific}
+![](/img/post/2024/1030/13.png){: #magnific width="1258" height="1130"}
 
 6. 이제 구글 indexing api 호출하는 코드 작성해보자
    아까 다운받은 **키를 넣어서 new GoogleAuth** 생성자 호출하고 색인만들 url넣어주고 돌리자 `node src/index.js`
@@ -219,7 +219,7 @@ async function requestIndexing(apiLists) {
 requestIndexing(apiLists);
 ```
 
-![](/img/post/2024/1030/14.png){: #magnific}
+![](/img/post/2024/1030/14.png){: #magnific width="1302" height="264"}
 
 ```bash
 Response data: {

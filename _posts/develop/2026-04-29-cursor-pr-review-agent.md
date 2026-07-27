@@ -115,15 +115,15 @@ brew install gh
 gh auth login
 ```
 
-![gh auth login](/img/post/2026/04/pr_review.png)
+![gh auth login](/img/post/2026/04/pr_review.png){: width="583" height="173"}
 
 터미널에서 `gh auth login`을 실행하면 인증 방식을 선택하게 됩니다. **HTTPS + 웹 브라우저 로그인**을 선택하면 일회성 코드가 표시됩니다.
 
-![GitHub 디바이스 인증](/img/post/2026/04/pr_review2.png)
+![GitHub 디바이스 인증](/img/post/2026/04/pr_review2.png){: width="1154" height="1050"}
 
 브라우저에서 코드를 입력하고 인증을 완료합니다.
 
-![인증 완료](/img/post/2026/04/pr_review3.png)
+![인증 완료](/img/post/2026/04/pr_review3.png){: width="2030" height="1016"}
 
 인증이 완료되면 `gh` CLI로 PR 조회, 코멘트 등록 등 모든 GitHub 작업이 가능해집니다.
 
@@ -246,7 +246,7 @@ diff의 정확한 라인에 코멘트가 달리기 때문에, 코드를 보면�
 
 실제 PR에 대해 리뷰를 돌려보면 이런 결과가 나옵니다.
 
-![리뷰 요약 결과](/img/post/2026/04/pr_review4.png)
+![리뷰 요약 결과](/img/post/2026/04/pr_review4.png){: width="761" height="263"}
 
 이 PR에서는 Critical 이슈 없이 Medium 4건, Low 2건이 발견되었습니다. Medium에서 잡힌 것들을 보면:
 

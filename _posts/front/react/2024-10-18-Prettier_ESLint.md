@@ -54,7 +54,7 @@ ESLint는 코드에서 오류를 잡아주고, 특정한 코딩 규칙을 강제
    ```
 
 2. 설치 후, 프로젝트 루트(`package.json`파일이있는 위치)에 `.prettierrc` 파일을 생성하고 원하는 설정을 추가합니다.
-   ![](/img/post/2024/1018/1.png){: #magnific}
+   ![](/img/post/2024/1018/1.png){: #magnific width="383" height="540"}
 
    ```js
    //.prettierrc 세팅값
@@ -93,11 +93,11 @@ ESLint는 코드에서 오류를 잡아주고, 특정한 코딩 규칙을 강제
 
 3. VScode 설치
    마켓에서 검색후 설치
-   ![](/img/post/2024/1018/2.png){: #magnific}
+   ![](/img/post/2024/1018/2.png){: #magnific width="1470" height="683"}
 
 4. `command` + `shfit` + `p` 눌러서 `User Setting` 들어가서 원하는 대로설정하면됨
-   ![](/img/post/2024/1018/3.png){: #magnific}
-   ![](/img/post/2024/1018/4.png){: #magnific}
+   ![](/img/post/2024/1018/3.png){: #magnific width="663" height="183"}
+   ![](/img/post/2024/1018/4.png){: #magnific width="577" height="573"}
 
    ```js
    // JSON 세팅값

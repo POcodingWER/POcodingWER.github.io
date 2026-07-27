@@ -82,7 +82,7 @@ my-package/
 └── README.md          # 문서
 ```
 
-![폴더구조](/img/post/2025/03/packages/folder.png)
+![폴더구조](/img/post/2025/03/packages/folder.png){: width="269" height="197"}
 
 ### 4️⃣ package.json 설정
 
@@ -117,9 +117,9 @@ my-package/
 ```
 
 1.eslint package
-![패키지 구조 예시](/img/post/2025/03/packages/package_1.png)
+![패키지 구조 예시](/img/post/2025/03/packages/package_1.png){: width="1560" height="1292"}
 2.prettier package
-![패키지 구조 예시](/img/post/2025/03/packages/prettier.png)
+![패키지 구조 예시](/img/post/2025/03/packages/prettier.png){: width="1544" height="1006"}
 
 ### 5️⃣ 코드 개발
 
@@ -221,7 +221,7 @@ npm publish
    - 권한 선택: `read:packages`, `write:packages`, `delete:packages`, `repo`
    - 생성된 토큰을 안전한 곳에 복사해두세요!
 
-![토큰 생성](/img/post/2025/03/packages/token.png)
+![토큰 생성](/img/post/2025/03/packages/token.png){: width="1612" height="1188"}
 
 2. npm에 GitHub 인증 설정하기:
 
@@ -234,7 +234,7 @@ npm publish
    # Email: GitHub 이메일
    ```
 
-![npm login](/img/post/2025/03/packages/login.png)
+![npm login](/img/post/2025/03/packages/login.png){: width="976" height="184"}
 
 3. 1,2번 또는 `.npmrc` 파일에 직접 인증 정보 추가:
    ```
@@ -268,8 +268,8 @@ npm publish
 
 > ⚠️ **주의**: GitHub Packages에 배포된 패키지는 저장소 이름과 일치해야 합니다. 예를 들어, 저장소가 `username/my-repo`라면 패키지 이름은 `@username/my-repo`여야 합니다.
 
-![npm publish](/img/post/2025/03/packages/publish.png)
-![npm publish](/img/post/2025/03/packages/complete.png)
+![npm publish](/img/post/2025/03/packages/publish.png){: width="1460" height="574"}
+![npm publish](/img/post/2025/03/packages/complete.png){: width="3014" height="1008"}
 
 ##### 4. 패키지 다운 확인
 
@@ -335,7 +335,7 @@ npm publish
 
 이제 생성한 패키지가 다른 프로젝트에서 정상적으로 사용되고 있는지 확인했습니다.
 
-![패키지 다운 확인](/img/post/2025/03/packages/install.png)
+![패키지 다운 확인](/img/post/2025/03/packages/install.png){: width="1928" height="1562"}
 
 ## 🔄 패키지 모듈 관리 도구 비교
 

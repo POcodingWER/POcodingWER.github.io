@@ -41,32 +41,32 @@ tags:
 > [《카카오 에드핏 이동》 https://adfit.kakao.com/info](https://adfit.kakao.com/info)
 
 1. 광고 시작하기를 누른다
-   ![](/img/post/2024/0812/1-1.png){: #magnific}
+   ![](/img/post/2024/0812/1-1.png){: #magnific width="1236" height="1220"}
 2. 약관동의를 한다.
-   ![](/img/post/2024/0812/1-2.png){: #magnific}
+   ![](/img/post/2024/0812/1-2.png){: #magnific width="1368" height="1330"}
 3. 개인 계정생성
-   ![](/img/post/2024/0812/1-3.png){: #magnific}
+   ![](/img/post/2024/0812/1-3.png){: #magnific width="1418" height="580"}
 4. 개인정보 입력
-   ![](/img/post/2024/0812/1-4.png){: #magnific}
+   ![](/img/post/2024/0812/1-4.png){: #magnific width="1390" height="898"}
 5. 알림 설정
-   ![](/img/post/2024/0812/1-5.png){: #magnific}
+   ![](/img/post/2024/0812/1-5.png){: #magnific width="2780" height="1058"}
 6. 완료
-   ![](/img/post/2024/0812/1-6.png){: #magnific}
+   ![](/img/post/2024/0812/1-6.png){: #magnific width="2200" height="1346"}
 
 ### 2. adfit dashboard
 
 > [《카카오 에드핏 대시보드 이동》 https://adfit.kakao.com/dashboard](https://adfit.kakao.com/dashboard)
 
 1. dashboard 이동한다.
-   ![](/img/post/2024/0812/2-1.png){: #magnific}
+   ![](/img/post/2024/0812/2-1.png){: #magnific width="3020" height="1440"}
 2. 매체 등록.
-   ![](/img/post/2024/0812/2-2.png){: #magnific}
+   ![](/img/post/2024/0812/2-2.png){: #magnific width="1938" height="1188"}
 3. 광고단위생성.
-   ![](/img/post/2024/0812/2-3.png){: #magnific}
+   ![](/img/post/2024/0812/2-3.png){: #magnific width="1940" height="1234"}
 4. option 설정.
-   ![](/img/post/2024/0812/2-4.png){: #magnific}
+   ![](/img/post/2024/0812/2-4.png){: #magnific width="824" height="1176"}
 5. option 설정.
-   ![](/img/post/2024/0812/2-5.png){: #magnific}
+   ![](/img/post/2024/0812/2-5.png){: #magnific width="1216" height="1076"}
 6. 코드복사후 원하는 위치에 넣으면
    ```html
    <ins
@@ -83,7 +83,7 @@ tags:
    ></script>
    ```
 7. 5~10분기다리면 광고가 시작된다.
-   ![](/img/post/2024/0812/2-7.png){: #magnific}
+   ![](/img/post/2024/0812/2-7.png){: #magnific width="1334" height="950"}
 
 ## 마무리
 
@@ -92,9 +92,9 @@ tags:
 
 ## 추가
 
-![](/img/post/2024/0812/3.png){: #magnific}
+![](/img/post/2024/0812/3.png){: #magnific width="946" height="514"}
 넹넹 많이부족해서 더올리고 심사 받겠습니다. ㅠㅠ
-![](/img/post/2024/0812/3-1.png){: #magnific}
+![](/img/post/2024/0812/3-1.png){: #magnific width="1211" height="473"}
 
 1. 다시확인해보니 3개를 발급받고 붙이지를 못해서 난 에러같다
 2. 나머지 2개도 붙인다음에 나오는거 확인후 다시 진행 ㄱㄱ

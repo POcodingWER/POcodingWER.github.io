@@ -27,7 +27,7 @@ tags:
   - 웹 표준 가이드
 ---
 
-![alt text](/img/post/2025/02/accessibility.png)
+![alt text](/img/post/2025/02/accessibility.png){: width="293" height="172"}
 
 {% include post/develop_contents.md %}
 

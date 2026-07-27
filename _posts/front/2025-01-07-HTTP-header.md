@@ -33,7 +33,7 @@ tags:
 
 # HTTP의 역사와 진화 📚
 
-![](/img/post/2025/01/http.png){: #magnific}
+![](/img/post/2025/01/http.png){: #magnific width="1108" height="724"}
 
 1. HTTP/0.9 (1991) - 원시적인 시작
 

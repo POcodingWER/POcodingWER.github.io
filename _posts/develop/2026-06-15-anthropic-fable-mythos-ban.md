@@ -40,7 +40,7 @@ tags:
 
 ## 사건 개요 — 출시 72시간 만에 전면 중단
 
-![](/img/post/2026/06/fable_mythos_ban.png){: #magnific}
+![](/img/post/2026/06/fable_mythos_ban.png){: #magnific width="1536" height="1024"}
 
 2026년 6월 9일, Anthropic은 **Mythos-class** 최상위 모델인 **Claude Fable 5**와 **Claude Mythos 5**를 공개했습니다. Opus보다 한 단계 위 성능 티어로, 코딩·추론·사이버보안 분야에서 업계 최고 수준의 능력을 자랑합니다.
 
@@ -55,7 +55,7 @@ tags:
 
 **Claude Opus, Sonnet, Haiku 등 다른 모델은 영향 없음.** Fable/Mythos만 중단되었습니다.
 
-![](/img/post/2026/06/fable_timeline.png){: #magnific}
+![](/img/post/2026/06/fable_timeline.png){: #magnific width="1536" height="1024"}
 
 ---
 
@@ -68,7 +68,7 @@ tags:
 | **Fable 5** | `claude-fable-5` | 일반 공개 (API, Bedrock, Vertex AI 등) | 사이버보안·생물학 등 고위험 질문 차단, 차단 시 Opus 4.8로 폴백 |
 | **Mythos 5** | `claude-mythos-5` | Project Glasswing 파트너만 | 일부 안전장치 해제 |
 
-![](/img/post/2026/06/fable_vs_mythos.png){: #magnific}
+![](/img/post/2026/06/fable_vs_mythos.png){: #magnific width="1536" height="1024"}
 
 ### Mythos-class란?
 
@@ -119,7 +119,7 @@ AI 모델의 **안전장치(safeguard)를 우회**하여, 원래 차단되도록
   → 취약점 분석, 공격 코드 생성 등
 ```
 
-![](/img/post/2026/06/jailbreak_concept.png){: #magnific}
+![](/img/post/2026/06/jailbreak_concept.png){: #magnific width="1536" height="1024"}
 
 ---
 
@@ -168,7 +168,7 @@ Anthropic 판단: 외국인만 차단하면 수출통제 위반 리스크
 
 즉 **"전 세계 차단"은 정부가 직접 "모두 막아라"고 한 것이 아니라**, 수출통제 준수를 위한 **기술적·법적 부작용**입니다. AWS Bedrock, Vertex AI 등 클라우드 파트너 고객도 포함됩니다.
 
-![](/img/post/2026/06/global_ban_flow.png){: #magnific}
+![](/img/post/2026/06/global_ban_flow.png){: #magnific width="1536" height="1024"}
 
 ---
 
@@ -206,7 +206,7 @@ Amazon은 Anthropic의 **최대 투자자**이자 **AWS Bedrock 호스팅 파트
 
 **투자자이자 파트너인 Amazon이 경쟁 모델 차단에 관여**했다는 **이해상충(conflict of interest)** 논란도 보도되고 있습니다.
 
-![](/img/post/2026/06/amazon_conflict.png){: #magnific}
+![](/img/post/2026/06/amazon_conflict.png){: #magnific width="1536" height="1024"}
 
 ---
 

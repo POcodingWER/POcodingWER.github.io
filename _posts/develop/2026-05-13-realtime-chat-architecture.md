@@ -53,7 +53,7 @@ tags:
 
 처음에 "유저끼리 직접 소켓을 열어서 통신하는 거 아닌가?" 라고 생각할 수 있다. 하지만 실제 채팅 시스템은 **항상 중앙 서버를 경유**한다.
 
-![P2P vs Server 비교](/img/post/2026/05/chat_p2p_vs_server.png)
+![P2P vs Server 비교](/img/post/2026/05/chat_p2p_vs_server.png){: width="1536" height="1024"}
 
 ```
 ❌ P2P (잘못된 이해)
@@ -122,7 +122,7 @@ tags:
 
 "채팅방마다 포트를 하나씩 여는 건가?" → **아니다.** 포트는 하나, 서버 내부에서 Room이라는 논리적 그룹으로 나눈다.
 
-![Socket.IO Room 개념](/img/post/2026/05/chat_room_concept.png)
+![Socket.IO Room 개념](/img/post/2026/05/chat_room_concept.png){: width="1536" height="1024"}
 
 ```
 ❌ 포트로 분리
@@ -312,7 +312,7 @@ export const useChat = (roomId: string) => {
 
 카카오톡처럼 "채팅방 열고 있으면 푸시 안 오고, 앱 끄면 푸시 오고" 하는 건 서버가 유저 상태를 추적하기 때문이다.
 
-![알림 분기 처리 플로우](/img/post/2026/05/chat_notification_flow.png)
+![알림 분기 처리 플로우](/img/post/2026/05/chat_notification_flow.png){: width="1536" height="1024"}
 
 ### 유저 상태 3가지
 

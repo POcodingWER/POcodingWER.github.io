@@ -49,7 +49,7 @@ tags:
 
 ### 1.1. 웹의 시작: 인터넷과 웹의 구분, 그리고 문서 공유 시스템
 
-![](/img/post/2026/04/internet_vs_web.png){: #magnific}
+![](/img/post/2026/04/internet_vs_web.png){: #magnific width="1376" height="768"}
 
 > **인터넷과 웹은 다른 개념이다.**
 
@@ -82,7 +82,7 @@ tags:
 
 웹 페이지를 더 예쁘게 만들고 싶다는 요구가 생겼다. 초기에는 HTML 태그 안에 직접 스타일을 적용했지만, 페이지가 많아질수록 유지보수가 매우 어려워지는 문제를 야기했다. 문서 구조를 정의하는 HTML에 디자인까지 섞여 코드가 복잡해지는 근본적인 문제도 있었다.
 
-![](/img/post/2026/04/before_after_css.png){: #magnific}
+![](/img/post/2026/04/before_after_css.png){: #magnific width="1376" height="768"}
 
 #### 1996년, CSS(Cascading Style Sheets) 등장
 
@@ -115,7 +115,7 @@ tags:
 
 웹 페이지가 아무것도 반응하지 않는다는 한계가 있었다. 클릭해도 아무런 일이 일어나지 않는 정적인 상태였다.
 
-![](/img/post/2026/04/javascript_interactivity.png){: #magnific}
+![](/img/post/2026/04/javascript_interactivity.png){: #magnific width="1376" height="768"}
 
 #### 1995년, 단 10일 만에 JavaScript가 개발되었다
 
@@ -146,7 +146,7 @@ document.getElementById("myButton").addEventListener("click", function () {
 
 1990년대 후반부터 넷스케이프와 인터넷 익스플로러 간의 **브라우저 전쟁**이 벌어지면서, 각 브라우저가 자체적인 방식으로 기능을 추가하고 표준 없이 작동했다. 이로 인해 같은 HTML 코드를 사용해도 브라우저마다 다르게 보이는 **크로스 브라우저 이슈**가 발생하여 개발자들이 어려움을 겪었다.
 
-![](/img/post/2026/04/browser_rendering.png){: #magnific}
+![](/img/post/2026/04/browser_rendering.png){: #magnific width="1376" height="768"}
 
 #### 브라우저의 렌더링 과정
 
@@ -169,7 +169,7 @@ JavaScript로 DOM을 수정하면 레이아웃 계산을 다시 해야 하는데
 
 웹이 쇼핑몰, 소셜네트워크 등으로 확장되면서 JavaScript 코드가 폭발적으로 늘어났다. 10일 만에 만들어진 JavaScript는 대규모 애플리케이션을 만들기에 적합하지 않아 코드가 복잡해지고 관리가 어려워졌다.
 
-![](/img/post/2026/04/jquery_to_react.png){: #magnific}
+![](/img/post/2026/04/jquery_to_react.png){: #magnific width="1376" height="768"}
 
 #### 2006년 — jQuery의 등장
 
@@ -257,7 +257,7 @@ npm run build
 
 스마트폰 앱처럼 부드러운 화면 전환 경험에 대한 요구가 생기면서 **SPA(Single Page Application)**가 등장했다.
 
-![](/img/post/2026/04/mpa_vs_spa.png){: #magnific}
+![](/img/post/2026/04/mpa_vs_spa.png){: #magnific width="1376" height="768"}
 
 #### MPA vs SPA
 
@@ -306,7 +306,7 @@ SPA는 강력한 UX를 제공하지만 두 가지 치명적인 단점이 있다.
 - **초기 로딩 느림**: 모든 화면을 위한 번들 크기가 커져 사용자는 하얀 화면만 보는 시간이 길어진다.
 - **SEO 약화**: 검색 엔진 크롤러가 JavaScript 실행 전의 빈 HTML만 인식하여 페이지 내용을 제대로 파악하지 못한다.
 
-![](/img/post/2026/04/csr_vs_ssr.png){: #magnific}
+![](/img/post/2026/04/csr_vs_ssr.png){: #magnific width="1376" height="768"}
 
 #### CSR vs SSR
 

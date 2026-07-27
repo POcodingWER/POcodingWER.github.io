@@ -31,7 +31,7 @@ tags:
 
 {% include post/develop_contents.md %}
 
-![alt text](/img/post/2025/02/images.png)
+![alt text](/img/post/2025/02/images.png){: width="735" height="500"}
 
 ## 📚 1장: 반응형 디자인 기초
 

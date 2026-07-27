@@ -44,7 +44,7 @@ AI는 tool만 고르고, 토큰은 Cursor와 MCP 서버가 각각 들고, 실제
 
 서버 URL이 공개돼 있어도 **Connect한 본인 Tesla만** 접근합니다. A가 로그인하면 A 차량, B가 로그인하면 B 차량 — 남의 차를 건드리는 구조가 아닙니다.
 
-![](/img/post/2026/07/tesla_mcp_hero.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_hero.png){: #magnific width="1536" height="1024"}
 
 헤더 이미지는 전체 흐름을 한눈에 보여 줍니다. 채팅 한 줄 → MCP tool → Fleet API → 내 차. OAuth 자물쇠는 **두 번** 붙는다는 점이 이 프로젝트의 핵심입니다.
 
@@ -75,7 +75,7 @@ Figma MCP OAuth 글을 쓰면서 “클라이언트 쪽 로그인”은 이해�
 
 이전 글은 “토큰은 Cursor가 든다”가 핵심이었고, 이번엔 **서버도 OAuth를 구현**해서 이중 로그인 체인을 만든 셈입니다.
 
-![](/img/post/2026/07/tesla_mcp_dual_oauth_flow.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_dual_oauth_flow.png){: #magnific width="1536" height="1024"}
 
 왼쪽은 Cursor가 들고 있는 **MCP JWT**, 가운데 `tesla_mcp`가 Provider이면서 동시에 Tesla OAuth Client, 오른쪽은 서버가 userId별로 보관하는 **Fleet access/refresh**입니다. tool이 실제로 나가려면 **두 토큰 체인이 모두** 살아 있어야 합니다.
 
@@ -104,7 +104,7 @@ Cursor ──MCP OAuth──► tesla_mcp ──Tesla OAuth──► Tesla 계�
 
 ## MCP Authorization — 서버에서 한 일
 
-![](/img/post/2026/07/tesla_mcp_who_holds_token.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_who_holds_token.png){: #magnific width="1536" height="1024"}
 
 [이전 OAuth 글](/mcp/2026/07/14/cursor-mcp-oauth/)에서 “AI는 토큰을 안 든다”는 표는 그대로입니다. Tesla MCP에서는 **Cursor가 MCP JWT**, **tesla_mcp 서버가 Tesla Fleet 토큰**을 각각 보관합니다. 채팅에 배터리 %가 보여도 Bearer 문자열은 안 나옵니다.
 
@@ -179,7 +179,7 @@ export const sessionUsers = new Map<string, string>(); // MCP session → userId
 
 ## 15개 tool — 뭘 할 수 있나
 
-![](/img/post/2026/07/tesla_mcp_tools_overview.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_tools_overview.png){: #magnific width="1536" height="1024"}
 
 조회·기후·출입·충전·내비로 나뉜 15개 tool입니다. LLM은 자연어를 오른쪽 tool 이름으로 바꿉니다. `wake_vehicle`은 조회 전에 자주 끼어드는 전처리 tool이고, `get_virtual_key_link`는 제어 명령이 막혔을 때 먼저 확인하는 용도입니다.
 
@@ -255,7 +255,7 @@ proxy 없이 Fleet API 직접 호출은 **일부 차량·명령**에서만 동�
 
 ## Cursor에서 연결하기
 
-![](/img/post/2026/07/tesla_mcp_connect_sequence.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_connect_sequence.png){: #magnific width="1536" height="1024"}
 
 실제 순서는 위 그림과 같습니다. **① Connect** → **② 브라우저 Tesla 로그인** → **③ MCP JWT 발급** → **④ 채팅으로 자연어** → **⑤ tool 결과**. ②에서 Tesla 계정을 바꾸면 이후 조회·제어 대상 차량도 그 계정 기준으로 바뀝니다.
 
@@ -311,7 +311,7 @@ Virtual Key용 **공개키**는 `/.well-known/appspecific/com.tesla.3p.public-ke
 
 전체 컴포넌트 배치입니다. `/mcp` 앞의 `requireBearerAuth`가 MCP JWT를 검증하고, tool handler 안에서 `userId`로 Tesla 토큰을 꺼내 Fleet API를 호출합니다.
 
-![](/img/post/2026/07/tesla_mcp_architecture.png){: #magnific}
+![](/img/post/2026/07/tesla_mcp_architecture.png){: #magnific width="1536" height="1024"}
 
 조회 API는 Fleet API만으로 충분한 경우가 많고, 잠금·트렁크·충전 같은 **명령**은 오른쪽 `tesla-http-proxy` 분기로 서명된 요청을 보냅니다. Virtual Key용 `public-key.pem`은 Fleet API가 차량과 신뢰 관계를 맺을 때 씁니다.
 

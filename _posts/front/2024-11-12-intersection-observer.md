@@ -321,7 +321,7 @@ export default App;
 
 ### 설명
 
-![](/img/post/2024/1112/scroll.gif){: #magnific}
+![](/img/post/2024/1112/scroll.gif){: #magnific width="1670" height="1464"}
 
 ```jsx
 const observer = new IntersectionObserver(

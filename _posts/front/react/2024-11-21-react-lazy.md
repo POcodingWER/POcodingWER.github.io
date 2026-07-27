@@ -102,7 +102,7 @@ export default App;
 ```
 
 {% endraw %}
-![react lazy](/img/post/2024/1121/lazy.gif)
+![react lazy](/img/post/2024/1121/lazy.gif){: width="1670" height="1464"}
 금방 로딩이 되어 크롬에서 네트워크속도를 낮추어 실행해보았음
 
 - **`React.lazy()`**: 컴포넌트를 동적으로 가져오기 위한 함수.

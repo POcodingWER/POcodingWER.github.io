@@ -34,7 +34,7 @@ tags:
 
 ---
 
-![](/img/post/2025/06/stagewise.gif)
+![](/img/post/2025/06/stagewise.gif){: width="720" height="405"}
 
 # 위 이미지 처럼 브라우저에서 프롬프트를 사용해서 바로 변경할수 있는 에디터가 있음
 
