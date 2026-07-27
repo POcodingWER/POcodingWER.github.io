@@ -19,17 +19,25 @@ https://github.com/kitian616/jekyll-TeXt-theme
             <div id='tag_cloud' class="tags tags-sup js-tags">
                 <a class="tag-button--all" data-encode="">
                     전체 보기
-                    <sup>{% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}{{ visible_posts.size }}</sup>
+                    <sup>{% assign visible_count = 0 %}{% for post in site.posts %}{% unless post.hidden %}{% assign visible_count = visible_count | plus: 1 %}{% endunless %}{% endfor %}{{ visible_count }}</sup>
                 </a>
 
                 {% capture categories %}
                 {% for category in site.categories %}
-                <a data-sort="{{ site.posts.size | minus: category[1].size | prepend: '0000' | slice: -4, 4 }}"
+                {% assign category_visible_count = 0 %}
+                {% for post in category[1] %}
+                {% unless post.hidden %}
+                {% assign category_visible_count = category_visible_count | plus: 1 %}
+                {% endunless %}
+                {% endfor %}
+                {% if category_visible_count > 0 %}
+                <a data-sort="{{ site.posts.size | minus: category_visible_count | prepend: '0000' | slice: -4, 4 }}"
                     data-encode="{{ category[0] | strip | url_encode }}" class="tag-button" title="{{ category[0] }}"
-                    rel="{{ category[1].size }}">
+                    rel="{{ category_visible_count }}">
                     {{ category[0] }}
-                    <sup>{{category[1].size}}</sup>
+                    <sup>{{ category_visible_count }}</sup>
                 </a>__SEPERATOR__
+                {% endif %}
                 {% endfor %}
                 {% endcapture %}
                 {{ categories | split:'__SEPERATOR__' | sort }}
@@ -37,12 +45,12 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
             <!-- Article List -->
             <div class="mini-post-list js-result d-none">
-                {%- assign _sorted_list = site.posts | where_exp: "item", "item.hidden != true" -%}
-                {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-                {%- assign _sorted_list = _sorted_list | reverse -%}
-
+                {%- assign _sorted_list = site.posts | sort: 'date' | reverse -%}
+                {%- assign _visible_index = 0 -%}
 
                 {%- for _article in _sorted_list -%}
+                {%- unless _article.hidden -%}
+                {%- assign _visible_index = _visible_index | plus: 1 -%}
                 {%- assign _categories = '' -%}
                 {%- for _category in _article.categories -%}
                 {%- assign _category_encode = _category | strip | url_encode -%}
@@ -56,7 +64,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
                 {% comment %} group by year {% endcomment %}
                 {%- assign _currentdate = _article.date | date: '%Y' -%}
                 {%- if _currentdate != _date -%}
-                {%- unless forloop.first -%}</section>{%- endunless -%}
+                {%- if _visible_index > 1 -%}</section>{%- endif -%}
                 <section>
                     <span class="fa listing-seperator">
                         <span class="tag-text">{{ _currentdate }}</span>
@@ -77,9 +85,9 @@ https://github.com/kitian616/jekyll-TeXt-theme
                         </a>
                         <hr>
                     </div>
-                    {%- if forloop.last -%}
-                </section>{%- endif -%}
+                {%- endunless -%}
                 {% endfor %}
+                </section>
             </div>
         </div>
     </div>
