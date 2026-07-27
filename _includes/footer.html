@@ -31,7 +31,7 @@
 
 {% if page.layout == 'post' or page.layout == 'keynote' %}
 <!-- Magnific Popup (post only) -->
-<script src="{{ '/js/jquery.magnific-popup.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.magnific-popup.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/js/magnific-popup-setting.js' | prepend: site.baseurl }}"></script>
 <script>
   document.querySelectorAll('.post-container img').forEach(function (img, index) {
@@ -51,65 +51,6 @@
 <!-- Simple Jekyll Search -->
 <script src="{{ '/js/simple-jekyll-search.min.js'| prepend: site.baseurl }}"></script>
 
-<!-- Service Worker -->
-{% if site.service-worker %}
-<script src="{{ '/js/snackbar.js'| prepend: site.baseurl }}"></script>
-<script src="{{ '/js/sw-registration.js'| prepend: site.baseurl }}"></script>
-{% endif %}
-
-<!-- async load function -->
-<script>
-  function async(u, c) {
-    var d = document, t = 'script',
-      o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-    o.src = u;
-    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-    s.parentNode.insertBefore(o, s);
-  }
-</script>
-
-<!--
-     Because of the native support for backtick-style fenced code blocks
-     right within the Markdown is landed in Github Pages,
-     From V1.6, There is no need for Highlight.js,
-     so Huxblog drops it officially.
-
-     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
-     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
-     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
--->
-<!--
-    <script>
-        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
-            hljs.initHighlightingOnLoad();
-        })
-    </script>
-    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
--->
-
-
-{% if page.plchart %}
-<!-- jquery.tagcloud.js -->
-<script>
-  // https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-  }
-
-  $(document).ready(function () {
-    var $chart = document.querySelector("#chart");
-    $chart.onload = function () {
-      resizeIframe($chart)
-    }
-    window.addEventListener("resize", () => {
-      resizeIframe($chart)
-    });
-  })
-</script>
-{% endif %}
-
-
 {% if page.title == 'Archive' or page.title == 'Categories'%}
 <!-- jquery.tagcloud.js -->
 <script>
@@ -124,63 +65,21 @@
 <script src='{{ "/js/archive.js" | prepend: site.baseurl }}'></script>
 {% endif %}
 
-<!--fastClick.js -->
-<script>
-  async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
-    var $nav = document.querySelector("nav");
-    if ($nav) FastClick.attach($nav);
-  })
-</script>
-
-
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}"></script>
 <script>
-  // dynamic User by Hux
-  var _gaId = '{{ site.ga_track_id }}';
-  var _gaDomain = '{{ site.ga_domain }}';
-
-  // Originial 옛날버전
-  // (function (i, s, o, g, r, a, m) {
-  //     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-  //         (i[r].q = i[r].q || []).push(arguments)
-  //     }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  //         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-  // })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-  // ga('create', _gaId, _gaDomain);
-  // ga('send', 'pageview');
-
-  // Google tag (gtag.js)
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
-  gtag('config', _gaId);
-</script>
-{% endif %}
-
-
-<!-- Baidu Tongji -->
-{% if site.ba_track_id %}
-<script>
-  // dynamic User by Hux
-  var _baId = '{{ site.ba_track_id }}';
-
-  // Originial
-  var _hmt = _hmt || [];
-  (function () {
-    var hm = document.createElement("script");
-    hm.src = "//hm.baidu.com/hm.js?" + _baId;
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
+  gtag('config', '{{ site.ga_track_id }}');
 </script>
 {% endif %}
 
 
 <!-- Side Catalog -->
+{% if page.layout == 'post' %}
 {% unless page.no-catalog %}
 <script type="text/javascript">
   function generateCatalog(selector) {
@@ -240,6 +139,7 @@
   });
 </script>
 {% endunless %}
+{% endif %}
 
 
 <!-- Multi-Lingual -->
@@ -302,36 +202,36 @@
 </script>
 {% endif %}
 
-<!-- Simple Jekyll Search -->
+<!-- Simple Jekyll Search (lazy init on first open) -->
 <script>
-  // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
   function htmlDecode(input) {
     var e = document.createElement('textarea');
     e.innerHTML = input;
-    // handle case of empty input
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
   }
 
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('search-results'),
-    json: '/search.json',
-    searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
-    noResultsText: '검색 결과가 없습니다',
-    limit: 50,
-    fuzzy: false,
-    // a hack to get escaped subtitle unescaped. for some reason, 
-    // post.subtitle w/o escape filter nuke entire search.
-    templateMiddleware: function (prop, value, template) {
-      if (prop === 'subtitle' || prop === 'title') {
-        if (value.indexOf("code")) {
-          return htmlDecode(value);
-        } else {
+  var searchInitialized = false;
+  function initSearch() {
+    if (searchInitialized) return;
+    searchInitialized = true;
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '{{ site.baseurl }}/search.json',
+      searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+      noResultsText: '검색 결과가 없습니다',
+      limit: 50,
+      fuzzy: false,
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'subtitle' || prop === 'title') {
+          if (value.indexOf("code")) {
+            return htmlDecode(value);
+          }
           return value;
         }
       }
-    }
-  });
+    });
+  }
 
   $(document).ready(function () {
     var $searchPage = $('.search-page');
@@ -342,6 +242,7 @@
 
     $searchOpen.on('click', function (e) {
       e.preventDefault();
+      initSearch();
       $searchPage.toggleClass('search-active');
       var prevClasses = $body.attr('class') || '';
       setTimeout(function () {
@@ -352,7 +253,7 @@
         $searchClose.on('click', function (e) {
           e.preventDefault();
           $searchPage.removeClass('search-active');
-          $body.attr('class', prevClasses);  // from closure 
+          $body.attr('class', prevClasses);
         });
         $searchInput.focus();
         $searchInput.on('keyup', function (key) {
