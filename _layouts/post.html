@@ -28,25 +28,20 @@ layout: default
         {{ content }}
         <!-- 구글 -->
         {% if site.google_ads_open %}
-        <script async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3587550545741227"
-          crossorigin="anonymous"></script>
-        <ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4449058731"
+        <ins class="adsbygoogle adsbygoogle-slot" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="4449058731"
           data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         {% endif %}
         <!-- 카카오 -->
-        <div class="kakao_poster_width"></div>
         {% if site.kakao_adfit_open %}
-        <script>
-          const mediaQueryPostFooter = window.matchMedia('(min-width: 992px)').matches;
-          const dataAdUnitPostFooter = mediaQueryPostFooter
-            ? `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-PCSCzPH4DUFDJxkc" data-ad-width="728"
-              data-ad-height="90" />`
-            : `<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-b5wNDoLbNCwNSH3C" data-ad-width="300"
-              data-ad-height="250"></ins>`
-          document.querySelector(".kakao_poster_width").innerHTML = dataAdUnitPostFooter
-        </script>
+        <div class="kakao_ad_slot kakao_ad_slot--poster kakao_ad_slot--desktop">
+          <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-PCSCzPH4DUFDJxkc" data-ad-width="728"
+            data-ad-height="90"></ins>
+        </div>
+        <div class="kakao_ad_slot kakao_ad_slot--poster kakao_ad_slot--mobile">
+          <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-b5wNDoLbNCwNSH3C" data-ad-width="300"
+            data-ad-height="250"></ins>
+        </div>
         {% endif %}
         <hr style="visibility: hidden;">
         <ul class="pager">
@@ -146,9 +141,11 @@ layout: default
 
 {% if site.anchorjs %}
 <!-- 깃헙댓글 -->
-<script src="https://utteranc.es/client.js" repo="POcodingWER/utterances" issue-term="pathname" theme="github-light"
-  crossorigin="anonymous" async>
+<div class="utterances-container">
+  <script src="https://utteranc.es/client.js" repo="POcodingWER/utterances" issue-term="pathname" theme="github-light"
+    crossorigin="anonymous" async>
   </script>
+</div>
 <!-- async load function -->
 <script>
   function async(u, c) {
