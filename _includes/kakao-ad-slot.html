@@ -1,0 +1,20 @@
+{% comment %}
+  Kakao AdFit — 광고 SDK는 ins의 display:none을 그대로 사용하고,
+  부모 프레임에 min-height로 공간만 미리 확보해 CLS를 줄입니다.
+{% endcomment %}
+<div class="kakao-ad-slot {{ include.wrapper_class }}">
+  <div class="kakao-ad-slot__frame kakao-ad-slot__frame--desktop"
+    style="min-height: {{ include.desktop_h }}px; max-width: {{ include.desktop_w }}px;">
+    <ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit="{{ include.desktop_unit }}"
+      data-ad-width="{{ include.desktop_w }}"
+      data-ad-height="{{ include.desktop_h }}"></ins>
+  </div>
+  <div class="kakao-ad-slot__frame kakao-ad-slot__frame--mobile"
+    style="min-height: {{ include.mobile_h }}px; max-width: {{ include.mobile_w }}px;">
+    <ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit="{{ include.mobile_unit }}"
+      data-ad-width="{{ include.mobile_w }}"
+      data-ad-height="{{ include.mobile_h }}"></ins>
+  </div>
+</div>

@@ -1,27 +1,19 @@
-<!-- 카카오광고 -->
-<div class="kakao_length_width"></div>
-<!-- 구글 광고 -->
-{% if site.google_ads_open %}
-<ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="6682135131"
-  data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-{% endif %}
+<div class="sidebar-ads">
+  {% if site.kakao_adfit_open %}
+  {% include kakao-ad-slot.html
+    wrapper_class="kakao_length_width"
+    desktop_unit="DAN-QBkwFYsmmGqObnoc"
+    desktop_w=160
+    desktop_h=600
+    mobile_unit="DAN-J8MV2KpWNAZxxLL0"
+    mobile_w=300
+    mobile_h=250
+  %}
+  {% endif %}
 
-<!-- 미디어쿼리사용해서 kakao adfit반응형으로 작업했음 -->
-{% if site.kakao_adfit_open %}
-<script>
-  const mediaQuery = window.matchMedia('(min-width: 992px)').matches;
-  const dataAdUnit = mediaQuery
-    ? `<ins class="kakao_ad_area" style="display:none;"
-      data-ad-unit="DAN-QBkwFYsmmGqObnoc"
-      data-ad-width="160"
-      data-ad-height="600"></ins>`
-    : `<ins class="kakao_ad_area" style="display:none;"
-      data-ad-unit="DAN-J8MV2KpWNAZxxLL0"
-      data-ad-width="300"
-      data-ad-height="250"></ins>`
-  document.querySelector(".kakao_length_width").innerHTML = dataAdUnit
-
-</script>
-{% endif %}
-<!-- kakao adfit 스크립트 footer-ads로이동-->
+  {% if site.google_ads_open %}
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{site.googl_ca_pub}}" data-ad-slot="6682135131"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {% endif %}
+</div>

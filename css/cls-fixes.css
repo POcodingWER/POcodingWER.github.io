@@ -1,44 +1,116 @@
-/* CLS fixes — post/footer in-flow ads only (sidebar excluded to avoid layout break) */
+/* CLS fixes — 광고·댓글·아이콘 영역 공간 예약 (광고 노출 로직은 변경 없음) */
 
+/* Kakao AdFit: 데스크톱/모바일 슬롯 중 하나만 표시 */
+.kakao-ad-slot {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.kakao-ad-slot__frame {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kakao-ad-slot__frame--desktop {
+  display: none;
+}
+
+.kakao-ad-slot__frame--mobile {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .kakao-ad-slot__frame--desktop {
+    display: block;
+  }
+
+  .kakao-ad-slot__frame--mobile {
+    display: none;
+  }
+}
+
+/* 포스트 본문 하단 */
 .post-container .kakao_poster_width {
-  min-height: 90px;
   margin: 1em 0;
 }
 
 .post-container .adsbygoogle {
   display: block;
-  min-height: 90px;
+  min-height: 280px;
   margin: 1em 0;
 }
 
+@media (min-width: 992px) {
+  .post-container .adsbygoogle {
+    min-height: 90px;
+  }
+}
+
+/* 사이드바 (데스크톱) */
+.sidebar-ads .adsbygoogle {
+  display: block;
+  min-height: 250px;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 992px) {
+  .sidebar-ads .adsbygoogle {
+    min-height: 90px;
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar-ads .kakao-ad-slot {
+    margin: 0 0 1em;
+  }
+}
+
+/* 푸터 광고 */
 .kakao_footer_width {
-  min-height: 90px;
   margin: 0.5em 0;
 }
 
 footer .adsbygoogle {
   display: block;
-  min-height: 90px;
+  min-height: 100px;
+  margin: 0.5em 0;
 }
 
+@media (min-width: 992px) {
+  footer .adsbygoogle {
+    min-height: 90px;
+  }
+}
+
+/* Utterances 댓글 */
 .utterances-container {
-  min-height: 120px;
+  min-height: 300px;
 }
 
+/* Font Awesome 아이콘 로드 시 밀림 방지 */
+.fa {
+  display: inline-block;
+  min-width: 1em;
+  min-height: 1em;
+}
+
+/* 푸터 GitHub 버튼·조회수 배지 */
+.footer-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 142px;
+  min-height: 20px;
+  vertical-align: middle;
+}
+
+/* 본문 이미지 */
 .post-container img[width][height] {
   height: auto;
 }
 
 .post-container img {
   cursor: zoom-in;
-}
-
-@media (max-width: 991px) {
-  .post-container .kakao_poster_width {
-    min-height: 250px;
-  }
-
-  .kakao_footer_width {
-    min-height: 100px;
-  }
 }
