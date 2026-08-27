@@ -27,3 +27,4 @@
 1. [[React] useEffectEvent로 해결하는 useEffect의 고질적 문제](/reactguide/2026/02/09/useEffectEvent/)
 1. [[React] React 렌더링 원리 & Next.js 완전 정복](/reactguide/2026/02/26/react-rendering-nextjs/)
 1. [[React] React Native + WebView로 앱 껍데기 만들어보기](/reactguide/2026/06/29/react-native-webview-expo/)
+1. [[React] Activity, Compiler, use cache — React 19.2 & Next.js 16](/reactguide/2026/08/27/react-19-2-next-16/)
