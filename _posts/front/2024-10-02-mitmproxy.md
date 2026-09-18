@@ -4,7 +4,7 @@ title: "[FRONT] Man in the Middle Proxy 설치하기"
 
 subtitle: "mitmproxy"
 
-date: 2024-10-02 15:23:57
+date: 2024-10-02 10:23:57
 # lastmod: 2024-08-14 10:10:00
 author: "lim.Chuck"
 

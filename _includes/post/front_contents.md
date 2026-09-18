@@ -22,6 +22,7 @@
 1. [[FRONT] 🍪 Cookie 보안의 모든 것: 탈취부터 방어까지](/front/2025/08/07/cookie/)
 1. [[FRONT] 프론트엔드 기술은 어떻게 발전해왔는가?](/front/2026/04/29/frontend-history/)
 1. [[FRONT] www.google.com 입력하면 일어나는 일 — DNS부터 렌더링까지](/front/2026/06/16/browser-request-flow/)
+1. [[FRONT] 요즘 개인정보 유출은 왜 전부 'API'에서 터질까](/front/2026/09/18/api-data-leak/)
 
 #### 알고있으면 너무 좋은 프론트엔드 WEB API 파헤쳐보자
 
