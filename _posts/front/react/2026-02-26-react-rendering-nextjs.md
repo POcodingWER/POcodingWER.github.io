@@ -549,6 +549,16 @@ Next.js 새 프로젝트 빠르게 → Vercel
 
 ---
 
+## 10. Next.js 말고 SSR 하려면
+
+Vite는 개발 서버랑 번들러다. SSR에 필요한 라우팅, HTML 생성, hydration, 서버 함수는 따로 연결해야 한다. 그 연결을 프레임워크로 제공하는 게 **TanStack Start**다. TanStack Router 위에 SSR이랑 `createServerFn`을 얹고, 라우트마다 `ssr: true | "data-only" | false`를 고른다.
+
+Next.js의 `revalidate` ISR이랑 같은 스위치는 없다. 설치, loader, 서버 함수, 비교는 다음 글에 적어 뒀다.
+
+[TanStack Start, 설치부터 Next.js 비교까지](/reactguide/2026/10/12/tanstack-start/)
+
+---
+
 ## 핵심 요약
 
 | 개념           | 한 줄 요약                                    |
