@@ -21,3 +21,4 @@
 1. [[DEVELOP] 실무 모노레포에 에이전트 하네스를 깔고 운영해본 기록](/develop/2026/09/01/agent-harness-in-practice/)
 1. [[DEVELOP] Chrome DevTools에 생긴 WebMCP — 웹사이트가 에이전트에게 도구를 넘기는 법](/develop/2026/09/02/webmcp/)
 1. [[DEVELOP] Cursor Plugin — .cursor를 패키지로 배포하는 공식 방법](/develop/2026/09/15/cursor-plugins/)
+1. [[DEVELOP] REA, 프론트엔드에서 쓰는 법](/develop/2026/10/14/rea/)
