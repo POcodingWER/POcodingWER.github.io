@@ -6,3 +6,4 @@
 1. [[BACKEND] 클릭 1만 건 — 느린 이유는 요청 수가 아니라 커밋 횟수였다](/backend/2026/10/22/delivery-batching/)
 1. [[BACKEND] 잔액만 고치면 포인트가 사라진다 — 통장 내역이 근거인 이유](/backend/2026/10/22/point-ledger/)
 1. [[BACKEND] 결제 버튼을 잠가도 두 번 빠진다 — 같은 시도에는 같은 번호표](/backend/2026/10/22/idempotent-payment/)
+1. [[BACKEND] 메뉴판은 5초만 믿는다 — 캐시가 비는 순간과 메뉴가 바뀌는 순간](/backend/2026/10/22/menu-cache/)
