@@ -48,6 +48,8 @@ header-img: "img/post/list.webp"
 
 {% include post/rust_contents.md %}
 
+{% include post/security_contents.md %}
+
 {% include post/react/contents.md %}
 
 {% include post/front_contents.md %}
