@@ -4,3 +4,4 @@
 1. [[BACKEND] 표 100장에 500명 — 선착순 동시성 제어 4가지를 직접 재 봤다](/backend/2026/10/22/ticketing-concurrency/)
 1. [[BACKEND] 로그인이 만료된 순간 요청 5개 — 리프레시 토큰은 왜 한 번만 써야 하나](/backend/2026/10/22/wristband-refresh-token/)
 1. [[BACKEND] 클릭 1만 건 — 느린 이유는 요청 수가 아니라 커밋 횟수였다](/backend/2026/10/22/delivery-batching/)
+1. [[BACKEND] 잔액만 고치면 포인트가 사라진다 — 통장 내역이 근거인 이유](/backend/2026/10/22/point-ledger/)
