@@ -32,6 +32,8 @@ header-img: "img/post/list.webp"
 
 {% include post/aws_contents.md %}
 
+{% include post/backend_contents.md %}
+
 {% include post/blog_contents.md %}
 
 {% include post/mcp_contents.md %}
