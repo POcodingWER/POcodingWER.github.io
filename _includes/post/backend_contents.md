@@ -7,3 +7,4 @@
 1. [[BACKEND] 잔액만 고치면 포인트가 사라진다 — 통장 내역이 근거인 이유](/backend/2026/10/22/point-ledger/)
 1. [[BACKEND] 결제 버튼을 잠가도 두 번 빠진다 — 같은 시도에는 같은 번호표](/backend/2026/10/22/idempotent-payment/)
 1. [[BACKEND] 메뉴판은 5초만 믿는다 — 캐시가 비는 순간과 메뉴가 바뀌는 순간](/backend/2026/10/22/menu-cache/)
+1. [[BACKEND] 서버에서 이미지를 굽지 않는다 — blue/green으로 배포 중 실패 0번](/backend/2026/10/22/blue-green-deploy/)
