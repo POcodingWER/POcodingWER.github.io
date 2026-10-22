@@ -4,7 +4,7 @@ title: "[BACKEND] 표 100장에 500명 — 선착순 동시성 제어 4가지를
 
 subtitle: "대책 없음, 비관적 락, 낙관적 락, 원자적 UPDATE. 같은 MySQL에서 몇 장이 팔리고 몇 초가 걸렸나"
 
-date: 2026-10-22 12:00:00
+date: 2026-10-22 11:01:00
 
 author: "lim.Chuck"
 catalog: true
