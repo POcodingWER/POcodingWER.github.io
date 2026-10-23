@@ -213,26 +213,26 @@ Solidity 기반 스마트 컨트랙트 개발 및 NFT 민팅 플랫폼 구축 �
 
 ### AWS · 프론트엔드
 
-- **CloudFront 캐시 최적화**: [보러가기](https://pocodingwer.github.io/aws/2025/12/02/cloudfront_cache/)
-- **CloudFront 비용 절감**: [보러가기](https://pocodingwer.github.io/aws/2025/12/10/cloudfront_cost_savings/)
-- **Cookie 보안 완벽 가이드**: [보러가기](https://pocodingwer.github.io/front/2025/08/07/cookie/)
-- **React Query 사용법**: [보러가기](https://pocodingwer.github.io/reactguide/2025/08/01/reactQuery/)
+- **CloudFront 캐시 최적화**: [보러가기](https://chuckplay.dev/aws/2025/12/02/cloudfront_cache/)
+- **CloudFront 비용 절감**: [보러가기](https://chuckplay.dev/aws/2025/12/10/cloudfront_cost_savings/)
+- **Cookie 보안 완벽 가이드**: [보러가기](https://chuckplay.dev/front/2025/08/07/cookie/)
+- **React Query 사용법**: [보러가기](https://chuckplay.dev/reactguide/2025/08/01/reactQuery/)
 
 ### MCP · AI Agent
 
 카카오 **Agentic Player 10** 공모전에 [찾아줘 주차장!](https://playmcp.kakao.com/mcp/68948413827338498) MCP를 제출했습니다. (PlayMCP 전체 공개 · 예선 접수 완료)
 
-- **찾아줘 주차장! 개발 회고**: [보러가기](https://pocodingwer.github.io/mcp/2026/07/10/find-parking-mcp-dev-history/) — Node.js MCP 서버, KC 배포, 공모전 심사
-- **Cursor MCP OAuth 인증**: [보러가기](https://pocodingwer.github.io/mcp/2026/07/14/cursor-mcp-oauth/) — Figma·Sentry 로그인, 토큰은 Cursor가 보관
-- **MCP 시리즈 전체**: [보러가기](https://pocodingwer.github.io/mcp/2026/03/19/mcp_recommend3/) — stdio/SSE부터 Remote MCP까지
+- **찾아줘 주차장! 개발 회고**: [보러가기](https://chuckplay.dev/mcp/2026/07/10/find-parking-mcp-dev-history/) — Node.js MCP 서버, KC 배포, 공모전 심사
+- **Cursor MCP OAuth 인증**: [보러가기](https://chuckplay.dev/mcp/2026/07/14/cursor-mcp-oauth/) — Figma·Sentry 로그인, 토큰은 Cursor가 보관
+- **MCP 시리즈 전체**: [보러가기](https://chuckplay.dev/mcp/2026/03/19/mcp_recommend3/) — stdio/SSE부터 Remote MCP까지
 
-👉 [전체 블로그 보기](https://pocodingwer.github.io/)
+👉 [전체 블로그 보기](https://chuckplay.dev/)
 
 ## 📬 연락처
 
 - **Email**: cjftns01@gmail.com
 - **GitHub**: [github.com/pocodingwer](https://github.com/pocodingwer)
-- **Blog**: [pocodingwer.github.io](https://pocodingwer.github.io/)
+- **Blog**: [chuckplay.dev](https://chuckplay.dev/)
 - **Instagram**: [@lim_cuck](https://www.instagram.com/lim_cuck)
 
 ---

@@ -213,26 +213,26 @@ Consistently documenting problems encountered in practice and their resolution p
 
 ### AWS · Frontend
 
-- **CloudFront Cache Optimization**: [Read More](https://pocodingwer.github.io/aws/2025/12/02/cloudfront_cache/)
-- **CloudFront Cost Reduction**: [Read More](https://pocodingwer.github.io/aws/2025/12/10/cloudfront_cost_savings/)
-- **Cookie Security Complete Guide**: [Read More](https://pocodingwer.github.io/front/2025/08/07/cookie/)
-- **React Query Usage Guide**: [Read More](https://pocodingwer.github.io/reactguide/2025/08/01/reactQuery/)
+- **CloudFront Cache Optimization**: [Read More](https://chuckplay.dev/aws/2025/12/02/cloudfront_cache/)
+- **CloudFront Cost Reduction**: [Read More](https://chuckplay.dev/aws/2025/12/10/cloudfront_cost_savings/)
+- **Cookie Security Complete Guide**: [Read More](https://chuckplay.dev/front/2025/08/07/cookie/)
+- **React Query Usage Guide**: [Read More](https://chuckplay.dev/reactguide/2025/08/01/reactQuery/)
 
 ### MCP · AI Agent
 
 I submitted [Find Parking!](https://playmcp.kakao.com/mcp/68948413827338498) to Kakao's **Agentic Player 10** competition. The MCP is publicly available on PlayMCP, and the preliminary application has been completed.
 
-- **Find Parking! Development Retrospective**: [Read More](https://pocodingwer.github.io/mcp/2026/07/10/find-parking-mcp-dev-history/) — Node.js MCP server, deployment to KC, and competition review
-- **Cursor MCP OAuth Authentication**: [Read More](https://pocodingwer.github.io/mcp/2026/07/14/cursor-mcp-oauth/) — Figma/Sentry login and token storage in Cursor
-- **MCP Series**: [Read More](https://pocodingwer.github.io/mcp/2026/03/19/mcp_recommend3/) — From stdio/SSE to Remote MCP
+- **Find Parking! Development Retrospective**: [Read More](https://chuckplay.dev/mcp/2026/07/10/find-parking-mcp-dev-history/) — Node.js MCP server, deployment to KC, and competition review
+- **Cursor MCP OAuth Authentication**: [Read More](https://chuckplay.dev/mcp/2026/07/14/cursor-mcp-oauth/) — Figma/Sentry login and token storage in Cursor
+- **MCP Series**: [Read More](https://chuckplay.dev/mcp/2026/03/19/mcp_recommend3/) — From stdio/SSE to Remote MCP
 
-👉 [View Full Blog](https://pocodingwer.github.io/)
+👉 [View Full Blog](https://chuckplay.dev/)
 
 ## 📬 Contact
 
 - **Email**: cjftns01@gmail.com
 - **GitHub**: [github.com/pocodingwer](https://github.com/pocodingwer)
-- **Blog**: [pocodingwer.github.io](https://pocodingwer.github.io/)
+- **Blog**: [chuckplay.dev](https://chuckplay.dev/)
 - **Instagram**: [@lim_cuck](https://www.instagram.com/lim_cuck)
 
 ---

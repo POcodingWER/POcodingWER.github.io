@@ -3,10 +3,10 @@
     "title": "POcodingWER Blog",
     "author": "POcodingWER <cjftns01@gmail.com>",
     "version": "5.0.5",
-    "homepage": "https://pocodingwer.github.io/",
+    "homepage": "https://chuckplay.dev/",
     "repository": {
         "type": "git",
-        "url": "https://POcodingWER.github.io"
+        "url": "https://github.com/POcodingWER/POcodingWER.github.io"
     },
     "bugs": "https://github.com/POcodingWER/POcodingWER.github.io/issues",
     "devDependencies": {
