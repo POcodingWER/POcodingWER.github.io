@@ -27,7 +27,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 결제 버튼을 누르면 바로 `disabled`로 잠그는 것으로 중복 결제가 끝난다고 생각하기 쉽다. 한 사람이 한 번만 눌러도, 앱이 응답을 기다리다 포기하고 같은 결제를 다시 보내면 서버는 새 결제로 받는다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/double-pay) 5장은 그 재시도를 결제 시도 하나의 번호표로 묶는다.
+> 결제 버튼을 누르면 바로 `disabled`로 잠그는 것으로 중복 결제가 끝난다고 생각하기 쉽다. 한 사람이 한 번만 눌러도, 앱이 응답을 기다리다 포기하고 같은 결제를 다시 보내면 서버는 새 결제로 받는다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/double-pay) 5장은 그 재시도를 결제 시도 하나의 번호표로 묶는다.
 
 이전 글: [[BACKEND] 잔액만 고치면 포인트가 사라진다](/backend/2026/10/22/point-ledger/)
 
@@ -126,7 +126,7 @@ blue/green 두 컨테이너가 같이 돌아도 한 행은 한 번만 바뀐다.
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 5장 결제 버튼 두 번](https://backend-visualized.vercel.app/double-pay)
+- [버튼 하나 뒤에서 — 5장 결제 버튼 두 번](https://bv.chuckplay.dev/double-pay)
 - 저장소 `apps/api/src/payments/payments.service.ts`
 - 저장소 `apps/web/app/double-pay/PaymentDemo.tsx`
 - 저장소 `docs/decisions.md` 5장

@@ -27,7 +27,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 액세스 토큰 하나만 오래 들고 있으면 편하다. 서명을 검증하면 되고, DB를 안 봐도 된다. 문제는 그 토큰이 새면 **만료 전까지 폐기할 방법이 없다**는 점이다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/wristband) 2장은 그래서 토큰을 둘로 나눈다. 짧게 사는 손목밴드와, 쓸 때마다 바뀌는 재발급 영수증이다.
+> 액세스 토큰 하나만 오래 들고 있으면 편하다. 서명을 검증하면 되고, DB를 안 봐도 된다. 문제는 그 토큰이 새면 **만료 전까지 폐기할 방법이 없다**는 점이다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/wristband) 2장은 그래서 토큰을 둘로 나눈다. 짧게 사는 손목밴드와, 쓸 때마다 바뀌는 재발급 영수증이다.
 
 이전 글: [[BACKEND] 표 100장에 500명](/backend/2026/10/22/ticketing-concurrency/)
 
@@ -157,7 +157,7 @@ export function createSingleFlight<T>(
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 2장 손목밴드](https://backend-visualized.vercel.app/wristband)
+- [버튼 하나 뒤에서 — 2장 손목밴드](https://bv.chuckplay.dev/wristband)
 - 저장소 `docs/auth-tokens.md`
 - 저장소 `apps/api/src/auth/lib/refresh-token.store.ts`
 - 저장소 `apps/web/lib/single-flight.ts`

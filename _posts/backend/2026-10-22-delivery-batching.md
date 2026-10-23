@@ -27,7 +27,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 클릭 기록을 남길 때마다 `POST` 한 번, `INSERT` 한 번이 가장 단순하다. 10,000번이면 요청도 10,000번이고 커밋도 10,000번이다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/delivery) 3장은 그 경로와, 100개씩 모아 한 문장으로 넣는 경로를 같은 노트북에서 재 봤다.
+> 클릭 기록을 남길 때마다 `POST` 한 번, `INSERT` 한 번이 가장 단순하다. 10,000번이면 요청도 10,000번이고 커밋도 10,000번이다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/delivery) 3장은 그 경로와, 100개씩 모아 한 문장으로 넣는 경로를 같은 노트북에서 재 봤다.
 
 이전 글: [[BACKEND] 로그인이 만료된 순간 요청 5개](/backend/2026/10/22/wristband-refresh-token/)
 
@@ -144,7 +144,7 @@ ON DUPLICATE KEY UPDATE count = VALUES(count), ...
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 3장 묶음배송](https://backend-visualized.vercel.app/delivery)
+- [버튼 하나 뒤에서 — 3장 묶음배송](https://bv.chuckplay.dev/delivery)
 - 저장소 `docs/benchmarks/delivery-batching.md`
 - 저장소 `packages/sdk/src/index.ts`
 - 저장소 `apps/api/src/events/events.service.ts`

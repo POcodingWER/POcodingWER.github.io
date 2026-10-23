@@ -29,7 +29,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 프론트만 하다가 서버를 직접 만들면, 처음 막히는 지점은 문법이 아니라 **버튼을 눌렀을 때 요청이 어디를 지나가는지**다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/)는 그 길을 티켓팅, 로그인, 클릭 기록, 포인트, 결제, 캐시 여섯 장면으로 일부러 깨뜨려 보고 고친 프로젝트다. 이 글은 장면 속으로 들어가기 전에, 화면·API·데이터베이스·배포가 어떻게 나뉘어 있는지만 지도로 남긴다.
+> 프론트만 하다가 서버를 직접 만들면, 처음 막히는 지점은 문법이 아니라 **버튼을 눌렀을 때 요청이 어디를 지나가는지**다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/)는 그 길을 티켓팅, 로그인, 클릭 기록, 포인트, 결제, 캐시 여섯 장면으로 일부러 깨뜨려 보고 고친 프로젝트다. 이 글은 장면 속으로 들어가기 전에, 화면·API·데이터베이스·배포가 어떻게 나뉘어 있는지만 지도로 남긴다.
 
 ---
 
@@ -168,7 +168,7 @@ git push
 
 ## 참고
 
-- [버튼 하나 뒤에서](https://backend-visualized.vercel.app/)
+- [버튼 하나 뒤에서](https://bv.chuckplay.dev/)
 - 저장소 `docs/architecture.md` — 폴더 규칙, Nest와 프론트 대응
 - 저장소 `docs/decisions.md` — 장마다 고른 방법과 실측
 - 저장소 `docs/deploy.md` — EC2, Caddy, GHCR, OIDC, SSM, 백업

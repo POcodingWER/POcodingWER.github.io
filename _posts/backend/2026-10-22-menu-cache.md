@@ -27,7 +27,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 같은 메뉴를 손님 1,000명이 물으면 데이터베이스도 1,000번 읽는다. 메뉴는 자주 안 바뀌니 잠깐 기억해 두면 된다. 그 기억이 남는 시간만큼 손님은 옛 메뉴를 보고, 기억이 사라지는 순간에는 1,000명이 다시 데이터베이스로 몰린다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/cache) 6장은 그 두 순간을 Redis와 MySQL로 나눠 다룬다.
+> 같은 메뉴를 손님 1,000명이 물으면 데이터베이스도 1,000번 읽는다. 메뉴는 자주 안 바뀌니 잠깐 기억해 두면 된다. 그 기억이 남는 시간만큼 손님은 옛 메뉴를 보고, 기억이 사라지는 순간에는 1,000명이 다시 데이터베이스로 몰린다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/cache) 6장은 그 두 순간을 Redis와 MySQL로 나눠 다룬다.
 
 이전 글: [[BACKEND] 결제 버튼을 잠가도 두 번 빠진다](/backend/2026/10/22/idempotent-payment/)
 
@@ -125,7 +125,7 @@ Prisma `findUnique`는 같은 틱에 들어온 같은 행 조회를 한 쿼리�
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 6장 맛집 메뉴판](https://backend-visualized.vercel.app/cache)
+- [버튼 하나 뒤에서 — 6장 맛집 메뉴판](https://bv.chuckplay.dev/cache)
 - 저장소 `apps/api/src/cache-demo/cache-demo.service.ts`
 - 저장소 `docs/decisions.md` 6장
 - [Redis — SET NX, PX](https://redis.io/docs/latest/commands/set/)

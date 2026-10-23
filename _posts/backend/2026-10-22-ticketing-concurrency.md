@@ -28,7 +28,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 선착순 쿠폰 100장에 500명이 동시에 누르면 서버는 몇 장을 팔까. 프론트에서 보면 `if (남은 수량 > 0) 발급()` 한 줄이지만, 서버에서는 그 한 줄 사이로 다른 요청 499개가 끼어든다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/ticketing) 1장에서 같은 MySQL로 네 가지 방법을 돌려 본 기록이다.
+> 선착순 쿠폰 100장에 500명이 동시에 누르면 서버는 몇 장을 팔까. 프론트에서 보면 `if (남은 수량 > 0) 발급()` 한 줄이지만, 서버에서는 그 한 줄 사이로 다른 요청 499개가 끼어든다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/ticketing) 1장에서 같은 MySQL로 네 가지 방법을 돌려 본 기록이다.
 
 ---
 
@@ -221,7 +221,7 @@ await db.couponIssue.create({ data: { couponId, userId, strategy: "atomic" } });
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 1장 티켓팅](https://backend-visualized.vercel.app/ticketing)
+- [버튼 하나 뒤에서 — 1장 티켓팅](https://bv.chuckplay.dev/ticketing)
 - 저장소 `apps/api/src/coupons/lib/coupon-strategies.ts` — 네 가지 발급 전략
 - 저장소 `docs/benchmarks/ticketing-coupon.md` — 환경, 재현 명령, 측정 결과
 - [MySQL 8.4 — Locking Reads (`SELECT ... FOR UPDATE`)](https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html)

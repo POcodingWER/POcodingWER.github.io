@@ -28,7 +28,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 포인트 잔액은 숫자 하나처럼 보인다. 읽고, 더하고, 그 결과를 다시 쓰면 된다. 그 세 단계 사이에 다른 요청이 끼어들면 먼저 더한 값은 사라진다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/ledger) 4장은 잔액 칸만 고치는 방식과, 내역을 남기고 잔액을 그 내역에 맞추는 방식을 같은 지갑에 200건씩 넣어 비교했다.
+> 포인트 잔액은 숫자 하나처럼 보인다. 읽고, 더하고, 그 결과를 다시 쓰면 된다. 그 세 단계 사이에 다른 요청이 끼어들면 먼저 더한 값은 사라진다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/ledger) 4장은 잔액 칸만 고치는 방식과, 내역을 남기고 잔액을 그 내역에 맞추는 방식을 같은 지갑에 200건씩 넣어 비교했다.
 
 이전 글: [[BACKEND] 클릭 1만 건](/backend/2026/10/22/delivery-batching/)
 
@@ -160,7 +160,7 @@ await prisma.$transaction(async (tx) => {
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 4장 포인트 통장](https://backend-visualized.vercel.app/ledger)
+- [버튼 하나 뒤에서 — 4장 포인트 통장](https://bv.chuckplay.dev/ledger)
 - 저장소 `apps/api/src/points/points.service.ts`
 - 저장소 `docs/decisions.md` 4장
 - [MySQL 8.4 — Locking Reads (`SELECT ... FOR UPDATE`)](https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html)

@@ -29,7 +29,7 @@ tags:
 
 {% include post/backend_contents.md %}
 
-> 화면은 Vercel이 `main`을 받으면 끝이다. API는 그렇게 바꾸면 안 된다. MySQL과 Redis가 EC2 안에 있고, 이미지를 그 서버에서 굽는 동안 2GB 메모리가 빌드와 서비스를 같이 감당해야 한다. [버튼 하나 뒤에서](https://backend-visualized.vercel.app/deploy)의 배포 기록은, 빌드를 GitHub Actions로 옮기고 서버는 받기만 한 뒤의 숫자다.
+> 화면은 Vercel이 `main`을 받으면 끝이다. API는 그렇게 바꾸면 안 된다. MySQL과 Redis가 EC2 안에 있고, 이미지를 그 서버에서 굽는 동안 2GB 메모리가 빌드와 서비스를 같이 감당해야 한다. [버튼 하나 뒤에서](https://bv.chuckplay.dev/deploy)의 배포 기록은, 빌드를 GitHub Actions로 옮기고 서버는 받기만 한 뒤의 숫자다.
 
 이전 글: [[BACKEND] 메뉴판은 5초만 믿는다](/backend/2026/10/22/menu-cache/)
 
@@ -140,7 +140,7 @@ DB가 EC2 디스크에 있으므로 그 디스크가 망가지면 데이터도 �
 
 ## 참고
 
-- [버튼 하나 뒤에서 — 배포 및 회고](https://backend-visualized.vercel.app/deploy)
+- [버튼 하나 뒤에서 — 배포 및 회고](https://bv.chuckplay.dev/deploy)
 - 저장소 `docs/deploy.md`
 - 저장소 `deploy/deploy.sh`
 - 저장소 `load/breakpoint.js`
