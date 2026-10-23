@@ -8,3 +8,5 @@
 1. [[BACKEND] 결제 버튼을 잠가도 두 번 빠진다 — 같은 시도에는 같은 번호표](/backend/2026/10/22/idempotent-payment/)
 1. [[BACKEND] 메뉴판은 5초만 믿는다 — 캐시가 비는 순간과 메뉴가 바뀌는 순간](/backend/2026/10/22/menu-cache/)
 1. [[BACKEND] 서버에서 이미지를 굽지 않는다 — blue/green으로 배포 중 실패 0번](/backend/2026/10/22/blue-green-deploy/)
+1. [[BACKEND] 도메인을 사자 쿠키가 Lax로 충분해졌다](/backend/2026/10/23/same-site-cookie/)
+1. [[BACKEND] API를 두 개 켜도 처리량은 그대로였다](/backend/2026/10/23/two-node-processes/)

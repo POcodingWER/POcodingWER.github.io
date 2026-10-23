@@ -163,6 +163,8 @@ git push
 5. [결제 — 버튼 잠금으로 중복 결제가 안 막히는 이유](/backend/2026/10/22/idempotent-payment/)
 6. [메뉴판 — 캐시가 비는 순간과 메뉴가 바뀌는 순간](/backend/2026/10/22/menu-cache/)
 7. [배포 — blue/green, 백업, 부하 테스트에서 실제로 막힌 것](/backend/2026/10/22/blue-green-deploy/)
+8. [도메인 — 같은 사이트가 되자 쿠키가 Lax로 충분해진 이유](/backend/2026/10/23/same-site-cookie/)
+9. [스케일아웃 — API를 둘로 나눠도 처리량이 그대로인 이유](/backend/2026/10/23/two-node-processes/)
 
 ---
 
