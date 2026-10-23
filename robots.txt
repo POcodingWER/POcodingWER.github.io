@@ -4,7 +4,7 @@ layout: null
 {% if jekyll.environment == "vercel" %}
   {% assign current_domain = "https://chuckblog-xi.vercel.app" %}
 {% else %}
-  {% assign current_domain = "https://pocodingwer.github.io" %}
+  {% assign current_domain = "https://chuckplay.dev" %}
 {% endif %}
 User-agent: *
 Allow: /
