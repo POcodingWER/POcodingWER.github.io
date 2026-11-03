@@ -22,3 +22,4 @@
 1. [[DEVELOP] Chrome DevTools에 생긴 WebMCP — 웹사이트가 에이전트에게 도구를 넘기는 법](/develop/2026/09/02/webmcp/)
 1. [[DEVELOP] Cursor Plugin — .cursor를 패키지로 배포하는 공식 방법](/develop/2026/09/15/cursor-plugins/)
 1. [[DEVELOP] REA, 프론트엔드에서 쓰는 법](/develop/2026/10/14/rea/)
+1. [[DEVELOP] Claude Code에 붙여 쓰는 오픈소스 4가지](/develop/2026/11/03/claude-code-oss-tools/)
