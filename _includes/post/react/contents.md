@@ -29,3 +29,4 @@
    - [[React] TanStack Start, 설치부터 Next.js 비교까지](/reactguide/2026/10/12/tanstack-start/)
 1. [[React] React Native + WebView로 앱 껍데기 만들어보기](/reactguide/2026/06/29/react-native-webview-expo/)
 1. [[React] Activity, Compiler, use cache — React 19.2 & Next.js 16](/reactguide/2026/08/27/react-19-2-next-16/)
+1. [[React] View Transition, browser(), ensureStatic — React 19.3 & Next.js 16.4](/reactguide/2026/11/04/react-19-3-next-16-4/)
