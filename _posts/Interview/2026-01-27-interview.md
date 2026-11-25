@@ -29,6 +29,8 @@ tags:
   - 면접 준비
 ---
 
+{% include post/interview_contents.md %}
+
 ## 🔥 TypeScript 기초 면접 질문
 
 ### 1. **제네릭 (Generic)**

@@ -40,6 +40,8 @@ header-img: "img/post/list.webp"
 
 {% include post/ide_contents.md %}
 
+{% include post/interview_contents.md %}
+
 {% include post/DB_contents.md %}
 
 {% include post/develop_contents.md %}

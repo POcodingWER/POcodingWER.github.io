@@ -2,16 +2,16 @@
 layout: post
 title: "[INTERVIEW] 면접 준비하기"
 
-subtitle: "React로 알아보는 PWA"
+subtitle: "상태 관리와 RESTful API 설계 질문 정리"
 
-date: 2025-02-26 08: 32: 33
+date: 2025-02-26 08:32:33
 
-# lastmod: 2024-08-14 10: 10: 00
+# lastmod: 2024-08-14 10:10:00
 author: "lim.Chuck"
 # header-style: text
 catalog: true
 header-mask: 0.4
-header-img: "img/post/2025/02/pwa.webp"
+header-img: "img/post/2024/1206/js.webp"
 
 # sitemap:
 # changefreq: daily #스크랩 주기 daily | weekly | monthly
@@ -19,15 +19,18 @@ header-img: "img/post/2025/02/pwa.webp"
 # hidden: true
 
 categories:
-  - DEVELOP
+  - Interview
 
 tags:
-  - PWA
-  - PWA 이해
-  - Progressive Web Apps
-  - 프로그레시브 웹 앱
-  - React로 알아보는 PWA
+  - 프론트엔드 면접
+  - 기술 면접
+  - 면접 준비
+  - 상태 관리
+  - Recoil
+  - RESTful API
 ---
+
+{% include post/interview_contents.md %}
 
 ## 🤔 Q & A
 
@@ -145,12 +148,13 @@ DELETE: 리소스 삭제
 
 4.  버전 관리
 
-```typescript
+```plaintext
 // URI 버전 관리
-/api/1v / users / api / v2 / users;
+/api/v1/users
+/api/v2/users
 
 // 헤더를 통한 버전 관리
-Accept: application / vnd.company.api - v1 + json;
+Accept: application/vnd.company.api-v1+json
 ```
 
 5.  페이지네이션, 필터링, 정렬
